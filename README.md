@@ -43,7 +43,19 @@
 
 ## 怎么拿到 APK
 
-### 方式一：GitHub Actions（推荐，无需本地环境）
+### 方式一：Release 直链（推荐，手机上直接装）
+
+打开 [Releases](https://github.com/longhrs/english/releases) 页面，下载最新版本的
+`ShenzhenPrimaryEnglish-vX.Y.apk` 附件即可。仓库是公开的，Release 附件**免登录**，
+手机浏览器点开就能下载安装（需允许「安装未知来源应用」）。
+
+发新版本的方法：打一个 `v` 开头的标签推上去，CI 会自动构建并创建 Release。
+
+```bash
+git tag v1.1 && git push origin v1.1
+```
+
+### 方式二：GitHub Actions 产物（需要登录 GitHub）
 
 每次 push 都会自动跑 `.github/workflows/build-apk.yml`：校验内容 → 跑单元测试 → 打包 Debug APK。
 
@@ -52,7 +64,7 @@
 3. 在 **Artifacts** 里下载 `ShenzhenPrimaryEnglish-debug-apk`
 4. 解压得到 `ShenzhenPrimaryEnglish-debug.apk`，传到安卓手机安装（需允许「安装未知来源应用」）
 
-### 方式二：本地命令行
+### 方式三：本地命令行
 
 需要 JDK 17 和 Android SDK（`ANDROID_HOME` 指向 SDK 目录）：
 
@@ -61,7 +73,7 @@
 # 产物：app/build/outputs/apk/debug/app-debug.apk
 ```
 
-### 方式三：Android Studio
+### 方式四：Android Studio
 
 直接用 Android Studio 打开本目录，等 Gradle 同步完成后点 **Run**。
 

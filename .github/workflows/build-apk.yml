@@ -3,6 +3,7 @@ name: Build APK
 on:
   push:
     branches: ["**"]
+    tags: ["v*"]
   pull_request:
   workflow_dispatch:
 
@@ -10,6 +11,8 @@ jobs:
   build:
     name: 校验内容 · 单元测试 · 打包 APK
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    # 推 v* 标签时需要写权限来创建 Release
 
     steps:
       - name: 检出代码
@@ -53,6 +56,46 @@ jobs:
           name: ShenzhenPrimaryEnglish-debug-apk
           path: dist/ShenzhenPrimaryEnglish-debug.apk
           if-no-files-found: error
+
+      - name: 发布 Release（仅 v* 标签触发）
+        if: startsWith(github.ref, 'refs/tags/v')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eu
+          VERSION="${GITHUB_REF_NAME}"
+          APK="dist/ShenzhenPrimaryEnglish-${VERSION}.apk"
+          mv dist/ShenzhenPrimaryEnglish-debug.apk "$APK"
+          cat > /tmp/notes.md <<'NOTES'
+          面向深圳小学一至六年级的英语自学应用：**知识引导** + **练习验证**，完全离线。
+
+          ## 安装
+
+          1. 用手机浏览器点下面的 `.apk` 附件下载
+          2. 打开下载的文件，按提示允许「安装未知来源应用」
+          3. 需要 Android 7.0（API 24）及以上
+
+          ## 内容
+
+          6 个年级 / 36 个话题单元 / 408 个词条（音标 + 词性 + 释义 + 中英例句）/
+          108 条核心句型 / 72 个语法讲解。
+
+          ## 功能
+
+          - 知识引导：词卡、朗读、标记已掌握、单元词表、核心句型、语法讲解、自然拼读
+          - 练习验证：中译英 / 英译中 / 单词拼写 / 句型填空 / 连词成句，即时判分 + 解析
+          - 错题本（连续答对两次自动移出）、Leitner 间隔复习（1/2/4/7 天）、学习统计
+
+          ## 说明
+
+          - 不申请任何权限，不联网，学习进度只存本机
+          - 朗读依赖系统英语 TTS 引擎，没有也不影响其它功能
+          - 内容按深圳小学常见话题顺序自行编写整理，不是任何出版社教材的原文摘录，
+            具体以学校所用教材和老师的要求为准
+          NOTES
+          gh release create "$VERSION" "$APK" \
+            --title "深圳小学英语 $VERSION" \
+            --notes-file /tmp/notes.md
 
       - name: 上传测试报告
         if: always()
