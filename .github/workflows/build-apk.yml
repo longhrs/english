@@ -17,7 +17,7 @@ jobs:
     name: 校验内容 · 单元测试 · 打包 APK
     runs-on: ubuntu-latest
     permissions:
-      contents: write    # 推 v* 标签时需要写权限来创建 Release
+      contents: write    # 创建 Release 需要写权限
 
     steps:
       - name: 检出代码
@@ -62,21 +62,27 @@ jobs:
           path: dist/ShenzhenPrimaryEnglish-debug.apk
           if-no-files-found: error
 
-      - name: 发布 Release（推 v* 标签，或手动触发时填了版本号）
+      - name: 发布 Release（附带 APK）
         if: >-
           startsWith(github.ref, 'refs/tags/v') ||
-          (github.event_name == 'workflow_dispatch' && github.event.inputs.release_tag != '')
+          (github.event_name == 'workflow_dispatch' && github.event.inputs.release_tag != '') ||
+          (github.event_name == 'push' && github.ref == 'refs/heads/main')
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ github.event.inputs.release_tag }}
         run: |
           set -eu
+          # 版本号来源优先级：手动输入 > v* 标签名 > build.gradle 里的 versionName
           VERSION="${RELEASE_TAG:-}"
           if [ -z "$VERSION" ]; then
-            VERSION="${GITHUB_REF_NAME}"
+            case "$GITHUB_REF" in
+              refs/tags/*) VERSION="$GITHUB_REF_NAME" ;;
+              *) VERSION="v$(sed -n 's/.*versionName *"\([^"]*\)".*/\1/p' app/build.gradle | head -1)" ;;
+            esac
           fi
+          echo "发布版本：$VERSION"
           APK="dist/ShenzhenPrimaryEnglish-${VERSION}.apk"
-          mv dist/ShenzhenPrimaryEnglish-debug.apk "$APK"
+          cp dist/ShenzhenPrimaryEnglish-debug.apk "$APK"
           cat > /tmp/notes.md <<'NOTES'
           面向深圳小学一至六年级的英语自学应用：**知识引导** + **练习验证**，完全离线。
 
@@ -104,12 +110,17 @@ jobs:
           - 内容按深圳小学常见话题顺序自行编写整理，不是任何出版社教材的原文摘录，
             具体以学校所用教材和老师的要求为准
           NOTES
-          # 标签不存在时 gh 会在 --target 指向的提交上自动创建
-          gh release create "$VERSION" "$APK" \
-            --target "$GITHUB_SHA" \
-            --title "深圳小学英语 $VERSION" \
-            --notes-file /tmp/notes.md
-          echo "Release 已发布：$(gh release view "$VERSION" --json url --jq .url)"
+          if gh release view "$VERSION" > /dev/null 2>&1; then
+            gh release upload "$VERSION" "$APK" --clobber
+            gh release edit "$VERSION" --notes-file /tmp/notes.md
+          else
+            # 标签不存在时 gh 会在 --target 指向的提交上自动创建
+            gh release create "$VERSION" "$APK" \
+              --target "$GITHUB_SHA" \
+              --title "深圳小学英语 $VERSION" \
+              --notes-file /tmp/notes.md
+          fi
+          echo "Release 地址：$(gh release view "$VERSION" --json url --jq .url)"
 
       - name: 上传测试报告
         if: always()

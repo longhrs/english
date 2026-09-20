@@ -49,9 +49,14 @@
 `ShenzhenPrimaryEnglish-vX.Y.apk` 附件即可。仓库是公开的，Release 附件**免登录**，
 手机浏览器点开就能下载安装（需允许「安装未知来源应用」）。
 
-发新版本的方法：打一个 `v` 开头的标签推上去，CI 会自动构建并创建 Release。
+Release 由 CI 自动维护：每次 push 到 `main`，构建成功后会按
+`app/build.gradle` 里的 `versionName` 发布（或更新）对应版本的 Release。
+想发新版本，改 `versionName`（顺便把 `versionCode` 加 1）再推 `main` 即可；
+也可以打 `v` 开头的标签推上去，或在 Actions 页面手动触发 workflow 并填写版本号。
 
 ```bash
+# 方式 A：改版本号后推 main
+# 方式 B：打标签
 git tag v1.1 && git push origin v1.1
 ```
 
