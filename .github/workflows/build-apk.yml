@@ -6,6 +6,11 @@ on:
     tags: ["v*"]
   pull_request:
   workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "填版本号（如 v1.0）则构建完自动创建标签并发布 Release；留空只构建"
+        required: false
+        default: ""
 
 jobs:
   build:
@@ -57,13 +62,19 @@ jobs:
           path: dist/ShenzhenPrimaryEnglish-debug.apk
           if-no-files-found: error
 
-      - name: 发布 Release（仅 v* 标签触发）
-        if: startsWith(github.ref, 'refs/tags/v')
+      - name: 发布 Release（推 v* 标签，或手动触发时填了版本号）
+        if: >-
+          startsWith(github.ref, 'refs/tags/v') ||
+          (github.event_name == 'workflow_dispatch' && github.event.inputs.release_tag != '')
         env:
           GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.event.inputs.release_tag }}
         run: |
           set -eu
-          VERSION="${GITHUB_REF_NAME}"
+          VERSION="${RELEASE_TAG:-}"
+          if [ -z "$VERSION" ]; then
+            VERSION="${GITHUB_REF_NAME}"
+          fi
           APK="dist/ShenzhenPrimaryEnglish-${VERSION}.apk"
           mv dist/ShenzhenPrimaryEnglish-debug.apk "$APK"
           cat > /tmp/notes.md <<'NOTES'
@@ -93,9 +104,12 @@ jobs:
           - 内容按深圳小学常见话题顺序自行编写整理，不是任何出版社教材的原文摘录，
             具体以学校所用教材和老师的要求为准
           NOTES
+          # 标签不存在时 gh 会在 --target 指向的提交上自动创建
           gh release create "$VERSION" "$APK" \
+            --target "$GITHUB_SHA" \
             --title "深圳小学英语 $VERSION" \
             --notes-file /tmp/notes.md
+          echo "Release 已发布：$(gh release view "$VERSION" --json url --jq .url)"
 
       - name: 上传测试报告
         if: always()
