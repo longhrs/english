@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.szprimary.english'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.szprimary.english"
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        debug {
+            // 调试包，签名用 Android 默认的 debug key，装机即用。
+            minifyEnabled false
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    // 应用界面全部用代码构建，不需要 databinding/viewbinding。
+    buildFeatures {
+        buildConfig false
+    }
+}
+
+dependencies {
+    // 运行时零第三方依赖：只用 Android 框架自带的 API（含 org.json）。
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+}

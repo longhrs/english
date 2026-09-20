@@ -1,0 +1,302 @@
+{
+  "grade": 2,
+  "title": "二年级",
+  "subtitle": "五感、动物、食物、玩具与天气：把单词说成句子",
+  "units": [
+    {
+      "id": "g2u1",
+      "no": 1,
+      "title_en": "My five senses",
+      "title_cn": "我的五种感官",
+      "topic": "Senses",
+      "overview": "用 look、listen、smell、taste、touch 描述自己怎样感知世界，并学会 I can ... 句型。",
+      "phonics": {
+        "focus": "字母组合 ee /iː/",
+        "tip": "嘴角向两边展开，声音拉长，像汉语「衣」但更长。",
+        "examples": ["see /siː/ 看见", "feel /fiːl/ 感觉", "sweet /swiːt/ 甜的"]
+      },
+      "words": [
+        {"en": "see", "ipa": "/siː/", "pos": "v.", "cn": "看见", "ex_en": "I can see a bird.", "ex_cn": "我能看见一只鸟。"},
+        {"en": "hear", "ipa": "/hɪə/", "pos": "v.", "cn": "听见", "ex_en": "I can hear the rain.", "ex_cn": "我能听见雨声。"},
+        {"en": "smell", "ipa": "/smel/", "pos": "v.", "cn": "闻", "ex_en": "Smell the flower.", "ex_cn": "闻一闻这朵花。"},
+        {"en": "taste", "ipa": "/teɪst/", "pos": "v.", "cn": "尝", "ex_en": "Taste the soup.", "ex_cn": "尝一尝这汤。"},
+        {"en": "touch", "ipa": "/tʌtʃ/", "pos": "v.", "cn": "触摸", "ex_en": "Do not touch it.", "ex_cn": "不要摸它。"},
+        {"en": "look", "ipa": "/lʊk/", "pos": "v.", "cn": "看", "ex_en": "Look at the blackboard.", "ex_cn": "看黑板。"},
+        {"en": "listen", "ipa": "/ˈlɪsn/", "pos": "v.", "cn": "听", "ex_en": "Listen to me, please.", "ex_cn": "请听我说。"},
+        {"en": "sweet", "ipa": "/swiːt/", "pos": "adj.", "cn": "甜的", "ex_en": "The cake is sweet.", "ex_cn": "这个蛋糕很甜。"},
+        {"en": "loud", "ipa": "/laʊd/", "pos": "adj.", "cn": "大声的", "ex_en": "The music is loud.", "ex_cn": "音乐声很大。"},
+        {"en": "soft", "ipa": "/sɒft/", "pos": "adj.", "cn": "柔软的", "ex_en": "The toy bear is soft.", "ex_cn": "这只玩具熊很软。"}
+      ],
+      "patterns": [
+        {"en": "I can see ... .", "cn": "我能看见……。", "examples": [
+          {"en": "I can see a bird.", "cn": "我能看见一只鸟。"},
+          {"en": "I can hear a dog.", "cn": "我能听见一只狗。"}
+        ]},
+        {"en": "It smells nice.", "cn": "它闻起来很香。", "examples": [
+          {"en": "It smells nice.", "cn": "它闻起来很香。"},
+          {"en": "It tastes sweet.", "cn": "它尝起来很甜。"}
+        ]},
+        {"en": "Look at the ... .", "cn": "看这个……。", "examples": [
+          {"en": "Look at the flower.", "cn": "看这朵花。"},
+          {"en": "Listen to the music.", "cn": "听这段音乐。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "can 后面用动词原形", "explain": "can 表示「能、会」，后面的动词不加 -s 也不加 -ing：I can see. 否定是 I cannot see.", "examples": [
+          {"en": "I can hear you.", "cn": "我能听见你。"},
+          {"en": "She can smell the soup.", "cn": "她能闻到汤的味道。"}
+        ]},
+        {"title": "look at / listen to 的搭配", "explain": "look 后面要加 at，listen 后面要加 to，不能漏掉。", "examples": [
+          {"en": "Look at me.", "cn": "看着我。"},
+          {"en": "Listen to the teacher.", "cn": "听老师讲。"}
+        ]}
+      ],
+      "tips": ["闭上眼睛让同桌发出声音，用 I can hear ... 来猜，练习听力词汇。"]
+    },
+    {
+      "id": "g2u2",
+      "no": 2,
+      "title_en": "Animals",
+      "title_cn": "动物",
+      "topic": "Animals",
+      "overview": "认识常见动物，会问 What is it? 并用 I like ... 表达喜好。",
+      "phonics": {
+        "focus": "字母 Ii 的短音 /ɪ/",
+        "tip": "嘴形比 /iː/ 放松，音也更短，如 fish /fɪʃ/。",
+        "examples": ["fish /fɪʃ/ 鱼", "pig /pɪɡ/ 猪", "big /bɪɡ/ 大的"]
+      },
+      "words": [
+        {"en": "dog", "ipa": "/dɒɡ/", "pos": "n.", "cn": "狗", "ex_en": "The dog is friendly.", "ex_cn": "这只狗很友好。"},
+        {"en": "cat", "ipa": "/kæt/", "pos": "n.", "cn": "猫", "ex_en": "My cat is white.", "ex_cn": "我的猫是白色的。"},
+        {"en": "bird", "ipa": "/bɜːd/", "pos": "n.", "cn": "鸟", "ex_en": "A bird can fly.", "ex_cn": "鸟会飞。"},
+        {"en": "fish", "ipa": "/fɪʃ/", "pos": "n.", "cn": "鱼", "ex_en": "Fish live in water.", "ex_cn": "鱼生活在水里。"},
+        {"en": "rabbit", "ipa": "/ˈræbɪt/", "pos": "n.", "cn": "兔子", "ex_en": "The rabbit eats carrots.", "ex_cn": "兔子吃胡萝卜。"},
+        {"en": "duck", "ipa": "/dʌk/", "pos": "n.", "cn": "鸭子", "ex_en": "The duck is in the pond.", "ex_cn": "鸭子在池塘里。"},
+        {"en": "pig", "ipa": "/pɪɡ/", "pos": "n.", "cn": "猪", "ex_en": "The pig is fat.", "ex_cn": "这头猪很胖。"},
+        {"en": "monkey", "ipa": "/ˈmʌŋki/", "pos": "n.", "cn": "猴子", "ex_en": "The monkey likes bananas.", "ex_cn": "猴子喜欢香蕉。"},
+        {"en": "tiger", "ipa": "/ˈtaɪɡə/", "pos": "n.", "cn": "老虎", "ex_en": "The tiger is strong.", "ex_cn": "老虎很强壮。"},
+        {"en": "elephant", "ipa": "/ˈelɪfənt/", "pos": "n.", "cn": "大象", "ex_en": "The elephant has a long nose.", "ex_cn": "大象有长长的鼻子。"}
+      ],
+      "patterns": [
+        {"en": "What is it?", "cn": "它是什么？", "examples": [
+          {"en": "What is it?", "cn": "它是什么？"},
+          {"en": "It is a tiger.", "cn": "它是一只老虎。"}
+        ]},
+        {"en": "I like ... very much.", "cn": "我非常喜欢……。", "examples": [
+          {"en": "I like rabbits very much.", "cn": "我非常喜欢兔子。"},
+          {"en": "I like monkeys.", "cn": "我喜欢猴子。"}
+        ]},
+        {"en": "The ... can ... .", "cn": "……会……。", "examples": [
+          {"en": "The bird can fly.", "cn": "鸟会飞。"},
+          {"en": "The fish can swim.", "cn": "鱼会游泳。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "表示喜好用名词复数", "explain": "泛指一类动物时用复数：I like cats. 表示「我喜欢猫（这一类）」。", "examples": [
+          {"en": "I like dogs.", "cn": "我喜欢狗。"},
+          {"en": "We like elephants.", "cn": "我们喜欢大象。"}
+        ]},
+        {"title": "a 和 the 的区别", "explain": "第一次提到用 a/an，再次提到同一个用 the：I see a cat. The cat is white.", "examples": [
+          {"en": "I have a dog. The dog is black.", "cn": "我有一只狗。这只狗是黑色的。"}
+        ]}
+      ],
+      "tips": ["可以去深圳野生动物园实地认动物，边看边说 Look! It is a giraffe."]
+    },
+    {
+      "id": "g2u3",
+      "no": 3,
+      "title_en": "Food and drink",
+      "title_cn": "食物和饮料",
+      "topic": "Food",
+      "overview": "点餐和表达饥渴，学会 I want ... 和 Would you like ... ?",
+      "phonics": {
+        "focus": "字母 Oo 的短音 /ɒ/",
+        "tip": "嘴唇收圆，声音短促，如 hot /hɒt/。",
+        "examples": ["hot /hɒt/ 热的", "box /bɒks/ 盒子", "orange /ˈɒrɪndʒ/ 橙子"]
+      },
+      "words": [
+        {"en": "rice", "ipa": "/raɪs/", "pos": "n.", "cn": "米饭", "ex_en": "I eat rice every day.", "ex_cn": "我每天吃米饭。"},
+        {"en": "noodles", "ipa": "/ˈnuːdlz/", "pos": "n.", "cn": "面条", "ex_en": "The noodles are hot.", "ex_cn": "这面条很烫。"},
+        {"en": "bread", "ipa": "/bred/", "pos": "n.", "cn": "面包", "ex_en": "I have bread for breakfast.", "ex_cn": "我早餐吃面包。"},
+        {"en": "egg", "ipa": "/eɡ/", "pos": "n.", "cn": "鸡蛋", "ex_en": "I want two eggs.", "ex_cn": "我想要两个鸡蛋。"},
+        {"en": "milk", "ipa": "/mɪlk/", "pos": "n.", "cn": "牛奶", "ex_en": "Drink your milk.", "ex_cn": "把你的牛奶喝了。"},
+        {"en": "water", "ipa": "/ˈwɔːtə/", "pos": "n.", "cn": "水", "ex_en": "I am thirsty. I want water.", "ex_cn": "我渴了，我想喝水。"},
+        {"en": "juice", "ipa": "/dʒuːs/", "pos": "n.", "cn": "果汁", "ex_en": "Apple juice is sweet.", "ex_cn": "苹果汁很甜。"},
+        {"en": "apple", "ipa": "/ˈæpl/", "pos": "n.", "cn": "苹果", "ex_en": "An apple a day is good.", "ex_cn": "每天一个苹果有好处。"},
+        {"en": "banana", "ipa": "/bəˈnɑːnə/", "pos": "n.", "cn": "香蕉", "ex_en": "The banana is yellow.", "ex_cn": "香蕉是黄色的。"},
+        {"en": "cake", "ipa": "/keɪk/", "pos": "n.", "cn": "蛋糕", "ex_en": "I like birthday cake.", "ex_cn": "我喜欢生日蛋糕。"}
+      ],
+      "patterns": [
+        {"en": "I am hungry. I want ... .", "cn": "我饿了，我想要……。", "examples": [
+          {"en": "I am hungry. I want bread.", "cn": "我饿了，我想要面包。"},
+          {"en": "I am thirsty. I want juice.", "cn": "我渴了，我想要果汁。"}
+        ]},
+        {"en": "Would you like some ... ?", "cn": "你想要一些……吗？", "examples": [
+          {"en": "Would you like some milk?", "cn": "你想喝点牛奶吗？"},
+          {"en": "Yes, please.", "cn": "好的，谢谢。"}
+        ]},
+        {"en": "I have ... for breakfast.", "cn": "我早餐吃……。", "examples": [
+          {"en": "I have eggs for breakfast.", "cn": "我早餐吃鸡蛋。"},
+          {"en": "I have rice for lunch.", "cn": "我午餐吃米饭。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "不可数名词不加 -s", "explain": "water、milk、bread、rice 等不可数，不能说 two waters，要说 some water 或 a glass of water。", "examples": [
+          {"en": "some water", "cn": "一些水"},
+          {"en": "a glass of milk", "cn": "一杯牛奶"}
+        ]},
+        {"title": "礼貌回答", "explain": "别人问 Would you like ... ? 时，要说 Yes, please. 或 No, thank you.", "examples": [
+          {"en": "No, thank you.", "cn": "不用了，谢谢。"}
+        ]}
+      ],
+      "tips": ["在餐厅可以练习 May I have some water, please?"]
+    },
+    {
+      "id": "g2u4",
+      "no": 4,
+      "title_en": "My toys",
+      "title_cn": "我的玩具",
+      "topic": "Toys",
+      "overview": "描述玩具的颜色、大小和归属，学会 Whose ... ? 和形容词的用法。",
+      "phonics": {
+        "focus": "字母 Uu 的短音 /ʌ/",
+        "tip": "口型自然张开，声音短，如 duck /dʌk/、bus /bʌs/。",
+        "examples": ["bus /bʌs/ 公共汽车", "cup /kʌp/ 杯子", "run /rʌn/ 跑"]
+      },
+      "words": [
+        {"en": "toy", "ipa": "/tɔɪ/", "pos": "n.", "cn": "玩具", "ex_en": "This toy is new.", "ex_cn": "这个玩具是新的。"},
+        {"en": "ball", "ipa": "/bɔːl/", "pos": "n.", "cn": "球", "ex_en": "Let us play with the ball.", "ex_cn": "我们一起玩球吧。"},
+        {"en": "doll", "ipa": "/dɒl/", "pos": "n.", "cn": "洋娃娃", "ex_en": "Her doll is pretty.", "ex_cn": "她的洋娃娃很漂亮。"},
+        {"en": "kite", "ipa": "/kaɪt/", "pos": "n.", "cn": "风筝", "ex_en": "We fly a kite in the park.", "ex_cn": "我们在公园里放风筝。"},
+        {"en": "car", "ipa": "/kɑː/", "pos": "n.", "cn": "小汽车", "ex_en": "The toy car is red.", "ex_cn": "这辆玩具车是红色的。"},
+        {"en": "boat", "ipa": "/bəʊt/", "pos": "n.", "cn": "小船", "ex_en": "The boat is on the water.", "ex_cn": "小船在水上。"},
+        {"en": "train", "ipa": "/treɪn/", "pos": "n.", "cn": "火车", "ex_en": "I have a toy train.", "ex_cn": "我有一列玩具火车。"},
+        {"en": "robot", "ipa": "/ˈrəʊbɒt/", "pos": "n.", "cn": "机器人", "ex_en": "The robot can walk.", "ex_cn": "这个机器人会走路。"},
+        {"en": "bear", "ipa": "/beə/", "pos": "n.", "cn": "熊；玩具熊", "ex_en": "The bear is soft.", "ex_cn": "这只小熊很软。"},
+        {"en": "big", "ipa": "/bɪɡ/", "pos": "adj.", "cn": "大的", "ex_en": "It is a big ball.", "ex_cn": "这是一个大球。"}
+      ],
+      "patterns": [
+        {"en": "Whose toy is this?", "cn": "这是谁的玩具？", "examples": [
+          {"en": "Whose toy is this?", "cn": "这是谁的玩具？"},
+          {"en": "It is mine.", "cn": "是我的。"}
+        ]},
+        {"en": "It is a big ... .", "cn": "这是一个大的……。", "examples": [
+          {"en": "It is a big kite.", "cn": "这是一个大风筝。"},
+          {"en": "It is a small car.", "cn": "这是一辆小汽车。"}
+        ]},
+        {"en": "Let us play with the ... .", "cn": "我们一起玩……吧。", "examples": [
+          {"en": "Let us play with the ball.", "cn": "我们一起玩球吧。"},
+          {"en": "Let us fly the kite.", "cn": "我们去放风筝吧。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "形容词放名词前", "explain": "描述玩具时，形容词放在名词前面：a big ball、a new toy，顺序不能颠倒。", "examples": [
+          {"en": "a new robot", "cn": "一个新机器人"},
+          {"en": "a small boat", "cn": "一只小船"}
+        ]},
+        {"title": "名词性物主代词", "explain": "回答 Whose 时可以直接用 mine（我的）、yours（你的）、his（他的）、hers（她的）。", "examples": [
+          {"en": "It is yours.", "cn": "这是你的。"}
+        ]}
+      ],
+      "tips": ["和同学交换玩具时练习 Can I play with your robot? 和 Here you are."]
+    },
+    {
+      "id": "g2u5",
+      "no": 5,
+      "title_en": "Weather and seasons",
+      "title_cn": "天气和季节",
+      "topic": "Weather",
+      "overview": "描述天气，讨论深圳的季节特点，学会 What is the weather like today?",
+      "phonics": {
+        "focus": "字母组合 ai / ay /eɪ/",
+        "tip": "先发 /e/ 再滑向 /ɪ/，一个音节读完，如 rain /reɪn/。",
+        "examples": ["rain /reɪn/ 雨", "day /deɪ/ 天", "play /pleɪ/ 玩"]
+      },
+      "words": [
+        {"en": "sunny", "ipa": "/ˈsʌni/", "pos": "adj.", "cn": "晴朗的", "ex_en": "It is sunny today.", "ex_cn": "今天是晴天。"},
+        {"en": "rainy", "ipa": "/ˈreɪni/", "pos": "adj.", "cn": "多雨的", "ex_en": "It is rainy in summer.", "ex_cn": "夏天多雨。"},
+        {"en": "windy", "ipa": "/ˈwɪndi/", "pos": "adj.", "cn": "有风的", "ex_en": "It is windy on the beach.", "ex_cn": "海边风很大。"},
+        {"en": "cloudy", "ipa": "/ˈklaʊdi/", "pos": "adj.", "cn": "多云的", "ex_en": "The sky is cloudy.", "ex_cn": "天空多云。"},
+        {"en": "hot", "ipa": "/hɒt/", "pos": "adj.", "cn": "热的", "ex_en": "Shenzhen is hot in July.", "ex_cn": "深圳七月很热。"},
+        {"en": "cold", "ipa": "/kəʊld/", "pos": "adj.", "cn": "冷的", "ex_en": "It is cold in the north.", "ex_cn": "北方很冷。"},
+        {"en": "warm", "ipa": "/wɔːm/", "pos": "adj.", "cn": "温暖的", "ex_en": "Spring is warm here.", "ex_cn": "这里的春天很暖和。"},
+        {"en": "spring", "ipa": "/sprɪŋ/", "pos": "n.", "cn": "春天", "ex_en": "Flowers open in spring.", "ex_cn": "春天花儿开放。"},
+        {"en": "summer", "ipa": "/ˈsʌmə/", "pos": "n.", "cn": "夏天", "ex_en": "Summer in Shenzhen is long.", "ex_cn": "深圳的夏天很长。"},
+        {"en": "winter", "ipa": "/ˈwɪntə/", "pos": "n.", "cn": "冬天", "ex_en": "Winter here is short.", "ex_cn": "这里的冬天很短。"}
+      ],
+      "patterns": [
+        {"en": "What is the weather like today?", "cn": "今天天气怎么样？", "examples": [
+          {"en": "What is the weather like today?", "cn": "今天天气怎么样？"},
+          {"en": "It is sunny and hot.", "cn": "今天晴朗炎热。"}
+        ]},
+        {"en": "It is ... in ... .", "cn": "……的时候天气……。", "examples": [
+          {"en": "It is rainy in summer.", "cn": "夏天多雨。"},
+          {"en": "It is warm in spring.", "cn": "春天很暖和。"}
+        ]},
+        {"en": "Take your umbrella.", "cn": "带上你的雨伞。", "examples": [
+          {"en": "Take your umbrella. It is rainy.", "cn": "带上雨伞，今天下雨。"},
+          {"en": "Wear your cap. It is sunny.", "cn": "戴上帽子，今天太阳大。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "天气句用 it 作主语", "explain": "说天气、时间时，主语用 it，它不指具体的东西：It is sunny.", "examples": [
+          {"en": "It is cloudy today.", "cn": "今天多云。"},
+          {"en": "It is hot in summer.", "cn": "夏天很热。"}
+        ]},
+        {"title": "名词加 -y 变形容词", "explain": "rain → rainy，sun → sunny，wind → windy，cloud → cloudy，注意 sunny 要双写 n。", "examples": [
+          {"en": "rain → rainy", "cn": "雨 → 多雨的"}
+        ]}
+      ],
+      "tips": ["深圳五月到九月是雨季，台风天气可以说 There is a typhoon."]
+    },
+    {
+      "id": "g2u6",
+      "no": 6,
+      "title_en": "My day",
+      "title_cn": "我的一天",
+      "topic": "Daily routine",
+      "overview": "按时间顺序说出一天的活动，学会 in the morning 等时间短语。",
+      "phonics": {
+        "focus": "字母组合 sh /ʃ/ 与 ch /tʃ/",
+        "tip": "/ʃ/ 像让人安静的嘘声；/tʃ/ 先堵住气流再放开。",
+        "examples": ["wash /wɒʃ/ 洗", "lunch /lʌntʃ/ 午餐", "school /skuːl/ 学校"]
+      },
+      "words": [
+        {"en": "get up", "ipa": "/ɡet ʌp/", "pos": "phr.", "cn": "起床", "ex_en": "I get up at seven.", "ex_cn": "我七点起床。"},
+        {"en": "wash", "ipa": "/wɒʃ/", "pos": "v.", "cn": "洗", "ex_en": "I wash my face.", "ex_cn": "我洗脸。"},
+        {"en": "eat", "ipa": "/iːt/", "pos": "v.", "cn": "吃", "ex_en": "I eat breakfast at home.", "ex_cn": "我在家吃早餐。"},
+        {"en": "go", "ipa": "/ɡəʊ/", "pos": "v.", "cn": "去", "ex_en": "I go to school by bus.", "ex_cn": "我坐公交车去学校。"},
+        {"en": "play", "ipa": "/pleɪ/", "pos": "v.", "cn": "玩；做（运动）", "ex_en": "We play football after school.", "ex_cn": "放学后我们踢足球。"},
+        {"en": "read", "ipa": "/riːd/", "pos": "v.", "cn": "读；阅读", "ex_en": "I read books in the evening.", "ex_cn": "我晚上看书。"},
+        {"en": "sleep", "ipa": "/sliːp/", "pos": "v.", "cn": "睡觉", "ex_en": "I sleep at nine.", "ex_cn": "我九点睡觉。"},
+        {"en": "morning", "ipa": "/ˈmɔːnɪŋ/", "pos": "n.", "cn": "早上", "ex_en": "I run in the morning.", "ex_cn": "我早上跑步。"},
+        {"en": "afternoon", "ipa": "/ˌɑːftəˈnuːn/", "pos": "n.", "cn": "下午", "ex_en": "We have art in the afternoon.", "ex_cn": "我们下午上美术课。"},
+        {"en": "evening", "ipa": "/ˈiːvnɪŋ/", "pos": "n.", "cn": "晚上", "ex_en": "I do homework in the evening.", "ex_cn": "我晚上做作业。"}
+      ],
+      "patterns": [
+        {"en": "I get up at ... .", "cn": "我……点起床。", "examples": [
+          {"en": "I get up at seven.", "cn": "我七点起床。"},
+          {"en": "I go to bed at nine.", "cn": "我九点睡觉。"}
+        ]},
+        {"en": "I go to school by ... .", "cn": "我坐……去上学。", "examples": [
+          {"en": "I go to school by bus.", "cn": "我坐公交车上学。"},
+          {"en": "I go to school by metro.", "cn": "我坐地铁上学。"}
+        ]},
+        {"en": "In the morning I ... .", "cn": "早上我……。", "examples": [
+          {"en": "In the morning I read English.", "cn": "早上我读英语。"},
+          {"en": "In the evening I play the piano.", "cn": "晚上我弹钢琴。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "时间介词 at 和 in", "explain": "具体时刻用 at：at seven；一段时间用 in：in the morning、in the evening。", "examples": [
+          {"en": "at six o'clock", "cn": "在六点钟"},
+          {"en": "in the afternoon", "cn": "在下午"}
+        ]},
+        {"title": "交通方式用 by", "explain": "by bus、by bike、by metro 中间不加 the，步行说 on foot。", "examples": [
+          {"en": "I go home on foot.", "cn": "我步行回家。"}
+        ]}
+      ],
+      "tips": ["把自己一天的作息写成 5 句话，每天朗读一遍，养成口语习惯。"]
+    }
+  ]
+}

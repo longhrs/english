@@ -1,0 +1,313 @@
+{
+  "grade": 6,
+  "title": "六年级",
+  "subtitle": "理想、文化、世界、情感、安全与小升初：综合表达与语篇",
+  "units": [
+    {
+      "id": "g6u1",
+      "no": 1,
+      "title_en": "My dream job",
+      "title_cn": "我的理想",
+      "topic": "Future",
+      "overview": "谈论未来理想和实现方式，综合运用将来时和不定式。",
+      "phonics": {
+        "focus": "后缀 -ist / -er / -or 的读音",
+        "tip": "scientist、teacher、doctor 结尾都是轻读音节，重音在前面。",
+        "examples": ["scientist /ˈsaɪəntɪst/ 科学家", "engineer /ˌendʒɪˈnɪə/ 工程师", "actor /ˈæktə/ 演员"]
+      },
+      "words": [
+        {"en": "dream", "ipa": "/driːm/", "pos": "n./v.", "cn": "梦想", "ex_en": "My dream is to be a doctor.", "ex_cn": "我的梦想是成为医生。"},
+        {"en": "future", "ipa": "/ˈfjuːtʃə/", "pos": "n.", "cn": "未来", "ex_en": "In the future I want to travel.", "ex_cn": "将来我想去旅行。"},
+        {"en": "scientist", "ipa": "/ˈsaɪəntɪst/", "pos": "n.", "cn": "科学家", "ex_en": "Scientists study new things.", "ex_cn": "科学家研究新事物。"},
+        {"en": "astronaut", "ipa": "/ˈæstrənɔːt/", "pos": "n.", "cn": "宇航员", "ex_en": "The astronaut went to space.", "ex_cn": "这位宇航员去了太空。"},
+        {"en": "artist", "ipa": "/ˈɑːtɪst/", "pos": "n.", "cn": "艺术家", "ex_en": "She wants to be an artist.", "ex_cn": "她想成为艺术家。"},
+        {"en": "become", "ipa": "/bɪˈkʌm/", "pos": "v.", "cn": "成为", "ex_en": "I want to become a teacher.", "ex_cn": "我想成为一名老师。"},
+        {"en": "hard-working", "ipa": "/ˌhɑːdˈwɜːkɪŋ/", "pos": "adj.", "cn": "勤奋的", "ex_en": "He is a hard-working student.", "ex_cn": "他是个勤奋的学生。"},
+        {"en": "succeed", "ipa": "/səkˈsiːd/", "pos": "v.", "cn": "成功", "ex_en": "Keep trying and you will succeed.", "ex_cn": "继续努力你就会成功。"},
+        {"en": "practise", "ipa": "/ˈpræktɪs/", "pos": "v.", "cn": "练习", "ex_en": "I practise English every day.", "ex_cn": "我每天练习英语。"},
+        {"en": "goal", "ipa": "/ɡəʊl/", "pos": "n.", "cn": "目标", "ex_en": "Set a small goal first.", "ex_cn": "先设定一个小目标。"},
+        {"en": "confident", "ipa": "/ˈkɒnfɪdənt/", "pos": "adj.", "cn": "自信的", "ex_en": "Be confident when you speak.", "ex_cn": "说话时要自信。"},
+        {"en": "wish", "ipa": "/wɪʃ/", "pos": "n./v.", "cn": "愿望；希望", "ex_en": "Best wishes to you!", "ex_cn": "祝你一切顺利！"}
+      ],
+      "patterns": [
+        {"en": "I want to be a ... when I grow up.", "cn": "我长大后想成为一名……。", "examples": [
+          {"en": "I want to be a scientist when I grow up.", "cn": "我长大后想成为科学家。"},
+          {"en": "She wants to be an English teacher.", "cn": "她想成为一名英语老师。"}
+        ]},
+        {"en": "To reach my goal, I will ... .", "cn": "为了实现目标，我会……。", "examples": [
+          {"en": "To reach my goal, I will study hard.", "cn": "为了实现目标，我会努力学习。"},
+          {"en": "I will practise speaking every day.", "cn": "我会每天练习口语。"}
+        ]},
+        {"en": "My dream is to ... .", "cn": "我的梦想是……。", "examples": [
+          {"en": "My dream is to help other people.", "cn": "我的梦想是帮助他人。"},
+          {"en": "My dream is to visit many countries.", "cn": "我的梦想是去很多国家看看。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "will 表示将来", "explain": "will + 动词原形表示将来要做的事或预测，否定为 will not（won't）。", "examples": [
+          {"en": "I will work hard this term.", "cn": "这学期我会努力。"},
+          {"en": "It will be a great day.", "cn": "那会是很棒的一天。"}
+        ]},
+        {"title": "want to be 与 want to do", "explain": "want to be + 职业（想成为）；want to do + 动作（想做某事）。", "examples": [
+          {"en": "I want to be a nurse.", "cn": "我想成为护士。"},
+          {"en": "I want to learn the guitar.", "cn": "我想学吉他。"}
+        ]}
+      ],
+      "tips": ["理想主题演讲结构：开头点题 + 两条理由 + 具体行动 + 结尾升华。"]
+    },
+    {
+      "id": "g6u2",
+      "no": 2,
+      "title_en": "Chinese culture",
+      "title_cn": "中华文化",
+      "topic": "Culture",
+      "overview": "用英语介绍中国传统文化和深圳本地文化，学会被动语态入门。",
+      "phonics": {
+        "focus": "重音与节奏",
+        "tip": "calligraphy /kəˈlɪɡrəfi/ 重音在第二音节，多音节词要按节奏读。",
+        "examples": ["culture /ˈkʌltʃə/ 文化", "tradition /trəˈdɪʃn/ 传统", "history /ˈhɪstri/ 历史"]
+      },
+      "words": [
+        {"en": "culture", "ipa": "/ˈkʌltʃə/", "pos": "n.", "cn": "文化", "ex_en": "Chinese culture is rich.", "ex_cn": "中华文化很丰富。"},
+        {"en": "tradition", "ipa": "/trəˈdɪʃn/", "pos": "n.", "cn": "传统", "ex_en": "It is an old tradition.", "ex_cn": "这是一个古老的传统。"},
+        {"en": "calligraphy", "ipa": "/kəˈlɪɡrəfi/", "pos": "n.", "cn": "书法", "ex_en": "I learn calligraphy on Saturday.", "ex_cn": "我周六学书法。"},
+        {"en": "paper-cutting", "ipa": "/ˈpeɪpə kʌtɪŋ/", "pos": "n.", "cn": "剪纸", "ex_en": "Paper-cutting needs patience.", "ex_cn": "剪纸需要耐心。"},
+        {"en": "opera", "ipa": "/ˈɒprə/", "pos": "n.", "cn": "戏曲", "ex_en": "Beijing opera is famous.", "ex_cn": "京剧很有名。"},
+        {"en": "tea", "ipa": "/tiː/", "pos": "n.", "cn": "茶", "ex_en": "Tea is part of our life.", "ex_cn": "茶是我们生活的一部分。"},
+        {"en": "silk", "ipa": "/sɪlk/", "pos": "n.", "cn": "丝绸", "ex_en": "Silk comes from China.", "ex_cn": "丝绸来自中国。"},
+        {"en": "invention", "ipa": "/ɪnˈvenʃn/", "pos": "n.", "cn": "发明", "ex_en": "Paper is an old Chinese invention.", "ex_cn": "纸是中国古代的发明。"},
+        {"en": "history", "ipa": "/ˈhɪstri/", "pos": "n.", "cn": "历史", "ex_en": "Our country has a long history.", "ex_cn": "我们国家历史悠久。"},
+        {"en": "famous", "ipa": "/ˈfeɪməs/", "pos": "adj.", "cn": "著名的", "ex_en": "The Great Wall is famous.", "ex_cn": "长城很有名。"},
+        {"en": "symbol", "ipa": "/ˈsɪmbl/", "pos": "n.", "cn": "象征", "ex_en": "The dragon is a symbol of China.", "ex_cn": "龙是中国的象征。"},
+        {"en": "respect", "ipa": "/rɪˈspekt/", "pos": "v./n.", "cn": "尊敬", "ex_en": "We respect our elders.", "ex_cn": "我们尊敬长辈。"}
+      ],
+      "patterns": [
+        {"en": "... is a symbol of ... .", "cn": "……是……的象征。", "examples": [
+          {"en": "The dragon is a symbol of China.", "cn": "龙是中国的象征。"},
+          {"en": "Tea is a symbol of hospitality.", "cn": "茶是好客的象征。"}
+        ]},
+        {"en": "It is made of ... .", "cn": "它是用……做的。", "examples": [
+          {"en": "It is made of silk.", "cn": "它是用丝绸做的。"},
+          {"en": "These lanterns are made of paper.", "cn": "这些灯笼是纸做的。"}
+        ]},
+        {"en": "Let me introduce ... to you.", "cn": "让我向你介绍……。", "examples": [
+          {"en": "Let me introduce Chinese tea to you.", "cn": "让我向你介绍中国茶。"},
+          {"en": "Let me show you how to write my name.", "cn": "我来教你写我的名字。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "被动语态入门", "explain": "be + 过去分词表示「被……」：Paper was invented in China. 小学阶段重点掌握 is/are made of 和 was/were invented。", "examples": [
+          {"en": "Silk is made in China.", "cn": "丝绸产自中国。"},
+          {"en": "This song is sung by children.", "cn": "这首歌是孩子们唱的。"}
+        ]},
+        {"title": "介绍事物的顺序", "explain": "先说是什么（what），再说来自哪里（where），最后说为什么重要（why）。", "examples": [
+          {"en": "It is a kind of art from China. It shows our history.", "cn": "这是一种来自中国的艺术，它体现了我们的历史。"}
+        ]}
+      ],
+      "tips": ["向外国朋友介绍深圳可以提：a young city、high technology、good food、the sea。"]
+    },
+    {
+      "id": "g6u3",
+      "no": 3,
+      "title_en": "Around the world",
+      "title_cn": "世界各地",
+      "topic": "World",
+      "overview": "认识国家、首都和语言，比较不同国家的文化习惯。",
+      "phonics": {
+        "focus": "国家名的重音",
+        "tip": "Australia /ɒˈstreɪliə/、Japan /dʒəˈpæn/ 的重音都不在第一个音节。",
+        "examples": ["Australia /ɒˈstreɪliə/ 澳大利亚", "Japan /dʒəˈpæn/ 日本", "Canada /ˈkænədə/ 加拿大"]
+      },
+      "words": [
+        {"en": "country", "ipa": "/ˈkʌntri/", "pos": "n.", "cn": "国家", "ex_en": "China is a big country.", "ex_cn": "中国是个大国。"},
+        {"en": "capital", "ipa": "/ˈkæpɪtl/", "pos": "n.", "cn": "首都", "ex_en": "Beijing is the capital of China.", "ex_cn": "北京是中国的首都。"},
+        {"en": "flag", "ipa": "/flæɡ/", "pos": "n.", "cn": "国旗", "ex_en": "Our flag is red.", "ex_cn": "我们的国旗是红色的。"},
+        {"en": "language", "ipa": "/ˈlæŋɡwɪdʒ/", "pos": "n.", "cn": "语言", "ex_en": "English is a world language.", "ex_cn": "英语是世界通用语言。"},
+        {"en": "America", "ipa": "/əˈmerɪkə/", "pos": "n.", "cn": "美国", "ex_en": "Washington DC is in America.", "ex_cn": "华盛顿在美国。"},
+        {"en": "Britain", "ipa": "/ˈbrɪtn/", "pos": "n.", "cn": "英国", "ex_en": "London is in Britain.", "ex_cn": "伦敦在英国。"},
+        {"en": "Australia", "ipa": "/ɒˈstreɪliə/", "pos": "n.", "cn": "澳大利亚", "ex_en": "Kangaroos live in Australia.", "ex_cn": "袋鼠生活在澳大利亚。"},
+        {"en": "Japan", "ipa": "/dʒəˈpæn/", "pos": "n.", "cn": "日本", "ex_en": "Japan is near China.", "ex_cn": "日本离中国很近。"},
+        {"en": "foreign", "ipa": "/ˈfɒrən/", "pos": "adj.", "cn": "外国的", "ex_en": "We have a foreign teacher.", "ex_cn": "我们有一位外教。"},
+        {"en": "different", "ipa": "/ˈdɪfrənt/", "pos": "adj.", "cn": "不同的", "ex_en": "Their food is different from ours.", "ex_cn": "他们的食物和我们的不同。"},
+        {"en": "same", "ipa": "/seɪm/", "pos": "adj.", "cn": "相同的", "ex_en": "We are the same age.", "ex_cn": "我们同岁。"},
+        {"en": "pen friend", "ipa": "/pen frend/", "pos": "phr.", "cn": "笔友", "ex_en": "I have a pen friend in Canada.", "ex_cn": "我在加拿大有一个笔友。"}
+      ],
+      "patterns": [
+        {"en": "Where are you from?", "cn": "你来自哪里？", "examples": [
+          {"en": "Where are you from?", "cn": "你来自哪里？"},
+          {"en": "I am from Shenzhen, China.", "cn": "我来自中国深圳。"}
+        ]},
+        {"en": "The capital of ... is ... .", "cn": "……的首都是……。", "examples": [
+          {"en": "The capital of Japan is Tokyo.", "cn": "日本的首都是东京。"},
+          {"en": "The capital of Australia is Canberra.", "cn": "澳大利亚的首都是堪培拉。"}
+        ]},
+        {"en": "... is different from ... .", "cn": "……和……不同。", "examples": [
+          {"en": "Their breakfast is different from ours.", "cn": "他们的早餐和我们的不同。"},
+          {"en": "Winter there is colder than here.", "cn": "那里的冬天比这里冷。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "be different from / be the same as", "explain": "表示比较的固定搭配：A is different from B. / A is the same as B.", "examples": [
+          {"en": "My school is different from yours.", "cn": "我的学校和你的不同。"},
+          {"en": "This book is the same as that one.", "cn": "这本书和那本一样。"}
+        ]},
+        {"title": "国家、语言、人的说法", "explain": "China → Chinese（中国的/汉语/中国人），Japan → Japanese，Britain → British，America → American。", "examples": [
+          {"en": "She speaks Chinese and English.", "cn": "她会说汉语和英语。"}
+        ]}
+      ],
+      "tips": ["写笔友信的格式：称呼 Dear ... , 正文, 结尾 Yours, 署名。"]
+    },
+    {
+      "id": "g6u4",
+      "no": 4,
+      "title_en": "Feelings and friends",
+      "title_cn": "情感与友谊",
+      "topic": "Feelings",
+      "overview": "表达情绪、安慰同学、处理矛盾，学会 because / so 等连接词。",
+      "phonics": {
+        "focus": "字母组合 ous /əs/",
+        "tip": "nervous、famous 结尾的 ous 轻读为 /əs/。",
+        "examples": ["nervous /ˈnɜːvəs/ 紧张的", "famous /ˈfeɪməs/ 著名的", "serious /ˈsɪəriəs/ 严肃的"]
+      },
+      "words": [
+        {"en": "feel", "ipa": "/fiːl/", "pos": "v.", "cn": "感觉", "ex_en": "How do you feel today?", "ex_cn": "你今天感觉怎么样？"},
+        {"en": "angry", "ipa": "/ˈæŋɡri/", "pos": "adj.", "cn": "生气的", "ex_en": "Do not be angry with him.", "ex_cn": "别生他的气。"},
+        {"en": "nervous", "ipa": "/ˈnɜːvəs/", "pos": "adj.", "cn": "紧张的", "ex_en": "I am nervous before the exam.", "ex_cn": "考试前我很紧张。"},
+        {"en": "excited", "ipa": "/ɪkˈsaɪtɪd/", "pos": "adj.", "cn": "兴奋的", "ex_en": "We are excited about the trip.", "ex_cn": "我们对这次旅行很兴奋。"},
+        {"en": "worried", "ipa": "/ˈwʌrid/", "pos": "adj.", "cn": "担心的", "ex_en": "She is worried about her test.", "ex_cn": "她担心她的测验。"},
+        {"en": "share", "ipa": "/ʃeə/", "pos": "v.", "cn": "分享", "ex_en": "We share our books.", "ex_cn": "我们分享书本。"},
+        {"en": "kind", "ipa": "/kaɪnd/", "pos": "adj.", "cn": "友善的", "ex_en": "Be kind to new classmates.", "ex_cn": "对新同学友善些。"},
+        {"en": "honest", "ipa": "/ˈɒnɪst/", "pos": "adj.", "cn": "诚实的", "ex_en": "An honest friend is precious.", "ex_cn": "诚实的朋友很珍贵。"},
+        {"en": "forgive", "ipa": "/fəˈɡɪv/", "pos": "v.", "cn": "原谅", "ex_en": "Please forgive me.", "ex_cn": "请原谅我。"},
+        {"en": "support", "ipa": "/səˈpɔːt/", "pos": "v./n.", "cn": "支持", "ex_en": "Thank you for your support.", "ex_cn": "谢谢你的支持。"},
+        {"en": "together", "ipa": "/təˈɡeðə/", "pos": "adv.", "cn": "一起", "ex_en": "We solve problems together.", "ex_cn": "我们一起解决问题。"},
+        {"en": "sorry", "ipa": "/ˈsɒri/", "pos": "adj.", "cn": "抱歉的", "ex_en": "I am sorry for being late.", "ex_cn": "对不起我迟到了。"}
+      ],
+      "patterns": [
+        {"en": "How do you feel?", "cn": "你感觉怎么样？", "examples": [
+          {"en": "How do you feel now?", "cn": "你现在感觉怎么样？"},
+          {"en": "I feel much better, thank you.", "cn": "我好多了，谢谢。"}
+        ]},
+        {"en": "I feel ... because ... .", "cn": "我感到……，因为……。", "examples": [
+          {"en": "I feel nervous because I have a test.", "cn": "我很紧张，因为我要考试。"},
+          {"en": "She feels happy because she won.", "cn": "她很开心，因为她赢了。"}
+        ]},
+        {"en": "Do not worry. I will help you.", "cn": "别担心，我会帮你。", "examples": [
+          {"en": "Do not worry. We can do it together.", "cn": "别担心，我们可以一起完成。"},
+          {"en": "Cheer up! You did your best.", "cn": "振作起来！你已经尽力了。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "because 与 so", "explain": "because 引出原因，so 引出结果，一句话里不能同时用：Because it rained, we stayed at home. = It rained, so we stayed at home.", "examples": [
+          {"en": "I was tired, so I went to bed early.", "cn": "我累了，所以早早睡了。"}
+        ]},
+        {"title": "形容词 -ed 和 -ing", "explain": "-ed 形容人的感受（I am excited），-ing 形容事物的特点（The game is exciting）。", "examples": [
+          {"en": "The story is interesting and I am interested in it.", "cn": "这个故事很有趣，我对它很感兴趣。"}
+        ]}
+      ],
+      "tips": ["与同学产生矛盾时的表达：I am sorry. / It is OK. / Let us be friends again."]
+    },
+    {
+      "id": "g6u5",
+      "no": 5,
+      "title_en": "Safety first",
+      "title_cn": "安全第一",
+      "topic": "Safety",
+      "overview": "认识交通标志和安全规则，学会用祈使句和 must not 提醒他人。",
+      "phonics": {
+        "focus": "字母组合 igh /aɪ/",
+        "tip": "light、right、night 中的 igh 读 /aɪ/，gh 不发音。",
+        "examples": ["light /laɪt/ 灯", "right /raɪt/ 右边", "night /naɪt/ 夜晚"]
+      },
+      "words": [
+        {"en": "safety", "ipa": "/ˈseɪfti/", "pos": "n.", "cn": "安全", "ex_en": "Safety comes first.", "ex_cn": "安全第一。"},
+        {"en": "traffic", "ipa": "/ˈtræfɪk/", "pos": "n.", "cn": "交通", "ex_en": "The traffic is heavy at five.", "ex_cn": "五点时交通拥堵。"},
+        {"en": "light", "ipa": "/laɪt/", "pos": "n.", "cn": "灯；红绿灯", "ex_en": "Wait for the green light.", "ex_cn": "等绿灯。"},
+        {"en": "sign", "ipa": "/saɪn/", "pos": "n.", "cn": "标志", "ex_en": "Read the sign carefully.", "ex_cn": "仔细看标志。"},
+        {"en": "seat belt", "ipa": "/siːt belt/", "pos": "phr.", "cn": "安全带", "ex_en": "Fasten your seat belt.", "ex_cn": "系好安全带。"},
+        {"en": "danger", "ipa": "/ˈdeɪndʒə/", "pos": "n.", "cn": "危险", "ex_en": "Keep away from danger.", "ex_cn": "远离危险。"},
+        {"en": "careful", "ipa": "/ˈkeəfl/", "pos": "adj.", "cn": "小心的", "ex_en": "Be careful on the stairs.", "ex_cn": "上下楼梯要小心。"},
+        {"en": "emergency", "ipa": "/ɪˈmɜːdʒənsi/", "pos": "n.", "cn": "紧急情况", "ex_en": "Call 120 in an emergency.", "ex_cn": "紧急情况拨打120。"},
+        {"en": "escape", "ipa": "/ɪˈskeɪp/", "pos": "v.", "cn": "逃生", "ex_en": "We practise fire escape at school.", "ex_cn": "我们在学校练习火灾逃生。"},
+        {"en": "obey", "ipa": "/əˈbeɪ/", "pos": "v.", "cn": "遵守", "ex_en": "Obey the traffic rules.", "ex_cn": "遵守交通规则。"},
+        {"en": "stranger", "ipa": "/ˈstreɪndʒə/", "pos": "n.", "cn": "陌生人", "ex_en": "Do not go with a stranger.", "ex_cn": "不要跟陌生人走。"},
+        {"en": "helmet", "ipa": "/ˈhelmɪt/", "pos": "n.", "cn": "头盔", "ex_en": "Wear a helmet when you ride.", "ex_cn": "骑车时要戴头盔。"}
+      ],
+      "patterns": [
+        {"en": "You must not ... .", "cn": "你不可以……。", "examples": [
+          {"en": "You must not cross on a red light.", "cn": "不可以闯红灯。"},
+          {"en": "You must not play near the road.", "cn": "不可以在马路边玩。"}
+        ]},
+        {"en": "Always ... before ... .", "cn": "在……之前一定要……。", "examples": [
+          {"en": "Always look both ways before crossing.", "cn": "过马路前一定要左右看。"},
+          {"en": "Always tell your parents before you go out.", "cn": "出门前一定要告诉父母。"}
+        ]},
+        {"en": "If there is a fire, ... .", "cn": "如果发生火灾，……。", "examples": [
+          {"en": "If there is a fire, leave quickly and call 119.", "cn": "如果发生火灾，迅速离开并拨打119。"},
+          {"en": "Do not use the lift in a fire.", "cn": "火灾时不要乘电梯。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "祈使句的肯定与否定", "explain": "肯定直接用动词原形：Be careful.；否定用 Do not 开头：Do not run.", "examples": [
+          {"en": "Stop at the red light.", "cn": "红灯停。"},
+          {"en": "Do not touch the wires.", "cn": "不要碰电线。"}
+        ]},
+        {"title": "must not 表示禁止", "explain": "must not 语气比 should not 更强，表示「绝对不可以」。", "examples": [
+          {"en": "You must not swim alone.", "cn": "你绝对不可以独自游泳。"}
+        ]}
+      ],
+      "tips": ["常用急救电话：110 police、119 fire、120 ambulance，练习说 Call 120, please!"]
+    },
+    {
+      "id": "g6u6",
+      "no": 6,
+      "title_en": "Moving on to middle school",
+      "title_cn": "小升初",
+      "topic": "Transition",
+      "overview": "回顾小学生活、准备升入初中，综合运用过去时、现在完成时和将来时。",
+      "phonics": {
+        "focus": "连读与弱读",
+        "tip": "look at it 连读成 /lʊk ət ɪt/，口语中 to、of、and 常弱读。",
+        "examples": ["thank you /ˈθæŋk juː/ 谢谢", "a lot of /ə lɒt əv/ 许多", "used to /ˈjuːst tə/ 过去常常"]
+      },
+      "words": [
+        {"en": "middle school", "ipa": "/ˈmɪdl skuːl/", "pos": "phr.", "cn": "中学", "ex_en": "I will go to middle school in September.", "ex_cn": "九月我要上中学了。"},
+        {"en": "exam", "ipa": "/ɪɡˈzæm/", "pos": "n.", "cn": "考试", "ex_en": "The final exam is next week.", "ex_cn": "期末考试在下周。"},
+        {"en": "revise", "ipa": "/rɪˈvaɪz/", "pos": "v.", "cn": "复习", "ex_en": "I revise my notes every evening.", "ex_cn": "我每晚复习笔记。"},
+        {"en": "mark", "ipa": "/mɑːk/", "pos": "n.", "cn": "分数", "ex_en": "She got full marks.", "ex_cn": "她得了满分。"},
+        {"en": "improve", "ipa": "/ɪmˈpruːv/", "pos": "v.", "cn": "提高", "ex_en": "I want to improve my writing.", "ex_cn": "我想提高写作水平。"},
+        {"en": "remember", "ipa": "/rɪˈmembə/", "pos": "v.", "cn": "记得", "ex_en": "I remember my first English lesson.", "ex_cn": "我记得我的第一节英语课。"},
+        {"en": "notebook", "ipa": "/ˈnəʊtbʊk/", "pos": "n.", "cn": "笔记本", "ex_en": "Keep a vocabulary notebook.", "ex_cn": "准备一个单词本。"},
+        {"en": "memory", "ipa": "/ˈmeməri/", "pos": "n.", "cn": "回忆", "ex_en": "I have many happy memories.", "ex_cn": "我有很多快乐的回忆。"},
+        {"en": "progress", "ipa": "/ˈprəʊɡres/", "pos": "n.", "cn": "进步", "ex_en": "You have made great progress.", "ex_cn": "你进步很大。"},
+        {"en": "graduate", "ipa": "/ˈɡrædʒueɪt/", "pos": "v.", "cn": "毕业", "ex_en": "We graduate this summer.", "ex_cn": "我们今年夏天毕业。"},
+        {"en": "thankful", "ipa": "/ˈθæŋkfl/", "pos": "adj.", "cn": "感激的", "ex_en": "I am thankful to my teachers.", "ex_cn": "我感谢我的老师们。"},
+        {"en": "challenge", "ipa": "/ˈtʃælɪndʒ/", "pos": "n.", "cn": "挑战", "ex_en": "Middle school is a new challenge.", "ex_cn": "中学是一个新挑战。"}
+      ],
+      "patterns": [
+        {"en": "I have studied here for six years.", "cn": "我在这里学习了六年。", "examples": [
+          {"en": "I have studied English for six years.", "cn": "我学英语六年了。"},
+          {"en": "We have been classmates since Grade One.", "cn": "我们从一年级起就是同学。"}
+        ]},
+        {"en": "I used to ... , but now I ... .", "cn": "我过去……，但现在我……。", "examples": [
+          {"en": "I used to be shy, but now I am confident.", "cn": "我以前很害羞，但现在很自信。"},
+          {"en": "I used to forget words, but now I keep a notebook.", "cn": "我以前记不住单词，现在我有单词本。"}
+        ]},
+        {"en": "In middle school I will ... .", "cn": "上中学后我会……。", "examples": [
+          {"en": "In middle school I will join the English club.", "cn": "上中学后我要加入英语社。"},
+          {"en": "I will try my best in every subject.", "cn": "我会在每门功课上尽力。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "现在完成时入门", "explain": "have/has + 过去分词，表示到现在为止的经历或结果，常与 for、since、already、never 连用。", "examples": [
+          {"en": "I have finished my homework.", "cn": "我已经完成作业了。"},
+          {"en": "She has lived in Shenzhen since 2019.", "cn": "她从2019年起住在深圳。"}
+        ]},
+        {"title": "used to do", "explain": "used to + 动词原形表示过去经常做而现在不做了。", "examples": [
+          {"en": "I used to play in this playground.", "cn": "我以前常在这个操场上玩。"}
+        ]}
+      ],
+      "tips": ["毕业留言常用句：Best wishes! / Keep in touch! / I will never forget you."]
+    }
+  ]
+}

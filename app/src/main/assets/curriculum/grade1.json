@@ -1,0 +1,303 @@
+{
+  "grade": 1,
+  "title": "一年级",
+  "subtitle": "起步：字母语音、问候、颜色数字与身边的人和物",
+  "units": [
+    {
+      "id": "g1u1",
+      "no": 1,
+      "title_en": "Hello!",
+      "title_cn": "问候与自我介绍",
+      "topic": "Greetings",
+      "overview": "学会用英语打招呼、介绍自己、认识老师和同学。这是英语课堂上每天都要用到的第一组表达。",
+      "phonics": {
+        "focus": "字母 Aa 的短音 /æ/",
+        "tip": "嘴巴张大、舌头放平，像发汉语「啊」但更短促。",
+        "examples": ["apple /ˈæpl/ 苹果", "bag /bæɡ/ 书包", "cat /kæt/ 猫"]
+      },
+      "words": [
+        {"en": "hello", "ipa": "/həˈləʊ/", "pos": "int.", "cn": "你好", "ex_en": "Hello! I am Amy.", "ex_cn": "你好！我是艾米。"},
+        {"en": "hi", "ipa": "/haɪ/", "pos": "int.", "cn": "嗨；你好", "ex_en": "Hi, Peter!", "ex_cn": "嗨，彼得！"},
+        {"en": "I", "ipa": "/aɪ/", "pos": "pron.", "cn": "我", "ex_en": "I am a pupil.", "ex_cn": "我是一名小学生。"},
+        {"en": "am", "ipa": "/æm/", "pos": "v.", "cn": "是", "ex_en": "I am six.", "ex_cn": "我六岁。"},
+        {"en": "you", "ipa": "/juː/", "pos": "pron.", "cn": "你；你们", "ex_en": "How are you?", "ex_cn": "你好吗？"},
+        {"en": "are", "ipa": "/ɑː/", "pos": "v.", "cn": "是", "ex_en": "You are my friend.", "ex_cn": "你是我的朋友。"},
+        {"en": "name", "ipa": "/neɪm/", "pos": "n.", "cn": "名字", "ex_en": "My name is Kitty.", "ex_cn": "我的名字叫琪蒂。"},
+        {"en": "Miss", "ipa": "/mɪs/", "pos": "n.", "cn": "小姐；女老师", "ex_en": "Good morning, Miss Li.", "ex_cn": "早上好，李老师。"},
+        {"en": "goodbye", "ipa": "/ˌɡʊdˈbaɪ/", "pos": "int.", "cn": "再见", "ex_en": "Goodbye, Miss Chen!", "ex_cn": "再见，陈老师！"},
+        {"en": "friend", "ipa": "/frend/", "pos": "n.", "cn": "朋友", "ex_en": "This is my friend.", "ex_cn": "这是我的朋友。"}
+      ],
+      "patterns": [
+        {"en": "Hello! I am ...", "cn": "你好！我是……。", "examples": [
+          {"en": "Hello! I am Amy.", "cn": "你好！我是艾米。"},
+          {"en": "Hello! I am Tom.", "cn": "你好！我是汤姆。"}
+        ]},
+        {"en": "What is your name?", "cn": "你叫什么名字？", "examples": [
+          {"en": "What is your name?", "cn": "你叫什么名字？"},
+          {"en": "My name is Kitty.", "cn": "我的名字叫琪蒂。"}
+        ]},
+        {"en": "Good morning!", "cn": "早上好！", "examples": [
+          {"en": "Good morning, Miss Li.", "cn": "早上好，李老师。"},
+          {"en": "Good afternoon, Peter.", "cn": "下午好，彼得。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "be 动词：I am / You are", "explain": "表示「是」的时候，主语是 I 用 am，主语是 you 用 are。口语里常缩写成 I'm、you're。", "examples": [
+          {"en": "I am a pupil.", "cn": "我是一名小学生。"},
+          {"en": "You are my friend.", "cn": "你是我的朋友。"}
+        ]},
+        {"title": "大写规则", "explain": "英语中 I（我）任何位置都要大写；人名、老师的姓（Miss Li）首字母也要大写。", "examples": [
+          {"en": "Amy and I are friends.", "cn": "艾米和我是朋友。"}
+        ]}
+      ],
+      "tips": ["课堂用语：Stand up, please. 请起立。", "课堂用语：Sit down, please. 请坐下。"]
+    },
+    {
+      "id": "g1u2",
+      "no": 2,
+      "title_en": "Colours",
+      "title_cn": "颜色",
+      "topic": "Colours",
+      "overview": "认识常见颜色词，会说「这是什么颜色」并描述身边物品的颜色。",
+      "phonics": {
+        "focus": "字母 Bb /b/ 和 Cc /k/",
+        "tip": "/b/ 双唇紧闭再爆开；/k/ 舌根抬起抵住软腭再放开。",
+        "examples": ["blue /bluː/ 蓝色", "cap /kæp/ 帽子", "book /bʊk/ 书"]
+      },
+      "words": [
+        {"en": "red", "ipa": "/red/", "pos": "adj./n.", "cn": "红色（的）", "ex_en": "The apple is red.", "ex_cn": "这个苹果是红色的。"},
+        {"en": "yellow", "ipa": "/ˈjeləʊ/", "pos": "adj./n.", "cn": "黄色（的）", "ex_en": "I have a yellow pen.", "ex_cn": "我有一支黄色的笔。"},
+        {"en": "blue", "ipa": "/bluː/", "pos": "adj./n.", "cn": "蓝色（的）", "ex_en": "The sky is blue.", "ex_cn": "天空是蓝色的。"},
+        {"en": "green", "ipa": "/ɡriːn/", "pos": "adj./n.", "cn": "绿色（的）", "ex_en": "The tree is green.", "ex_cn": "这棵树是绿色的。"},
+        {"en": "black", "ipa": "/blæk/", "pos": "adj./n.", "cn": "黑色（的）", "ex_en": "My bag is black.", "ex_cn": "我的书包是黑色的。"},
+        {"en": "white", "ipa": "/waɪt/", "pos": "adj./n.", "cn": "白色（的）", "ex_en": "I like white shoes.", "ex_cn": "我喜欢白色的鞋子。"},
+        {"en": "orange", "ipa": "/ˈɒrɪndʒ/", "pos": "adj./n.", "cn": "橙色（的）；橙子", "ex_en": "This is an orange cap.", "ex_cn": "这是一顶橙色的帽子。"},
+        {"en": "pink", "ipa": "/pɪŋk/", "pos": "adj./n.", "cn": "粉色（的）", "ex_en": "The flower is pink.", "ex_cn": "这朵花是粉色的。"},
+        {"en": "colour", "ipa": "/ˈkʌlə/", "pos": "n.", "cn": "颜色", "ex_en": "What colour is it?", "ex_cn": "它是什么颜色的？"},
+        {"en": "brown", "ipa": "/braʊn/", "pos": "adj./n.", "cn": "棕色（的）", "ex_en": "The bear is brown.", "ex_cn": "这只熊是棕色的。"}
+      ],
+      "patterns": [
+        {"en": "What colour is it?", "cn": "它是什么颜色的？", "examples": [
+          {"en": "What colour is it?", "cn": "它是什么颜色的？"},
+          {"en": "It is red.", "cn": "它是红色的。"}
+        ]},
+        {"en": "I like ... .", "cn": "我喜欢……。", "examples": [
+          {"en": "I like blue.", "cn": "我喜欢蓝色。"},
+          {"en": "I like green and white.", "cn": "我喜欢绿色和白色。"}
+        ]},
+        {"en": "This is a ... bag.", "cn": "这是一个……颜色的书包。", "examples": [
+          {"en": "This is a black bag.", "cn": "这是一个黑色的书包。"},
+          {"en": "This is a pink flower.", "cn": "这是一朵粉色的花。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "颜色词放在名词前面", "explain": "英语里表示颜色的词放在名词前：a red apple（一个红苹果），不能说 an apple red。", "examples": [
+          {"en": "a green tree", "cn": "一棵绿树"},
+          {"en": "a yellow pen", "cn": "一支黄笔"}
+        ]},
+        {"title": "a 还是 an", "explain": "名词前的词以元音音素开头用 an，其它用 a：an orange cap，a red cap。", "examples": [
+          {"en": "an orange bag", "cn": "一个橙色的书包"},
+          {"en": "a white cap", "cn": "一顶白帽子"}
+        ]}
+      ],
+      "tips": ["深圳的校服常见蓝白两色，可以用 My uniform is blue and white. 来描述。"]
+    },
+    {
+      "id": "g1u3",
+      "no": 3,
+      "title_en": "Numbers 1-10",
+      "title_cn": "数字 1-10",
+      "topic": "Numbers",
+      "overview": "学会 1 到 10 的英文说法，会数身边的物品并回答「有几个」。",
+      "phonics": {
+        "focus": "字母 Ee 的短音 /e/",
+        "tip": "嘴角微微向两边，声音短促，如 ten /ten/。",
+        "examples": ["ten /ten/ 十", "pen /pen/ 钢笔", "red /red/ 红色"]
+      },
+      "words": [
+        {"en": "one", "ipa": "/wʌn/", "pos": "num.", "cn": "一", "ex_en": "I have one book.", "ex_cn": "我有一本书。"},
+        {"en": "two", "ipa": "/tuː/", "pos": "num.", "cn": "二", "ex_en": "I see two birds.", "ex_cn": "我看见两只鸟。"},
+        {"en": "three", "ipa": "/θriː/", "pos": "num.", "cn": "三", "ex_en": "There are three pens.", "ex_cn": "有三支笔。"},
+        {"en": "four", "ipa": "/fɔː/", "pos": "num.", "cn": "四", "ex_en": "I am four years old.", "ex_cn": "我四岁。"},
+        {"en": "five", "ipa": "/faɪv/", "pos": "num.", "cn": "五", "ex_en": "Give me five apples.", "ex_cn": "给我五个苹果。"},
+        {"en": "six", "ipa": "/sɪks/", "pos": "num.", "cn": "六", "ex_en": "I am six.", "ex_cn": "我六岁。"},
+        {"en": "seven", "ipa": "/ˈsevn/", "pos": "num.", "cn": "七", "ex_en": "Seven days make a week.", "ex_cn": "七天是一周。"},
+        {"en": "eight", "ipa": "/eɪt/", "pos": "num.", "cn": "八", "ex_en": "I have eight crayons.", "ex_cn": "我有八支蜡笔。"},
+        {"en": "nine", "ipa": "/naɪn/", "pos": "num.", "cn": "九", "ex_en": "Nine plus one is ten.", "ex_cn": "九加一等于十。"},
+        {"en": "ten", "ipa": "/ten/", "pos": "num.", "cn": "十", "ex_en": "Count to ten, please.", "ex_cn": "请数到十。"}
+      ],
+      "patterns": [
+        {"en": "How many ... ?", "cn": "有多少个……？", "examples": [
+          {"en": "How many books?", "cn": "有多少本书？"},
+          {"en": "How many pens do you have?", "cn": "你有多少支笔？"}
+        ]},
+        {"en": "I have ... .", "cn": "我有……。", "examples": [
+          {"en": "I have three pens.", "cn": "我有三支笔。"},
+          {"en": "I have two friends.", "cn": "我有两个朋友。"}
+        ]},
+        {"en": "I am ... years old.", "cn": "我……岁。", "examples": [
+          {"en": "I am six years old.", "cn": "我六岁。"},
+          {"en": "I am seven years old.", "cn": "我七岁。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "名词复数加 -s", "explain": "数量超过一个时，可数名词后面要加 -s：one book → two books，one pen → five pens。", "examples": [
+          {"en": "one apple, two apples", "cn": "一个苹果，两个苹果"},
+          {"en": "three birds", "cn": "三只鸟"}
+        ]},
+        {"title": "How many 后面接复数", "explain": "How many 用来问数量，后面跟名词复数：How many books?", "examples": [
+          {"en": "How many cats?", "cn": "有几只猫？"}
+        ]}
+      ],
+      "tips": ["数数时可以拍手打节奏，帮助记住 /θ/ 在 three 里的咬舌音。"]
+    },
+    {
+      "id": "g1u4",
+      "no": 4,
+      "title_en": "My family",
+      "title_cn": "我的家人",
+      "topic": "Family",
+      "overview": "介绍家庭成员，会用 This is ... 指认照片上的人。",
+      "phonics": {
+        "focus": "字母 Ff /f/ 与 Mm /m/",
+        "tip": "/f/ 上齿轻咬下唇送气；/m/ 双唇闭合从鼻腔出声。",
+        "examples": ["father /ˈfɑːðə/ 父亲", "mother /ˈmʌðə/ 母亲", "family /ˈfæməli/ 家庭"]
+      },
+      "words": [
+        {"en": "family", "ipa": "/ˈfæməli/", "pos": "n.", "cn": "家庭", "ex_en": "This is my family.", "ex_cn": "这是我的家庭。"},
+        {"en": "father", "ipa": "/ˈfɑːðə/", "pos": "n.", "cn": "父亲", "ex_en": "My father is a doctor.", "ex_cn": "我的爸爸是医生。"},
+        {"en": "mother", "ipa": "/ˈmʌðə/", "pos": "n.", "cn": "母亲", "ex_en": "My mother likes tea.", "ex_cn": "我的妈妈喜欢喝茶。"},
+        {"en": "brother", "ipa": "/ˈbrʌðə/", "pos": "n.", "cn": "兄弟", "ex_en": "I have a little brother.", "ex_cn": "我有一个弟弟。"},
+        {"en": "sister", "ipa": "/ˈsɪstə/", "pos": "n.", "cn": "姐妹", "ex_en": "My sister is eight.", "ex_cn": "我的姐姐八岁。"},
+        {"en": "grandpa", "ipa": "/ˈɡrænpɑː/", "pos": "n.", "cn": "爷爷；外公", "ex_en": "Grandpa reads in the park.", "ex_cn": "爷爷在公园里看书。"},
+        {"en": "grandma", "ipa": "/ˈɡrænmɑː/", "pos": "n.", "cn": "奶奶；外婆", "ex_en": "Grandma makes good soup.", "ex_cn": "奶奶做的汤很好喝。"},
+        {"en": "this", "ipa": "/ðɪs/", "pos": "pron.", "cn": "这个", "ex_en": "This is my mother.", "ex_cn": "这是我的妈妈。"},
+        {"en": "my", "ipa": "/maɪ/", "pos": "pron.", "cn": "我的", "ex_en": "My bag is new.", "ex_cn": "我的书包是新的。"},
+        {"en": "love", "ipa": "/lʌv/", "pos": "v./n.", "cn": "爱", "ex_en": "I love my family.", "ex_cn": "我爱我的家人。"}
+      ],
+      "patterns": [
+        {"en": "This is my ... .", "cn": "这是我的……。", "examples": [
+          {"en": "This is my father.", "cn": "这是我的爸爸。"},
+          {"en": "This is my sister.", "cn": "这是我的姐姐。"}
+        ]},
+        {"en": "Who is he or she?", "cn": "他/她是谁？", "examples": [
+          {"en": "Who is she?", "cn": "她是谁？"},
+          {"en": "She is my mother.", "cn": "她是我的妈妈。"}
+        ]},
+        {"en": "I love my family.", "cn": "我爱我的家人。", "examples": [
+          {"en": "I love my grandma.", "cn": "我爱我的奶奶。"},
+          {"en": "We love our family.", "cn": "我们爱我们的家。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "he 和 she 不要混用", "explain": "男性用 he（他），女性用 she（她）。中文里读音一样，英语里必须分清楚。", "examples": [
+          {"en": "He is my brother.", "cn": "他是我的哥哥。"},
+          {"en": "She is my sister.", "cn": "她是我的姐姐。"}
+        ]},
+        {"title": "my 表示「我的」", "explain": "my 后面一定要跟名词：my mother、my bag，不能单独使用。", "examples": [
+          {"en": "my family", "cn": "我的家庭"}
+        ]}
+      ],
+      "tips": ["向别人介绍家人照片时，先说 This is ...，再补一句 He/She is ...。"]
+    },
+    {
+      "id": "g1u5",
+      "no": 5,
+      "title_en": "My body",
+      "title_cn": "我的身体",
+      "topic": "Body",
+      "overview": "认识身体部位，听懂 Touch your nose. 这类课堂指令并做出动作。",
+      "phonics": {
+        "focus": "字母 Hh /h/ 与 Nn /n/",
+        "tip": "/h/ 只送气不振动声带；/n/ 舌尖抵上齿龈从鼻腔出声。",
+        "examples": ["hand /hænd/ 手", "head /hed/ 头", "nose /nəʊz/ 鼻子"]
+      },
+      "words": [
+        {"en": "head", "ipa": "/hed/", "pos": "n.", "cn": "头", "ex_en": "Touch your head.", "ex_cn": "摸摸你的头。"},
+        {"en": "eye", "ipa": "/aɪ/", "pos": "n.", "cn": "眼睛", "ex_en": "I have two eyes.", "ex_cn": "我有两只眼睛。"},
+        {"en": "ear", "ipa": "/ɪə/", "pos": "n.", "cn": "耳朵", "ex_en": "Listen with your ears.", "ex_cn": "用耳朵听。"},
+        {"en": "nose", "ipa": "/nəʊz/", "pos": "n.", "cn": "鼻子", "ex_en": "Touch your nose.", "ex_cn": "摸摸你的鼻子。"},
+        {"en": "mouth", "ipa": "/maʊθ/", "pos": "n.", "cn": "嘴", "ex_en": "Open your mouth.", "ex_cn": "张开你的嘴。"},
+        {"en": "hand", "ipa": "/hænd/", "pos": "n.", "cn": "手", "ex_en": "Wash your hands.", "ex_cn": "洗洗你的手。"},
+        {"en": "foot", "ipa": "/fʊt/", "pos": "n.", "cn": "脚", "ex_en": "My foot hurts.", "ex_cn": "我的脚疼。"},
+        {"en": "arm", "ipa": "/ɑːm/", "pos": "n.", "cn": "手臂", "ex_en": "Raise your arm.", "ex_cn": "举起你的手臂。"},
+        {"en": "leg", "ipa": "/leɡ/", "pos": "n.", "cn": "腿", "ex_en": "I can move my legs.", "ex_cn": "我可以活动我的腿。"},
+        {"en": "hair", "ipa": "/heə/", "pos": "n.", "cn": "头发", "ex_en": "Her hair is long.", "ex_cn": "她的头发很长。"}
+      ],
+      "patterns": [
+        {"en": "Touch your ... .", "cn": "摸摸你的……。", "examples": [
+          {"en": "Touch your nose.", "cn": "摸摸你的鼻子。"},
+          {"en": "Touch your ears.", "cn": "摸摸你的耳朵。"}
+        ]},
+        {"en": "I have two ... .", "cn": "我有两只……。", "examples": [
+          {"en": "I have two hands.", "cn": "我有两只手。"},
+          {"en": "I have two eyes.", "cn": "我有两只眼睛。"}
+        ]},
+        {"en": "Wash your hands before lunch.", "cn": "午饭前洗手。", "examples": [
+          {"en": "Wash your hands, please.", "cn": "请洗手。"},
+          {"en": "Wash your hands after school.", "cn": "放学后要洗手。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "祈使句：直接用动词开头", "explain": "让别人做某事时，句子直接用动词原形开头：Touch your nose. 加上 please 更礼貌。", "examples": [
+          {"en": "Open your book, please.", "cn": "请打开你的书。"},
+          {"en": "Close your eyes.", "cn": "闭上眼睛。"}
+        ]},
+        {"title": "成对的身体部位用复数", "explain": "眼睛、耳朵、手、脚成对出现时用复数：two eyes、two hands；foot 的复数是特殊形式 feet。", "examples": [
+          {"en": "one foot, two feet", "cn": "一只脚，两只脚"}
+        ]}
+      ],
+      "tips": ["配合 Simon says 游戏练习指令，听到 Simon says 才做动作。"]
+    },
+    {
+      "id": "g1u6",
+      "no": 6,
+      "title_en": "In the classroom",
+      "title_cn": "在教室里",
+      "topic": "Classroom",
+      "overview": "认识文具和教室里的物品，会用 It is a ... 和 Is it a ... ? 问答。",
+      "phonics": {
+        "focus": "字母 Pp /p/ 与 Dd /d/",
+        "tip": "/p/ 双唇爆破并送气；/d/ 舌尖抵上齿龈、声带振动。",
+        "examples": ["pen /pen/ 钢笔", "pencil /ˈpensl/ 铅笔", "desk /desk/ 课桌"]
+      },
+      "words": [
+        {"en": "book", "ipa": "/bʊk/", "pos": "n.", "cn": "书", "ex_en": "Open your book.", "ex_cn": "打开你的书。"},
+        {"en": "pen", "ipa": "/pen/", "pos": "n.", "cn": "钢笔", "ex_en": "This is my pen.", "ex_cn": "这是我的钢笔。"},
+        {"en": "pencil", "ipa": "/ˈpensl/", "pos": "n.", "cn": "铅笔", "ex_en": "I need a pencil.", "ex_cn": "我需要一支铅笔。"},
+        {"en": "ruler", "ipa": "/ˈruːlə/", "pos": "n.", "cn": "尺子", "ex_en": "May I use your ruler?", "ex_cn": "我可以用你的尺子吗？"},
+        {"en": "bag", "ipa": "/bæɡ/", "pos": "n.", "cn": "书包；袋子", "ex_en": "My bag is heavy.", "ex_cn": "我的书包很重。"},
+        {"en": "desk", "ipa": "/desk/", "pos": "n.", "cn": "课桌", "ex_en": "The book is on the desk.", "ex_cn": "书在课桌上。"},
+        {"en": "chair", "ipa": "/tʃeə/", "pos": "n.", "cn": "椅子", "ex_en": "Sit on the chair.", "ex_cn": "坐在椅子上。"},
+        {"en": "door", "ipa": "/dɔː/", "pos": "n.", "cn": "门", "ex_en": "Close the door, please.", "ex_cn": "请关门。"},
+        {"en": "window", "ipa": "/ˈwɪndəʊ/", "pos": "n.", "cn": "窗户", "ex_en": "Open the window.", "ex_cn": "打开窗户。"},
+        {"en": "classroom", "ipa": "/ˈklɑːsruːm/", "pos": "n.", "cn": "教室", "ex_en": "Our classroom is clean.", "ex_cn": "我们的教室很干净。"}
+      ],
+      "patterns": [
+        {"en": "It is a ... .", "cn": "它是一个……。", "examples": [
+          {"en": "It is a pen.", "cn": "它是一支钢笔。"},
+          {"en": "It is a ruler.", "cn": "它是一把尺子。"}
+        ]},
+        {"en": "Is it a ... ?", "cn": "它是……吗？", "examples": [
+          {"en": "Is it a book?", "cn": "它是一本书吗？"},
+          {"en": "Yes, it is.", "cn": "是的，它是。"}
+        ]},
+        {"en": "The ... is on the desk.", "cn": "……在课桌上。", "examples": [
+          {"en": "The bag is on the desk.", "cn": "书包在课桌上。"},
+          {"en": "The pencil is in the bag.", "cn": "铅笔在书包里。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "一般疑问句的回答", "explain": "Is it ... ? 要用 Yes, it is. 或 No, it is not. 回答，不能只说 Yes 或 No。", "examples": [
+          {"en": "Is it a pen? Yes, it is.", "cn": "它是钢笔吗？是的。"},
+          {"en": "Is it a bag? No, it is not.", "cn": "它是书包吗？不是。"}
+        ]},
+        {"title": "方位词 on 和 in", "explain": "on 表示在表面上（on the desk），in 表示在里面（in the bag）。", "examples": [
+          {"en": "The book is on the chair.", "cn": "书在椅子上。"},
+          {"en": "The pen is in my bag.", "cn": "钢笔在我的书包里。"}
+        ]}
+      ],
+      "tips": ["借东西时说 May I use your ruler?，归还时说 Thank you.。"]
+    }
+  ]
+}

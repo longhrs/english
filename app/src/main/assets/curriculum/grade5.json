@@ -1,0 +1,314 @@
+{
+  "grade": 5,
+  "title": "五年级",
+  "subtitle": "校园生活、旅行、饮食、运动、科技与环保：时态开始综合运用",
+  "units": [
+    {
+      "id": "g5u1",
+      "no": 1,
+      "title_en": "School life",
+      "title_cn": "校园生活",
+      "topic": "School life",
+      "overview": "谈论社团活动、班级职务和校规，学会用 must / have to 表达规定。",
+      "phonics": {
+        "focus": "字母组合 tion /ʃn/",
+        "tip": "action、question 等词尾的 tion 读 /ʃn/，不要读成 /tɪɒn/。",
+        "examples": ["action /ˈækʃn/ 行动", "competition /ˌkɒmpəˈtɪʃn/ 比赛", "attention /əˈtenʃn/ 注意"]
+      },
+      "words": [
+        {"en": "club", "ipa": "/klʌb/", "pos": "n.", "cn": "社团；俱乐部", "ex_en": "I joined the English club.", "ex_cn": "我加入了英语社团。"},
+        {"en": "activity", "ipa": "/ækˈtɪvəti/", "pos": "n.", "cn": "活动", "ex_en": "We have many after-school activities.", "ex_cn": "我们有很多课后活动。"},
+        {"en": "project", "ipa": "/ˈprɒdʒekt/", "pos": "n.", "cn": "项目；课题", "ex_en": "Our group project is about water.", "ex_cn": "我们小组的课题是关于水的。"},
+        {"en": "group", "ipa": "/ɡruːp/", "pos": "n.", "cn": "小组", "ex_en": "Work in groups of four.", "ex_cn": "四人一组完成。"},
+        {"en": "monitor", "ipa": "/ˈmɒnɪtə/", "pos": "n.", "cn": "班长", "ex_en": "She is our class monitor.", "ex_cn": "她是我们的班长。"},
+        {"en": "rule", "ipa": "/ruːl/", "pos": "n.", "cn": "规则", "ex_en": "We must follow the school rules.", "ex_cn": "我们必须遵守校规。"},
+        {"en": "quiet", "ipa": "/ˈkwaɪət/", "pos": "adj.", "cn": "安静的", "ex_en": "Be quiet in the library.", "ex_cn": "在图书馆要安静。"},
+        {"en": "tidy", "ipa": "/ˈtaɪdi/", "pos": "adj./v.", "cn": "整洁的；整理", "ex_en": "Keep your desk tidy.", "ex_cn": "保持桌面整洁。"},
+        {"en": "join", "ipa": "/dʒɔɪn/", "pos": "v.", "cn": "加入", "ex_en": "Would you like to join us?", "ex_cn": "你想加入我们吗？"},
+        {"en": "prepare", "ipa": "/prɪˈpeə/", "pos": "v.", "cn": "准备", "ex_en": "We prepare for the show.", "ex_cn": "我们在为演出做准备。"},
+        {"en": "proud", "ipa": "/praʊd/", "pos": "adj.", "cn": "自豪的", "ex_en": "I am proud of my class.", "ex_cn": "我为我的班级自豪。"},
+        {"en": "competition", "ipa": "/ˌkɒmpəˈtɪʃn/", "pos": "n.", "cn": "比赛", "ex_en": "We won the speech competition.", "ex_cn": "我们赢得了演讲比赛。"}
+      ],
+      "patterns": [
+        {"en": "We must ... at school.", "cn": "在学校我们必须……。", "examples": [
+          {"en": "We must be on time.", "cn": "我们必须准时。"},
+          {"en": "We must not run in the hallway.", "cn": "我们不可以在走廊里跑。"}
+        ]},
+        {"en": "Would you like to join ... ?", "cn": "你想加入……吗？", "examples": [
+          {"en": "Would you like to join the art club?", "cn": "你想加入美术社吗？"},
+          {"en": "Yes, I would love to.", "cn": "好的，我很乐意。"}
+        ]},
+        {"en": "I am proud of ... .", "cn": "我为……感到自豪。", "examples": [
+          {"en": "I am proud of our team.", "cn": "我为我们的队伍感到自豪。"},
+          {"en": "She is proud of her work.", "cn": "她为自己的作品感到自豪。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "must 与 have to", "explain": "must 强调说话人认为必须；have to 强调客观要求。否定 must not 是「禁止」，do not have to 是「不必」。", "examples": [
+          {"en": "You must finish your homework.", "cn": "你必须完成作业。"},
+          {"en": "You do not have to come early.", "cn": "你不必早到。"}
+        ]},
+        {"title": "would like to do", "explain": "表示想要做某事，比 want 更客气：I would like to join the club.", "examples": [
+          {"en": "I would like to help you.", "cn": "我想帮你。"}
+        ]}
+      ],
+      "tips": ["班会发言开头可用：Good morning, everyone. I would like to talk about ..."]
+    },
+    {
+      "id": "g5u2",
+      "no": 2,
+      "title_en": "Travel",
+      "title_cn": "旅行",
+      "topic": "Travel",
+      "overview": "谈论旅行计划和经历，区分一般过去时与将来时。",
+      "phonics": {
+        "focus": "-ed 结尾的三种读音",
+        "tip": "visited /ɪd/、walked /t/、travelled /d/，要根据前一个音判断。",
+        "examples": ["visited /ˈvɪzɪtɪd/ 参观过", "walked /wɔːkt/ 走过", "stayed /steɪd/ 停留过"]
+      },
+      "words": [
+        {"en": "travel", "ipa": "/ˈtrævl/", "pos": "v./n.", "cn": "旅行", "ex_en": "We travel by train.", "ex_cn": "我们坐火车旅行。"},
+        {"en": "trip", "ipa": "/trɪp/", "pos": "n.", "cn": "旅程", "ex_en": "We had a school trip last week.", "ex_cn": "上周我们有一次学校旅行。"},
+        {"en": "plane", "ipa": "/pleɪn/", "pos": "n.", "cn": "飞机", "ex_en": "The plane takes off at nine.", "ex_cn": "飞机九点起飞。"},
+        {"en": "airport", "ipa": "/ˈeəpɔːt/", "pos": "n.", "cn": "机场", "ex_en": "Bao'an Airport is very big.", "ex_cn": "宝安机场很大。"},
+        {"en": "hotel", "ipa": "/həʊˈtel/", "pos": "n.", "cn": "酒店", "ex_en": "We stayed in a small hotel.", "ex_cn": "我们住在一家小酒店。"},
+        {"en": "map", "ipa": "/mæp/", "pos": "n.", "cn": "地图", "ex_en": "Look at the map first.", "ex_cn": "先看看地图。"},
+        {"en": "suitcase", "ipa": "/ˈsuːtkeɪs/", "pos": "n.", "cn": "行李箱", "ex_en": "My suitcase is heavy.", "ex_cn": "我的行李箱很重。"},
+        {"en": "journey", "ipa": "/ˈdʒɜːni/", "pos": "n.", "cn": "旅途", "ex_en": "The journey took two hours.", "ex_cn": "旅途花了两个小时。"},
+        {"en": "camera", "ipa": "/ˈkæmərə/", "pos": "n.", "cn": "相机", "ex_en": "Do not forget your camera.", "ex_cn": "别忘了带相机。"},
+        {"en": "arrive", "ipa": "/əˈraɪv/", "pos": "v.", "cn": "到达", "ex_en": "We arrived at noon.", "ex_cn": "我们中午到达。"},
+        {"en": "exciting", "ipa": "/ɪkˈsaɪtɪŋ/", "pos": "adj.", "cn": "令人兴奋的", "ex_en": "The trip was exciting.", "ex_cn": "这次旅行很令人兴奋。"},
+        {"en": "plan", "ipa": "/plæn/", "pos": "n./v.", "cn": "计划", "ex_en": "What is your plan for the holiday?", "ex_cn": "你的假期计划是什么？"}
+      ],
+      "patterns": [
+        {"en": "Where did you go last holiday?", "cn": "上个假期你去哪儿了？", "examples": [
+          {"en": "Where did you go last holiday?", "cn": "上个假期你去哪儿了？"},
+          {"en": "I went to Beijing with my family.", "cn": "我和家人去了北京。"}
+        ]},
+        {"en": "We are going to visit ... .", "cn": "我们打算去参观……。", "examples": [
+          {"en": "We are going to visit Hong Kong.", "cn": "我们打算去香港。"},
+          {"en": "They are going to stay for three days.", "cn": "他们打算待三天。"}
+        ]},
+        {"en": "It was ... .", "cn": "那真是……。", "examples": [
+          {"en": "It was really exciting.", "cn": "那真是太刺激了。"},
+          {"en": "The food was delicious.", "cn": "食物很美味。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "一般过去时", "explain": "表示过去发生的事，动词用过去式：regular 加 -ed（visited），irregular 要背（go → went，have → had，是 → was/were）。", "examples": [
+          {"en": "We visited the museum yesterday.", "cn": "我们昨天参观了博物馆。"},
+          {"en": "I went to Guangzhou last month.", "cn": "上个月我去了广州。"}
+        ]},
+        {"title": "过去时的疑问与否定", "explain": "疑问句用 did + 动词原形：Did you go ... ?；否定用 did not + 动词原形。", "examples": [
+          {"en": "Did you have fun?", "cn": "你玩得开心吗？"},
+          {"en": "I did not take photos.", "cn": "我没有拍照。"}
+        ]}
+      ],
+      "tips": ["写游记时按 when-where-who-what-feeling 五要素组织，句子更完整。"]
+    },
+    {
+      "id": "g5u3",
+      "no": 3,
+      "title_en": "Food and cooking",
+      "title_cn": "饮食与烹饪",
+      "topic": "Food",
+      "overview": "描述做菜步骤和饮食习惯，学会 first / next / then / finally 的顺序表达。",
+      "phonics": {
+        "focus": "字母组合 oi / oy /ɔɪ/",
+        "tip": "boil、enjoy 中的元音由 /ɔ/ 滑向 /ɪ/。",
+        "examples": ["boil /bɔɪl/ 煮沸", "enjoy /ɪnˈdʒɔɪ/ 享受", "oil /ɔɪl/ 油"]
+      },
+      "words": [
+        {"en": "cook", "ipa": "/kʊk/", "pos": "v.", "cn": "烹饪", "ex_en": "My dad cooks on Sunday.", "ex_cn": "我爸爸周日做饭。"},
+        {"en": "boil", "ipa": "/bɔɪl/", "pos": "v.", "cn": "煮沸", "ex_en": "Boil the water first.", "ex_cn": "先把水烧开。"},
+        {"en": "fry", "ipa": "/fraɪ/", "pos": "v.", "cn": "煎；炒", "ex_en": "Fry the egg for two minutes.", "ex_cn": "把鸡蛋煎两分钟。"},
+        {"en": "soup", "ipa": "/suːp/", "pos": "n.", "cn": "汤", "ex_en": "Cantonese soup is famous.", "ex_cn": "广东汤很有名。"},
+        {"en": "chopsticks", "ipa": "/ˈtʃɒpstɪks/", "pos": "n.", "cn": "筷子", "ex_en": "We eat with chopsticks.", "ex_cn": "我们用筷子吃饭。"},
+        {"en": "menu", "ipa": "/ˈmenjuː/", "pos": "n.", "cn": "菜单", "ex_en": "May I see the menu?", "ex_cn": "我可以看看菜单吗？"},
+        {"en": "snack", "ipa": "/snæk/", "pos": "n.", "cn": "小吃；零食", "ex_en": "Too many snacks are bad.", "ex_cn": "吃太多零食不好。"},
+        {"en": "hungry", "ipa": "/ˈhʌŋɡri/", "pos": "adj.", "cn": "饥饿的", "ex_en": "I am hungry after PE.", "ex_cn": "上完体育课我饿了。"},
+        {"en": "thirsty", "ipa": "/ˈθɜːsti/", "pos": "adj.", "cn": "口渴的", "ex_en": "Are you thirsty?", "ex_cn": "你渴吗？"},
+        {"en": "taste", "ipa": "/teɪst/", "pos": "n./v.", "cn": "味道；尝", "ex_en": "The taste is a bit salty.", "ex_cn": "味道有点咸。"},
+        {"en": "salty", "ipa": "/ˈsɔːlti/", "pos": "adj.", "cn": "咸的", "ex_en": "The soup is too salty.", "ex_cn": "汤太咸了。"},
+        {"en": "recipe", "ipa": "/ˈresəpi/", "pos": "n.", "cn": "食谱", "ex_en": "This is my grandma's recipe.", "ex_cn": "这是我奶奶的食谱。"}
+      ],
+      "patterns": [
+        {"en": "First ... then ... finally ... .", "cn": "首先……然后……最后……。", "examples": [
+          {"en": "First boil the water, then add the noodles.", "cn": "先烧水，然后下面条。"},
+          {"en": "Finally put some salt in the soup.", "cn": "最后在汤里放点盐。"}
+        ]},
+        {"en": "How do you make ... ?", "cn": "……是怎么做的？", "examples": [
+          {"en": "How do you make egg fried rice?", "cn": "蛋炒饭怎么做？"},
+          {"en": "It is easy. Let me show you.", "cn": "很简单，我教你。"}
+        ]},
+        {"en": "It tastes ... .", "cn": "它尝起来……。", "examples": [
+          {"en": "It tastes delicious.", "cn": "它尝起来很美味。"},
+          {"en": "It tastes a little salty.", "cn": "它有点咸。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "顺序副词", "explain": "描述步骤时用 first、next、then、after that、finally，让表达更有条理。", "examples": [
+          {"en": "Next, cut the tomatoes.", "cn": "接下来，把西红柿切开。"},
+          {"en": "Finally, enjoy your meal.", "cn": "最后，开动吧。"}
+        ]},
+        {"title": "感官动词 + 形容词", "explain": "taste、smell、look、sound、feel 后面接形容词而不是副词：It tastes good.（不是 tastes well）", "examples": [
+          {"en": "It smells good.", "cn": "闻起来很香。"},
+          {"en": "You look happy.", "cn": "你看起来很开心。"}
+        ]}
+      ],
+      "tips": ["用英语写下一道家常菜的三步做法，是很好的写作练习。"]
+    },
+    {
+      "id": "g5u4",
+      "no": 4,
+      "title_en": "Sports",
+      "title_cn": "体育运动",
+      "topic": "Sports",
+      "overview": "谈论运动会和比赛，学会现在完成时的入门用法和副词比较。",
+      "phonics": {
+        "focus": "字母组合 or /ɔː/",
+        "tip": "sport、short 中的 or 读 /ɔː/，嘴唇收圆。",
+        "examples": ["sport /spɔːt/ 运动", "short /ʃɔːt/ 短的", "before /bɪˈfɔː/ 在……之前"]
+      },
+      "words": [
+        {"en": "sport", "ipa": "/spɔːt/", "pos": "n.", "cn": "运动", "ex_en": "My favourite sport is swimming.", "ex_cn": "我最喜欢的运动是游泳。"},
+        {"en": "race", "ipa": "/reɪs/", "pos": "n.", "cn": "赛跑；比赛", "ex_en": "He won the 100-metre race.", "ex_cn": "他赢了一百米赛跑。"},
+        {"en": "match", "ipa": "/mætʃ/", "pos": "n.", "cn": "比赛（球类）", "ex_en": "The football match starts at four.", "ex_cn": "足球比赛四点开始。"},
+        {"en": "team", "ipa": "/tiːm/", "pos": "n.", "cn": "队伍", "ex_en": "Our team played very well.", "ex_cn": "我们队打得很好。"},
+        {"en": "win", "ipa": "/wɪn/", "pos": "v.", "cn": "赢", "ex_en": "We hope to win.", "ex_cn": "我们希望赢。"},
+        {"en": "lose", "ipa": "/luːz/", "pos": "v.", "cn": "输", "ex_en": "Do not be sad if you lose.", "ex_cn": "输了也不要难过。"},
+        {"en": "player", "ipa": "/ˈpleɪə/", "pos": "n.", "cn": "运动员", "ex_en": "He is a good player.", "ex_cn": "他是个好球员。"},
+        {"en": "coach", "ipa": "/kəʊtʃ/", "pos": "n.", "cn": "教练", "ex_en": "Our coach is strict.", "ex_cn": "我们的教练很严格。"},
+        {"en": "jump", "ipa": "/dʒʌmp/", "pos": "v.", "cn": "跳", "ex_en": "She can jump very high.", "ex_cn": "她能跳得很高。"},
+        {"en": "run", "ipa": "/rʌn/", "pos": "v.", "cn": "跑", "ex_en": "He runs faster than me.", "ex_cn": "他跑得比我快。"},
+        {"en": "strong", "ipa": "/strɒŋ/", "pos": "adj.", "cn": "强壮的", "ex_en": "Exercise makes us strong.", "ex_cn": "锻炼让我们强壮。"},
+        {"en": "practice", "ipa": "/ˈpræktɪs/", "pos": "n.", "cn": "练习", "ex_en": "Practice makes perfect.", "ex_cn": "熟能生巧。"}
+      ],
+      "patterns": [
+        {"en": "Which sport do you like best?", "cn": "你最喜欢哪项运动？", "examples": [
+          {"en": "Which sport do you like best?", "cn": "你最喜欢哪项运动？"},
+          {"en": "I like basketball best.", "cn": "我最喜欢篮球。"}
+        ]},
+        {"en": "He runs faster than ... .", "cn": "他跑得比……快。", "examples": [
+          {"en": "He runs faster than me.", "cn": "他跑得比我快。"},
+          {"en": "She jumps higher than her sister.", "cn": "她比她姐姐跳得高。"}
+        ]},
+        {"en": "Our team won the match.", "cn": "我们队赢得了比赛。", "examples": [
+          {"en": "Our team won the match yesterday.", "cn": "我们队昨天赢了比赛。"},
+          {"en": "They lost the game, but they tried their best.", "cn": "他们输了比赛，但尽了全力。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "副词比较级", "explain": "描述动作用副词：fast → faster，high → higher，well → better。句型是 A + 动词 + 副词比较级 + than + B。", "examples": [
+          {"en": "He swims better than I do.", "cn": "他游得比我好。"},
+          {"en": "She works harder than before.", "cn": "她比以前更努力。"}
+        ]},
+        {"title": "不规则动词过去式", "explain": "win → won，lose → lost，run → ran，这些常用动词的过去式要记牢。", "examples": [
+          {"en": "We won the game.", "cn": "我们赢了比赛。"},
+          {"en": "He ran 800 metres.", "cn": "他跑了八百米。"}
+        ]}
+      ],
+      "tips": ["校运会加油口号：Come on! / You can do it! / Well done!"]
+    },
+    {
+      "id": "g5u5",
+      "no": 5,
+      "title_en": "Technology",
+      "title_cn": "科技与生活",
+      "topic": "Technology",
+      "overview": "谈论电脑、手机和网络在学习生活中的作用，学会表达利弊。",
+      "phonics": {
+        "focus": "字母 c 的两种读音 /k/ 与 /s/",
+        "tip": "computer 里的 c 读 /k/；在 e、i、y 前常读 /s/，如 city、science。",
+        "examples": ["computer /kəmˈpjuːtə/ 电脑", "science /ˈsaɪəns/ 科学", "screen /skriːn/ 屏幕"]
+      },
+      "words": [
+        {"en": "computer", "ipa": "/kəmˈpjuːtə/", "pos": "n.", "cn": "电脑", "ex_en": "I use a computer for my project.", "ex_cn": "我用电脑做课题。"},
+        {"en": "Internet", "ipa": "/ˈɪntənet/", "pos": "n.", "cn": "互联网", "ex_en": "We search on the Internet.", "ex_cn": "我们在网上搜索。"},
+        {"en": "phone", "ipa": "/fəʊn/", "pos": "n.", "cn": "手机；电话", "ex_en": "Please turn off your phone.", "ex_cn": "请关掉手机。"},
+        {"en": "message", "ipa": "/ˈmesɪdʒ/", "pos": "n.", "cn": "消息", "ex_en": "I sent her a message.", "ex_cn": "我给她发了条消息。"},
+        {"en": "email", "ipa": "/ˈiːmeɪl/", "pos": "n./v.", "cn": "电子邮件", "ex_en": "Please email me the file.", "ex_cn": "请把文件发邮件给我。"},
+        {"en": "screen", "ipa": "/skriːn/", "pos": "n.", "cn": "屏幕", "ex_en": "Do not look at the screen too long.", "ex_cn": "不要长时间看屏幕。"},
+        {"en": "online", "ipa": "/ˌɒnˈlaɪn/", "pos": "adv./adj.", "cn": "在线", "ex_en": "We have online classes sometimes.", "ex_cn": "我们有时上网课。"},
+        {"en": "search", "ipa": "/sɜːtʃ/", "pos": "v.", "cn": "搜索", "ex_en": "Search for the answer online.", "ex_cn": "上网搜索答案。"},
+        {"en": "useful", "ipa": "/ˈjuːsfl/", "pos": "adj.", "cn": "有用的", "ex_en": "This app is very useful.", "ex_cn": "这个应用很有用。"},
+        {"en": "invent", "ipa": "/ɪnˈvent/", "pos": "v.", "cn": "发明", "ex_en": "Who invented the telephone?", "ex_cn": "是谁发明了电话？"},
+        {"en": "safe", "ipa": "/seɪf/", "pos": "adj.", "cn": "安全的", "ex_en": "Keep your password safe.", "ex_cn": "保管好你的密码。"},
+        {"en": "information", "ipa": "/ˌɪnfəˈmeɪʃn/", "pos": "n.", "cn": "信息", "ex_en": "We found useful information.", "ex_cn": "我们找到了有用的信息。"}
+      ],
+      "patterns": [
+        {"en": "I use ... to ... .", "cn": "我用……来……。", "examples": [
+          {"en": "I use the computer to do my homework.", "cn": "我用电脑做作业。"},
+          {"en": "She uses her phone to read English news.", "cn": "她用手机读英语新闻。"}
+        ]},
+        {"en": "It is useful because ... .", "cn": "它很有用，因为……。", "examples": [
+          {"en": "It is useful because we can learn anywhere.", "cn": "它很有用，因为我们可以随时随地学习。"},
+          {"en": "But too much screen time is bad for our eyes.", "cn": "但是看屏幕太久对眼睛不好。"}
+        ]},
+        {"en": "Do not give your ... to strangers.", "cn": "不要把你的……给陌生人。", "examples": [
+          {"en": "Do not give your password to strangers.", "cn": "不要把密码给陌生人。"},
+          {"en": "Ask your parents before you download an app.", "cn": "下载应用前先问问父母。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "动词不定式表目的", "explain": "to + 动词原形可以表示目的：I use a computer to study English.", "examples": [
+          {"en": "She goes online to find information.", "cn": "她上网去找资料。"}
+        ]},
+        {"title": "表达利弊的连接词", "explain": "用 but、however、also 连接正反两面，让表达更完整。", "examples": [
+          {"en": "It is fast, but it can be dangerous.", "cn": "它很快，但可能有危险。"}
+        ]}
+      ],
+      "tips": ["网络安全提醒句：Never share your real name or address online."]
+    },
+    {
+      "id": "g5u6",
+      "no": 6,
+      "title_en": "Protecting our environment",
+      "title_cn": "保护环境",
+      "topic": "Environment",
+      "overview": "谈论垃圾分类、节约资源，学会用 should / can 提建议并写倡议。",
+      "phonics": {
+        "focus": "字母组合 wa /wɒ/ 与 /wɔː/",
+        "tip": "water /ˈwɔːtə/ 与 wash /wɒʃ/ 的元音不同，要注意区分。",
+        "examples": ["water /ˈwɔːtə/ 水", "waste /weɪst/ 浪费", "wash /wɒʃ/ 洗"]
+      },
+      "words": [
+        {"en": "environment", "ipa": "/ɪnˈvaɪrənmənt/", "pos": "n.", "cn": "环境", "ex_en": "We must protect the environment.", "ex_cn": "我们必须保护环境。"},
+        {"en": "rubbish", "ipa": "/ˈrʌbɪʃ/", "pos": "n.", "cn": "垃圾", "ex_en": "Put the rubbish in the bin.", "ex_cn": "把垃圾放进垃圾桶。"},
+        {"en": "recycle", "ipa": "/ˌriːˈsaɪkl/", "pos": "v.", "cn": "回收利用", "ex_en": "We recycle paper and bottles.", "ex_cn": "我们回收纸和瓶子。"},
+        {"en": "plastic", "ipa": "/ˈplæstɪk/", "pos": "n./adj.", "cn": "塑料", "ex_en": "Use fewer plastic bags.", "ex_cn": "少用塑料袋。"},
+        {"en": "pollution", "ipa": "/pəˈluːʃn/", "pos": "n.", "cn": "污染", "ex_en": "Air pollution is a problem.", "ex_cn": "空气污染是个问题。"},
+        {"en": "save", "ipa": "/seɪv/", "pos": "v.", "cn": "节约；拯救", "ex_en": "Save water every day.", "ex_cn": "每天节约用水。"},
+        {"en": "waste", "ipa": "/weɪst/", "pos": "v./n.", "cn": "浪费", "ex_en": "Do not waste food.", "ex_cn": "不要浪费食物。"},
+        {"en": "energy", "ipa": "/ˈenədʒi/", "pos": "n.", "cn": "能源", "ex_en": "Turn off the lights to save energy.", "ex_cn": "关灯节约能源。"},
+        {"en": "clean", "ipa": "/kliːn/", "pos": "adj./v.", "cn": "干净的；打扫", "ex_en": "We clean the park every month.", "ex_cn": "我们每月打扫公园。"},
+        {"en": "planet", "ipa": "/ˈplænɪt/", "pos": "n.", "cn": "星球", "ex_en": "The earth is our only planet.", "ex_cn": "地球是我们唯一的星球。"},
+        {"en": "reuse", "ipa": "/ˌriːˈjuːz/", "pos": "v.", "cn": "重复使用", "ex_en": "Reuse your water bottle.", "ex_cn": "重复使用你的水瓶。"},
+        {"en": "litter", "ipa": "/ˈlɪtə/", "pos": "v./n.", "cn": "乱扔垃圾", "ex_en": "Do not litter in the park.", "ex_cn": "不要在公园乱扔垃圾。"}
+      ],
+      "patterns": [
+        {"en": "We can ... to help.", "cn": "我们可以做……来帮忙。", "examples": [
+          {"en": "We can recycle paper to help.", "cn": "我们可以回收纸张来帮忙。"},
+          {"en": "We can walk to school to save energy.", "cn": "我们可以走路上学来节约能源。"}
+        ]},
+        {"en": "Do not waste ... .", "cn": "不要浪费……。", "examples": [
+          {"en": "Do not waste water.", "cn": "不要浪费水。"},
+          {"en": "Do not waste food at lunch.", "cn": "午餐不要浪费食物。"}
+        ]},
+        {"en": "If we ... , the world will be ... .", "cn": "如果我们……，世界会变得……。", "examples": [
+          {"en": "If we recycle more, the world will be cleaner.", "cn": "如果我们多回收，世界会更干净。"},
+          {"en": "If everyone helps, our city will be greener.", "cn": "如果每个人都出力，我们的城市会更绿。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "if 引导的条件句", "explain": "if 从句用一般现在时，主句用将来时：If it rains, we will stay at home.", "examples": [
+          {"en": "If we save water, we will help the earth.", "cn": "如果我们节约用水，就能帮助地球。"}
+        ]},
+        {"title": "fewer 和 less", "explain": "fewer 修饰可数名词复数（fewer bags），less 修饰不可数名词（less water）。", "examples": [
+          {"en": "Use fewer plastic bags and less paper.", "cn": "少用塑料袋，少用纸。"}
+        ]}
+      ],
+      "tips": ["深圳实行垃圾分类，可用英语说四类：recyclable waste、kitchen waste、hazardous waste、other waste。"]
+    }
+  ]
+}

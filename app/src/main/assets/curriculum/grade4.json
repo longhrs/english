@@ -1,0 +1,315 @@
+{
+  "grade": 4,
+  "title": "四年级",
+  "subtitle": "爱好、节日、城市、健康与购物：能连贯说一小段话",
+  "units": [
+    {
+      "id": "g4u1",
+      "no": 1,
+      "title_en": "Hobbies",
+      "title_cn": "兴趣爱好",
+      "topic": "Hobbies",
+      "overview": "谈论自己和别人的爱好，学会用 like doing 和 be good at。",
+      "phonics": {
+        "focus": "动词 -ing 的读音 /ɪŋ/",
+        "tip": "swimming、singing 结尾的 ng 是一个鼻音，不要加 /g/ 的爆破。",
+        "examples": ["singing /ˈsɪŋɪŋ/ 唱歌", "swimming /ˈswɪmɪŋ/ 游泳", "drawing /ˈdrɔːɪŋ/ 画画"]
+      },
+      "words": [
+        {"en": "hobby", "ipa": "/ˈhɒbi/", "pos": "n.", "cn": "爱好", "ex_en": "Reading is my hobby.", "ex_cn": "阅读是我的爱好。"},
+        {"en": "swim", "ipa": "/swɪm/", "pos": "v.", "cn": "游泳", "ex_en": "I swim twice a week.", "ex_cn": "我每周游泳两次。"},
+        {"en": "dance", "ipa": "/dɑːns/", "pos": "v./n.", "cn": "跳舞", "ex_en": "She likes dancing.", "ex_cn": "她喜欢跳舞。"},
+        {"en": "sing", "ipa": "/sɪŋ/", "pos": "v.", "cn": "唱歌", "ex_en": "We sing English songs.", "ex_cn": "我们唱英文歌。"},
+        {"en": "draw", "ipa": "/drɔː/", "pos": "v.", "cn": "画画", "ex_en": "He can draw very well.", "ex_cn": "他画画很棒。"},
+        {"en": "collect", "ipa": "/kəˈlekt/", "pos": "v.", "cn": "收集", "ex_en": "I collect stamps.", "ex_cn": "我收集邮票。"},
+        {"en": "stamp", "ipa": "/stæmp/", "pos": "n.", "cn": "邮票", "ex_en": "This stamp is from Japan.", "ex_cn": "这枚邮票来自日本。"},
+        {"en": "chess", "ipa": "/tʃes/", "pos": "n.", "cn": "国际象棋", "ex_en": "We play chess on Sunday.", "ex_cn": "我们周日下棋。"},
+        {"en": "piano", "ipa": "/piˈænəʊ/", "pos": "n.", "cn": "钢琴", "ex_en": "She plays the piano well.", "ex_cn": "她钢琴弹得很好。"},
+        {"en": "football", "ipa": "/ˈfʊtbɔːl/", "pos": "n.", "cn": "足球", "ex_en": "We play football after school.", "ex_cn": "放学后我们踢足球。"},
+        {"en": "basketball", "ipa": "/ˈbɑːskɪtbɔːl/", "pos": "n.", "cn": "篮球", "ex_en": "Basketball is popular here.", "ex_cn": "篮球在这里很受欢迎。"},
+        {"en": "interesting", "ipa": "/ˈɪntrəstɪŋ/", "pos": "adj.", "cn": "有趣的", "ex_en": "Chess is interesting.", "ex_cn": "国际象棋很有趣。"}
+      ],
+      "patterns": [
+        {"en": "What is your hobby?", "cn": "你的爱好是什么？", "examples": [
+          {"en": "What is your hobby?", "cn": "你的爱好是什么？"},
+          {"en": "My hobby is drawing.", "cn": "我的爱好是画画。"}
+        ]},
+        {"en": "I like ... very much.", "cn": "我非常喜欢做……。", "examples": [
+          {"en": "I like swimming very much.", "cn": "我非常喜欢游泳。"},
+          {"en": "She likes singing.", "cn": "她喜欢唱歌。"}
+        ]},
+        {"en": "He is good at ... .", "cn": "他擅长……。", "examples": [
+          {"en": "He is good at basketball.", "cn": "他擅长打篮球。"},
+          {"en": "I am good at drawing.", "cn": "我擅长画画。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "like 后面接动词 -ing", "explain": "表示习惯性喜好时用 like doing：I like swimming. 也可以说 like to do。", "examples": [
+          {"en": "I like reading books.", "cn": "我喜欢看书。"},
+          {"en": "They like playing chess.", "cn": "他们喜欢下棋。"}
+        ]},
+        {"title": "球类不加 the，乐器加 the", "explain": "play football、play basketball 不加 the；play the piano、play the violin 要加 the。", "examples": [
+          {"en": "She plays the piano.", "cn": "她弹钢琴。"},
+          {"en": "We play football.", "cn": "我们踢足球。"}
+        ]}
+      ],
+      "tips": ["做一个 hobby survey，问 5 位同学 What is your hobby? 并记录答案。"]
+    },
+    {
+      "id": "g4u2",
+      "no": 2,
+      "title_en": "Festivals",
+      "title_cn": "节日",
+      "topic": "Festivals",
+      "overview": "介绍中国传统节日和节日活动，学会用一般将来时谈计划。",
+      "phonics": {
+        "focus": "字母组合 al /ɔːl/ 与 /əl/",
+        "tip": "tall、ball 中的 al 读 /ɔːl/；festival 结尾的 -al 轻读为 /əl/。",
+        "examples": ["festival /ˈfestɪvl/ 节日", "tall /tɔːl/ 高的", "small /smɔːl/ 小的"]
+      },
+      "words": [
+        {"en": "festival", "ipa": "/ˈfestɪvl/", "pos": "n.", "cn": "节日", "ex_en": "The Spring Festival is important.", "ex_cn": "春节很重要。"},
+        {"en": "holiday", "ipa": "/ˈhɒlədeɪ/", "pos": "n.", "cn": "假期", "ex_en": "We have a long holiday.", "ex_cn": "我们有一个长假。"},
+        {"en": "celebrate", "ipa": "/ˈselɪbreɪt/", "pos": "v.", "cn": "庆祝", "ex_en": "We celebrate with our family.", "ex_cn": "我们和家人一起庆祝。"},
+        {"en": "lantern", "ipa": "/ˈlæntən/", "pos": "n.", "cn": "灯笼", "ex_en": "We hang red lanterns.", "ex_cn": "我们挂红灯笼。"},
+        {"en": "mooncake", "ipa": "/ˈmuːnkeɪk/", "pos": "n.", "cn": "月饼", "ex_en": "We eat mooncakes in autumn.", "ex_cn": "秋天我们吃月饼。"},
+        {"en": "dumpling", "ipa": "/ˈdʌmplɪŋ/", "pos": "n.", "cn": "饺子", "ex_en": "My grandma makes dumplings.", "ex_cn": "我奶奶包饺子。"},
+        {"en": "dragon", "ipa": "/ˈdræɡən/", "pos": "n.", "cn": "龙", "ex_en": "We watch dragon boat races.", "ex_cn": "我们看龙舟比赛。"},
+        {"en": "present", "ipa": "/ˈpreznt/", "pos": "n.", "cn": "礼物", "ex_en": "I get presents from my parents.", "ex_cn": "我收到父母的礼物。"},
+        {"en": "autumn", "ipa": "/ˈɔːtəm/", "pos": "n.", "cn": "秋天", "ex_en": "Autumn here is warm.", "ex_cn": "这里的秋天很暖和。"},
+        {"en": "visit", "ipa": "/ˈvɪzɪt/", "pos": "v.", "cn": "拜访；参观", "ex_en": "We visit our grandparents.", "ex_cn": "我们去看望祖父母。"},
+        {"en": "fireworks", "ipa": "/ˈfaɪəwɜːks/", "pos": "n.", "cn": "烟花", "ex_en": "The fireworks are beautiful.", "ex_cn": "烟花很漂亮。"},
+        {"en": "happy", "ipa": "/ˈhæpi/", "pos": "adj.", "cn": "快乐的", "ex_en": "Happy New Year!", "ex_cn": "新年快乐！"}
+      ],
+      "patterns": [
+        {"en": "What do you do at ... ?", "cn": "……的时候你们做什么？", "examples": [
+          {"en": "What do you do at the Spring Festival?", "cn": "春节你们做什么？"},
+          {"en": "We eat dumplings and visit our family.", "cn": "我们吃饺子、走亲戚。"}
+        ]},
+        {"en": "I am going to ... .", "cn": "我打算……。", "examples": [
+          {"en": "I am going to visit my grandma.", "cn": "我打算去看望奶奶。"},
+          {"en": "We are going to watch fireworks.", "cn": "我们打算去看烟花。"}
+        ]},
+        {"en": "My favourite festival is ... .", "cn": "我最喜欢的节日是……。", "examples": [
+          {"en": "My favourite festival is the Mid-Autumn Festival.", "cn": "我最喜欢的节日是中秋节。"},
+          {"en": "Because we eat mooncakes together.", "cn": "因为我们一起吃月饼。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "一般将来时 be going to", "explain": "表示打算做的事：主语 + am/is/are going to + 动词原形。", "examples": [
+          {"en": "I am going to see a film.", "cn": "我打算去看电影。"},
+          {"en": "They are going to sing a song.", "cn": "他们打算唱一首歌。"}
+        ]},
+        {"title": "用 because 说明原因", "explain": "回答 Why 时用 because 引出原因，答句要完整：Because I like it.", "examples": [
+          {"en": "I like it because it is fun.", "cn": "我喜欢它，因为它很有趣。"}
+        ]}
+      ],
+      "tips": ["节日名称首字母要大写：the Spring Festival、the Mid-Autumn Festival、National Day。"]
+    },
+    {
+      "id": "g4u3",
+      "no": 3,
+      "title_en": "My city Shenzhen",
+      "title_cn": "我的城市——深圳",
+      "topic": "City",
+      "overview": "用英语介绍深圳：交通、景点和城市特点，学会 There be 与形容词比较。",
+      "phonics": {
+        "focus": "重音位置",
+        "tip": "museum /mjuˈziːəm/ 重音在第二个音节，读错重音会听不懂。",
+        "examples": ["museum /mjuˈziːəm/ 博物馆", "metro /ˈmetrəʊ/ 地铁", "building /ˈbɪldɪŋ/ 建筑"]
+      },
+      "words": [
+        {"en": "city", "ipa": "/ˈsɪti/", "pos": "n.", "cn": "城市", "ex_en": "Shenzhen is a young city.", "ex_cn": "深圳是一座年轻的城市。"},
+        {"en": "metro", "ipa": "/ˈmetrəʊ/", "pos": "n.", "cn": "地铁", "ex_en": "I take the metro to school.", "ex_cn": "我坐地铁上学。"},
+        {"en": "station", "ipa": "/ˈsteɪʃn/", "pos": "n.", "cn": "车站", "ex_en": "The station is very busy.", "ex_cn": "车站很繁忙。"},
+        {"en": "ticket", "ipa": "/ˈtɪkɪt/", "pos": "n.", "cn": "车票；门票", "ex_en": "Two tickets, please.", "ex_cn": "请给我两张票。"},
+        {"en": "beach", "ipa": "/biːtʃ/", "pos": "n.", "cn": "海滩", "ex_en": "Dameisha has a nice beach.", "ex_cn": "大梅沙有一片漂亮的海滩。"},
+        {"en": "museum", "ipa": "/mjuˈziːəm/", "pos": "n.", "cn": "博物馆", "ex_en": "The Shenzhen Museum is free.", "ex_cn": "深圳博物馆免费参观。"},
+        {"en": "building", "ipa": "/ˈbɪldɪŋ/", "pos": "n.", "cn": "建筑物", "ex_en": "That building is very tall.", "ex_cn": "那座建筑很高。"},
+        {"en": "tall", "ipa": "/tɔːl/", "pos": "adj.", "cn": "高的", "ex_en": "Ping An Tower is the tallest here.", "ex_cn": "平安大厦是这里最高的。"},
+        {"en": "modern", "ipa": "/ˈmɒdn/", "pos": "adj.", "cn": "现代的", "ex_en": "Shenzhen is a modern city.", "ex_cn": "深圳是一座现代化城市。"},
+        {"en": "bike", "ipa": "/baɪk/", "pos": "n.", "cn": "自行车", "ex_en": "We ride bikes in the park.", "ex_cn": "我们在公园骑自行车。"},
+        {"en": "crowded", "ipa": "/ˈkraʊdɪd/", "pos": "adj.", "cn": "拥挤的", "ex_en": "The metro is crowded at eight.", "ex_cn": "八点时地铁很挤。"},
+        {"en": "square", "ipa": "/skweə/", "pos": "n.", "cn": "广场", "ex_en": "We meet at the square.", "ex_cn": "我们在广场见面。"}
+      ],
+      "patterns": [
+        {"en": "There are many ... in Shenzhen.", "cn": "深圳有很多……。", "examples": [
+          {"en": "There are many parks in Shenzhen.", "cn": "深圳有很多公园。"},
+          {"en": "There are many tall buildings in Futian.", "cn": "福田有很多高楼。"}
+        ]},
+        {"en": "I take the metro to ... .", "cn": "我坐地铁去……。", "examples": [
+          {"en": "I take the metro to the museum.", "cn": "我坐地铁去博物馆。"},
+          {"en": "We take the bus to the beach.", "cn": "我们坐公交车去海滩。"}
+        ]},
+        {"en": "It is famous for ... .", "cn": "它以……闻名。", "examples": [
+          {"en": "Shenzhen is famous for technology.", "cn": "深圳以科技闻名。"},
+          {"en": "Dapeng is famous for its sea.", "cn": "大鹏以大海闻名。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "形容词比较级", "explain": "两者比较时形容词加 -er，后接 than：tall → taller than。多音节词前加 more：more modern than。", "examples": [
+          {"en": "This building is taller than that one.", "cn": "这座楼比那座高。"},
+          {"en": "The metro is faster than the bus.", "cn": "地铁比公交快。"}
+        ]},
+        {"title": "最高级 the ...est", "explain": "三者以上比较用最高级，前面加 the：the tallest building。", "examples": [
+          {"en": "It is the tallest building in the city.", "cn": "它是城里最高的楼。"}
+        ]}
+      ],
+      "tips": ["用 5 句话向外地朋友介绍深圳，可从 location、weather、food、places、people 五方面展开。"]
+    },
+    {
+      "id": "g4u4",
+      "no": 4,
+      "title_en": "Keeping healthy",
+      "title_cn": "保持健康",
+      "topic": "Health",
+      "overview": "描述身体不适、给出健康建议，学会 should 和 have a ... 的说法。",
+      "phonics": {
+        "focus": "字母组合 ea 的另一种读音 /e/",
+        "tip": "healthy、head、bread 中的 ea 读短音 /e/，与 eat 不同。",
+        "examples": ["healthy /ˈhelθi/ 健康的", "head /hed/ 头", "bread /bred/ 面包"]
+      },
+      "words": [
+        {"en": "healthy", "ipa": "/ˈhelθi/", "pos": "adj.", "cn": "健康的", "ex_en": "Fruit keeps us healthy.", "ex_cn": "水果让我们保持健康。"},
+        {"en": "ill", "ipa": "/ɪl/", "pos": "adj.", "cn": "生病的", "ex_en": "He is ill today.", "ex_cn": "他今天生病了。"},
+        {"en": "fever", "ipa": "/ˈfiːvə/", "pos": "n.", "cn": "发烧", "ex_en": "She has a fever.", "ex_cn": "她发烧了。"},
+        {"en": "cough", "ipa": "/kɒf/", "pos": "n./v.", "cn": "咳嗽", "ex_en": "I have a bad cough.", "ex_cn": "我咳嗽得厉害。"},
+        {"en": "headache", "ipa": "/ˈhedeɪk/", "pos": "n.", "cn": "头痛", "ex_en": "I have a headache.", "ex_cn": "我头疼。"},
+        {"en": "medicine", "ipa": "/ˈmedsn/", "pos": "n.", "cn": "药", "ex_en": "Take the medicine twice a day.", "ex_cn": "这药一天吃两次。"},
+        {"en": "rest", "ipa": "/rest/", "pos": "n./v.", "cn": "休息", "ex_en": "You should have a rest.", "ex_cn": "你应该休息一下。"},
+        {"en": "exercise", "ipa": "/ˈeksəsaɪz/", "pos": "n./v.", "cn": "锻炼", "ex_en": "We do exercise every morning.", "ex_cn": "我们每天早上锻炼。"},
+        {"en": "tired", "ipa": "/ˈtaɪəd/", "pos": "adj.", "cn": "疲倦的", "ex_en": "I am tired after the match.", "ex_cn": "比赛后我很累。"},
+        {"en": "hurt", "ipa": "/hɜːt/", "pos": "v.", "cn": "疼；受伤", "ex_en": "My leg hurts.", "ex_cn": "我的腿疼。"},
+        {"en": "doctor", "ipa": "/ˈdɒktə/", "pos": "n.", "cn": "医生", "ex_en": "You should see a doctor.", "ex_cn": "你应该去看医生。"},
+        {"en": "sleep", "ipa": "/sliːp/", "pos": "v./n.", "cn": "睡觉；睡眠", "ex_en": "Children need enough sleep.", "ex_cn": "孩子需要充足的睡眠。"}
+      ],
+      "patterns": [
+        {"en": "What is wrong with you?", "cn": "你怎么了？", "examples": [
+          {"en": "What is wrong with you?", "cn": "你怎么了？"},
+          {"en": "I have a headache.", "cn": "我头疼。"}
+        ]},
+        {"en": "You should ... .", "cn": "你应该……。", "examples": [
+          {"en": "You should drink more water.", "cn": "你应该多喝水。"},
+          {"en": "You should not eat too much candy.", "cn": "你不应该吃太多糖。"}
+        ]},
+        {"en": "I feel ... .", "cn": "我感觉……。", "examples": [
+          {"en": "I feel tired.", "cn": "我感觉很累。"},
+          {"en": "I feel much better now.", "cn": "我现在感觉好多了。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "情态动词 should", "explain": "should 表示「应该」，后面接动词原形，否定是 should not（shouldn't）。", "examples": [
+          {"en": "You should go to bed early.", "cn": "你应该早点睡。"},
+          {"en": "You should not play games too long.", "cn": "你不应该玩太久游戏。"}
+        ]},
+        {"title": "have a + 症状", "explain": "说明生病症状常用 have a cold / have a fever / have a headache。", "examples": [
+          {"en": "She has a cold.", "cn": "她感冒了。"}
+        ]}
+      ],
+      "tips": ["校医室常用语：I do not feel well. May I see the school nurse?"]
+    },
+    {
+      "id": "g4u5",
+      "no": 5,
+      "title_en": "Shopping",
+      "title_cn": "购物",
+      "topic": "Shopping",
+      "overview": "在商店里问价、挑选和付款，学会 How much 与 too/enough 的用法。",
+      "phonics": {
+        "focus": "字母组合 ou /aʊ/",
+        "tip": "how、about 中的 ou/ow 读 /aʊ/，口型由大到小滑动。",
+        "examples": ["how /haʊ/ 怎样", "about /əˈbaʊt/ 关于", "count /kaʊnt/ 数"]
+      },
+      "words": [
+        {"en": "buy", "ipa": "/baɪ/", "pos": "v.", "cn": "买", "ex_en": "I want to buy a book.", "ex_cn": "我想买一本书。"},
+        {"en": "sell", "ipa": "/sel/", "pos": "v.", "cn": "卖", "ex_en": "They sell fresh fruit.", "ex_cn": "他们卖新鲜水果。"},
+        {"en": "money", "ipa": "/ˈmʌni/", "pos": "n.", "cn": "钱", "ex_en": "I save my pocket money.", "ex_cn": "我攒零花钱。"},
+        {"en": "yuan", "ipa": "/juːˈɑːn/", "pos": "n.", "cn": "元（人民币）", "ex_en": "It is fifty yuan.", "ex_cn": "五十元。"},
+        {"en": "price", "ipa": "/praɪs/", "pos": "n.", "cn": "价格", "ex_en": "The price is too high.", "ex_cn": "价格太高了。"},
+        {"en": "cheap", "ipa": "/tʃiːp/", "pos": "adj.", "cn": "便宜的", "ex_en": "These socks are cheap.", "ex_cn": "这些袜子很便宜。"},
+        {"en": "expensive", "ipa": "/ɪkˈspensɪv/", "pos": "adj.", "cn": "昂贵的", "ex_en": "That watch is expensive.", "ex_cn": "那块手表很贵。"},
+        {"en": "size", "ipa": "/saɪz/", "pos": "n.", "cn": "尺码", "ex_en": "What size do you want?", "ex_cn": "你要什么尺码？"},
+        {"en": "try on", "ipa": "/traɪ ɒn/", "pos": "phr.", "cn": "试穿", "ex_en": "May I try it on?", "ex_cn": "我可以试穿一下吗？"},
+        {"en": "pay", "ipa": "/peɪ/", "pos": "v.", "cn": "支付", "ex_en": "We pay by phone here.", "ex_cn": "我们这里用手机支付。"},
+        {"en": "shop assistant", "ipa": "/ʃɒp əˈsɪstənt/", "pos": "phr.", "cn": "售货员", "ex_en": "The shop assistant is helpful.", "ex_cn": "售货员很热心。"},
+        {"en": "change", "ipa": "/tʃeɪndʒ/", "pos": "n./v.", "cn": "零钱；找零", "ex_en": "Here is your change.", "ex_cn": "这是找你的零钱。"}
+      ],
+      "patterns": [
+        {"en": "How much is it?", "cn": "这个多少钱？", "examples": [
+          {"en": "How much is this T-shirt?", "cn": "这件T恤多少钱？"},
+          {"en": "It is ninety yuan.", "cn": "九十元。"}
+        ]},
+        {"en": "Can I help you?", "cn": "需要帮忙吗？", "examples": [
+          {"en": "Can I help you?", "cn": "需要帮忙吗？"},
+          {"en": "Yes, I want a pair of shoes.", "cn": "是的，我想买一双鞋。"}
+        ]},
+        {"en": "It is too ... .", "cn": "它太……了。", "examples": [
+          {"en": "It is too expensive.", "cn": "太贵了。"},
+          {"en": "It is too big for me.", "cn": "对我来说太大了。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "How much 与 How many", "explain": "How much 问价格或不可数名词的量；How many 问可数名词的数量。", "examples": [
+          {"en": "How much water do you need?", "cn": "你需要多少水？"},
+          {"en": "How many apples do you want?", "cn": "你要几个苹果？"}
+        ]},
+        {"title": "too 和 enough", "explain": "too + 形容词表示「太……」；形容词 + enough 表示「足够……」。", "examples": [
+          {"en": "It is too small.", "cn": "它太小了。"},
+          {"en": "It is big enough.", "cn": "它够大了。"}
+        ]}
+      ],
+      "tips": ["超市结账常用：Do you have a bag? / I will pay by phone."]
+    },
+    {
+      "id": "g4u6",
+      "no": 6,
+      "title_en": "Animals and nature",
+      "title_cn": "动物与自然",
+      "topic": "Nature",
+      "overview": "描述动物的特征和栖息地，表达保护自然的想法。",
+      "phonics": {
+        "focus": "字母组合 oa /əʊ/",
+        "tip": "coat、boat、road 中的 oa 读 /əʊ/，先圆唇再收。",
+        "examples": ["road /rəʊd/ 路", "boat /bəʊt/ 船", "coast /kəʊst/ 海岸"]
+      },
+      "words": [
+        {"en": "panda", "ipa": "/ˈpændə/", "pos": "n.", "cn": "熊猫", "ex_en": "Pandas eat bamboo.", "ex_cn": "熊猫吃竹子。"},
+        {"en": "lion", "ipa": "/ˈlaɪən/", "pos": "n.", "cn": "狮子", "ex_en": "The lion lives in Africa.", "ex_cn": "狮子生活在非洲。"},
+        {"en": "giraffe", "ipa": "/dʒəˈrɑːf/", "pos": "n.", "cn": "长颈鹿", "ex_en": "A giraffe has a long neck.", "ex_cn": "长颈鹿有长脖子。"},
+        {"en": "dolphin", "ipa": "/ˈdɒlfɪn/", "pos": "n.", "cn": "海豚", "ex_en": "Dolphins are clever.", "ex_cn": "海豚很聪明。"},
+        {"en": "forest", "ipa": "/ˈfɒrɪst/", "pos": "n.", "cn": "森林", "ex_en": "Many animals live in the forest.", "ex_cn": "很多动物住在森林里。"},
+        {"en": "river", "ipa": "/ˈrɪvə/", "pos": "n.", "cn": "河流", "ex_en": "The river is clean now.", "ex_cn": "这条河现在很干净。"},
+        {"en": "mountain", "ipa": "/ˈmaʊntən/", "pos": "n.", "cn": "山", "ex_en": "We climb Wutong Mountain.", "ex_cn": "我们爬梧桐山。"},
+        {"en": "sea", "ipa": "/siː/", "pos": "n.", "cn": "海", "ex_en": "The sea is blue and wide.", "ex_cn": "大海又蓝又宽。"},
+        {"en": "tree", "ipa": "/triː/", "pos": "n.", "cn": "树", "ex_en": "We plant trees in March.", "ex_cn": "我们三月植树。"},
+        {"en": "flower", "ipa": "/ˈflaʊə/", "pos": "n.", "cn": "花", "ex_en": "Do not pick the flowers.", "ex_cn": "不要摘花。"},
+        {"en": "protect", "ipa": "/prəˈtekt/", "pos": "v.", "cn": "保护", "ex_en": "We should protect wild animals.", "ex_cn": "我们应该保护野生动物。"},
+        {"en": "wild", "ipa": "/waɪld/", "pos": "adj.", "cn": "野生的", "ex_en": "Wild animals need our care.", "ex_cn": "野生动物需要我们的关爱。"}
+      ],
+      "patterns": [
+        {"en": "The ... lives in ... .", "cn": "……生活在……。", "examples": [
+          {"en": "The dolphin lives in the sea.", "cn": "海豚生活在海里。"},
+          {"en": "Pandas live in China.", "cn": "熊猫生活在中国。"}
+        ]},
+        {"en": "It has ... .", "cn": "它有……。", "examples": [
+          {"en": "It has a long neck.", "cn": "它有长长的脖子。"},
+          {"en": "It has black and white fur.", "cn": "它有黑白相间的毛。"}
+        ]},
+        {"en": "We should protect ... .", "cn": "我们应该保护……。", "examples": [
+          {"en": "We should protect the forest.", "cn": "我们应该保护森林。"},
+          {"en": "We should not throw rubbish into the river.", "cn": "我们不应该往河里扔垃圾。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "have 和 has", "explain": "主语是 he/she/it 或单数名词时用 has，其它用 have。", "examples": [
+          {"en": "A giraffe has four legs.", "cn": "长颈鹿有四条腿。"},
+          {"en": "They have big ears.", "cn": "它们有大耳朵。"}
+        ]},
+        {"title": "泛指一类动物的三种说法", "explain": "A panda eats bamboo. / Pandas eat bamboo. / The panda eats bamboo. 三种都可以表示「熊猫（这一类）」。", "examples": [
+          {"en": "Dolphins are friendly.", "cn": "海豚很友好。"}
+        ]}
+      ],
+      "tips": ["深圳红树林可以看到候鸟，可用 I saw many birds in the mangrove park. 记录。"]
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "grade": 3,
+  "title": "三年级",
+  "subtitle": "学校、时间、职业、服装与身边的场所：开始写完整句子",
+  "units": [
+    {
+      "id": "g3u1",
+      "no": 1,
+      "title_en": "My school",
+      "title_cn": "我的学校",
+      "topic": "School",
+      "overview": "介绍校园里的地方和课程安排，学会用 There is / There are 描述学校。",
+      "phonics": {
+        "focus": "字母组合 oo 的长短音 /uː/ 与 /ʊ/",
+        "tip": "school /skuːl/ 里的 oo 读长音；book /bʊk/ 里的 oo 读短音。",
+        "examples": ["school /skuːl/ 学校", "book /bʊk/ 书", "room /ruːm/ 房间"]
+      },
+      "words": [
+        {"en": "school", "ipa": "/skuːl/", "pos": "n.", "cn": "学校", "ex_en": "Our school is in Futian.", "ex_cn": "我们学校在福田。"},
+        {"en": "playground", "ipa": "/ˈpleɪɡraʊnd/", "pos": "n.", "cn": "操场", "ex_en": "We run on the playground.", "ex_cn": "我们在操场上跑步。"},
+        {"en": "library", "ipa": "/ˈlaɪbrəri/", "pos": "n.", "cn": "图书馆", "ex_en": "The library is quiet.", "ex_cn": "图书馆很安静。"},
+        {"en": "office", "ipa": "/ˈɒfɪs/", "pos": "n.", "cn": "办公室", "ex_en": "The teachers office is upstairs.", "ex_cn": "老师办公室在楼上。"},
+        {"en": "gate", "ipa": "/ɡeɪt/", "pos": "n.", "cn": "大门", "ex_en": "Meet me at the school gate.", "ex_cn": "在校门口等我。"},
+        {"en": "hall", "ipa": "/hɔːl/", "pos": "n.", "cn": "礼堂；大厅", "ex_en": "We sing in the hall.", "ex_cn": "我们在礼堂唱歌。"},
+        {"en": "teacher", "ipa": "/ˈtiːtʃə/", "pos": "n.", "cn": "老师", "ex_en": "My teacher is kind.", "ex_cn": "我的老师很和蔼。"},
+        {"en": "student", "ipa": "/ˈstjuːdnt/", "pos": "n.", "cn": "学生", "ex_en": "There are forty students in my class.", "ex_cn": "我班有四十名学生。"},
+        {"en": "lesson", "ipa": "/ˈlesn/", "pos": "n.", "cn": "课", "ex_en": "The English lesson starts at nine.", "ex_cn": "英语课九点开始。"},
+        {"en": "subject", "ipa": "/ˈsʌbdʒɪkt/", "pos": "n.", "cn": "科目", "ex_en": "My favourite subject is English.", "ex_cn": "我最喜欢的科目是英语。"},
+        {"en": "timetable", "ipa": "/ˈtaɪmteɪbl/", "pos": "n.", "cn": "课程表", "ex_en": "Look at our timetable.", "ex_cn": "看看我们的课程表。"},
+        {"en": "favourite", "ipa": "/ˈfeɪvərɪt/", "pos": "adj.", "cn": "最喜欢的", "ex_en": "Music is my favourite lesson.", "ex_cn": "音乐是我最喜欢的课。"}
+      ],
+      "patterns": [
+        {"en": "There is a ... in our school.", "cn": "我们学校里有一个……。", "examples": [
+          {"en": "There is a big playground in our school.", "cn": "我们学校有一个大操场。"},
+          {"en": "There are two libraries in our school.", "cn": "我们学校有两个图书馆。"}
+        ]},
+        {"en": "What is your favourite subject?", "cn": "你最喜欢哪门科目？", "examples": [
+          {"en": "What is your favourite subject?", "cn": "你最喜欢哪门科目？"},
+          {"en": "My favourite subject is English.", "cn": "我最喜欢的科目是英语。"}
+        ]},
+        {"en": "We have ... on Monday.", "cn": "我们周一有……课。", "examples": [
+          {"en": "We have art on Monday.", "cn": "我们周一有美术课。"},
+          {"en": "We have PE on Friday.", "cn": "我们周五有体育课。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "There is 和 There are", "explain": "表示某处有某物：后面是单数或不可数名词用 There is，是复数用 There are。", "examples": [
+          {"en": "There is a hall in our school.", "cn": "我们学校有一个礼堂。"},
+          {"en": "There are many trees on the playground.", "cn": "操场上有很多树。"}
+        ]},
+        {"title": "星期前面用 on", "explain": "表示某天用 on：on Monday、on Friday，星期首字母要大写。", "examples": [
+          {"en": "We have English on Tuesday.", "cn": "我们周二有英语课。"}
+        ]}
+      ],
+      "tips": ["深圳很多小学有 reading time，可以用 I read in the library at noon. 介绍。"]
+    },
+    {
+      "id": "g3u2",
+      "no": 2,
+      "title_en": "What time is it?",
+      "title_cn": "时间与作息",
+      "topic": "Time",
+      "overview": "会看钟表说时间，用一般现在时描述每天固定做的事。",
+      "phonics": {
+        "focus": "字母组合 th 的两种读音 /θ/ 与 /ð/",
+        "tip": "three /θriː/ 声带不振动；this /ðɪs/ 声带振动。",
+        "examples": ["three /θriː/ 三", "this /ðɪs/ 这个", "mother /ˈmʌðə/ 妈妈"]
+      },
+      "words": [
+        {"en": "time", "ipa": "/taɪm/", "pos": "n.", "cn": "时间", "ex_en": "What time is it?", "ex_cn": "现在几点了？"},
+        {"en": "clock", "ipa": "/klɒk/", "pos": "n.", "cn": "钟", "ex_en": "The clock is on the wall.", "ex_cn": "钟在墙上。"},
+        {"en": "o'clock", "ipa": "/əˈklɒk/", "pos": "adv.", "cn": "……点钟", "ex_en": "It is seven o'clock.", "ex_cn": "现在七点钟。"},
+        {"en": "half", "ipa": "/hɑːf/", "pos": "n.", "cn": "一半", "ex_en": "It is half past six.", "ex_cn": "现在六点半。"},
+        {"en": "breakfast", "ipa": "/ˈbrekfəst/", "pos": "n.", "cn": "早餐", "ex_en": "I have breakfast at seven.", "ex_cn": "我七点吃早餐。"},
+        {"en": "lunch", "ipa": "/lʌntʃ/", "pos": "n.", "cn": "午餐", "ex_en": "We have lunch at school.", "ex_cn": "我们在学校吃午餐。"},
+        {"en": "dinner", "ipa": "/ˈdɪnə/", "pos": "n.", "cn": "晚餐", "ex_en": "Dinner is ready.", "ex_cn": "晚饭好了。"},
+        {"en": "homework", "ipa": "/ˈhəʊmwɜːk/", "pos": "n.", "cn": "家庭作业", "ex_en": "I finish my homework at eight.", "ex_cn": "我八点做完作业。"},
+        {"en": "early", "ipa": "/ˈɜːli/", "pos": "adv./adj.", "cn": "早", "ex_en": "I get up early on Monday.", "ex_cn": "周一我起得早。"},
+        {"en": "late", "ipa": "/leɪt/", "pos": "adv./adj.", "cn": "晚；迟到", "ex_en": "Do not be late for class.", "ex_cn": "上课不要迟到。"},
+        {"en": "always", "ipa": "/ˈɔːlweɪz/", "pos": "adv.", "cn": "总是", "ex_en": "She always helps others.", "ex_cn": "她总是帮助别人。"},
+        {"en": "never", "ipa": "/ˈnevə/", "pos": "adv.", "cn": "从不", "ex_en": "He is never late.", "ex_cn": "他从不迟到。"}
+      ],
+      "patterns": [
+        {"en": "What time is it?", "cn": "现在几点？", "examples": [
+          {"en": "What time is it?", "cn": "现在几点？"},
+          {"en": "It is half past six.", "cn": "现在六点半。"}
+        ]},
+        {"en": "I have ... at ... .", "cn": "我在……点吃……。", "examples": [
+          {"en": "I have lunch at twelve.", "cn": "我十二点吃午饭。"},
+          {"en": "I have dinner at six.", "cn": "我六点吃晚饭。"}
+        ]},
+        {"en": "What time do you ... ?", "cn": "你几点……？", "examples": [
+          {"en": "What time do you get up?", "cn": "你几点起床？"},
+          {"en": "I get up at six thirty.", "cn": "我六点半起床。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "一般现在时第三人称加 -s", "explain": "主语是 he、she、it 时，动词要加 -s 或 -es：He gets up at six. She watches TV.", "examples": [
+          {"en": "My father goes to work at eight.", "cn": "我爸爸八点去上班。"},
+          {"en": "She does her homework at seven.", "cn": "她七点做作业。"}
+        ]},
+        {"title": "频度副词的位置", "explain": "always、usually、often、never 放在实义动词前、be 动词后。", "examples": [
+          {"en": "I always eat breakfast.", "cn": "我总是吃早餐。"},
+          {"en": "He is never late.", "cn": "他从不迟到。"}
+        ]}
+      ],
+      "tips": ["读时间的常用说法：7:30 = seven thirty 或 half past seven。"]
+    },
+    {
+      "id": "g3u3",
+      "no": 3,
+      "title_en": "Jobs",
+      "title_cn": "职业",
+      "topic": "Jobs",
+      "overview": "介绍家人和身边人的职业，学会 What does he do? 的问答。",
+      "phonics": {
+        "focus": "字母组合 er /ə/ 结尾",
+        "tip": "teacher、driver、farmer 的结尾都是轻读的 /ə/，不要读成「儿」。",
+        "examples": ["driver /ˈdraɪvə/ 司机", "farmer /ˈfɑːmə/ 农民", "worker /ˈwɜːkə/ 工人"]
+      },
+      "words": [
+        {"en": "doctor", "ipa": "/ˈdɒktə/", "pos": "n.", "cn": "医生", "ex_en": "The doctor works in a hospital.", "ex_cn": "医生在医院工作。"},
+        {"en": "nurse", "ipa": "/nɜːs/", "pos": "n.", "cn": "护士", "ex_en": "The nurse is very kind.", "ex_cn": "这位护士很和蔼。"},
+        {"en": "driver", "ipa": "/ˈdraɪvə/", "pos": "n.", "cn": "司机", "ex_en": "The bus driver says hello.", "ex_cn": "公交司机打招呼。"},
+        {"en": "cook", "ipa": "/kʊk/", "pos": "n./v.", "cn": "厨师；烹饪", "ex_en": "My uncle is a cook.", "ex_cn": "我叔叔是厨师。"},
+        {"en": "farmer", "ipa": "/ˈfɑːmə/", "pos": "n.", "cn": "农民", "ex_en": "The farmer grows rice.", "ex_cn": "农民种水稻。"},
+        {"en": "worker", "ipa": "/ˈwɜːkə/", "pos": "n.", "cn": "工人", "ex_en": "The workers build houses.", "ex_cn": "工人们建房子。"},
+        {"en": "policeman", "ipa": "/pəˈliːsmən/", "pos": "n.", "cn": "警察", "ex_en": "The policeman helps us.", "ex_cn": "警察帮助我们。"},
+        {"en": "job", "ipa": "/dʒɒb/", "pos": "n.", "cn": "工作", "ex_en": "What is your mother's job?", "ex_cn": "你妈妈做什么工作？"},
+        {"en": "work", "ipa": "/wɜːk/", "pos": "v./n.", "cn": "工作", "ex_en": "My parents work in Nanshan.", "ex_cn": "我父母在南山工作。"},
+        {"en": "help", "ipa": "/help/", "pos": "v.", "cn": "帮助", "ex_en": "We help each other.", "ex_cn": "我们互相帮助。"},
+        {"en": "busy", "ipa": "/ˈbɪzi/", "pos": "adj.", "cn": "忙碌的", "ex_en": "My father is busy today.", "ex_cn": "我爸爸今天很忙。"},
+        {"en": "engineer", "ipa": "/ˌendʒɪˈnɪə/", "pos": "n.", "cn": "工程师", "ex_en": "She is a software engineer.", "ex_cn": "她是一名软件工程师。"}
+      ],
+      "patterns": [
+        {"en": "What does he do?", "cn": "他是做什么工作的？", "examples": [
+          {"en": "What does he do?", "cn": "他是做什么的？"},
+          {"en": "He is a doctor.", "cn": "他是一名医生。"}
+        ]},
+        {"en": "My ... is a ... .", "cn": "我的……是一名……。", "examples": [
+          {"en": "My mother is a nurse.", "cn": "我妈妈是一名护士。"},
+          {"en": "My uncle is an engineer.", "cn": "我叔叔是一名工程师。"}
+        ]},
+        {"en": "He works in a ... .", "cn": "他在……工作。", "examples": [
+          {"en": "He works in a hospital.", "cn": "他在医院工作。"},
+          {"en": "She works in a school.", "cn": "她在学校工作。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "职业名词前要加 a 或 an", "explain": "说某人的职业时要加冠词：He is a driver. She is an engineer.（元音音素前用 an）", "examples": [
+          {"en": "She is an artist.", "cn": "她是一名艺术家。"},
+          {"en": "He is a cook.", "cn": "他是一名厨师。"}
+        ]},
+        {"title": "does 引导的疑问句", "explain": "主语是第三人称单数时，疑问句用 does，后面动词还原：What does she do? 不说 What does she does?", "examples": [
+          {"en": "Does he work in Shenzhen?", "cn": "他在深圳工作吗？"}
+        ]}
+      ],
+      "tips": ["采访家人职业并用 3 句话介绍，是很好的口语作业。"]
+    },
+    {
+      "id": "g3u4",
+      "no": 4,
+      "title_en": "Clothes",
+      "title_cn": "服装",
+      "topic": "Clothes",
+      "overview": "描述自己和同学穿的衣服，学会现在进行时 be wearing。",
+      "phonics": {
+        "focus": "字母组合 ir / ur /ɜː/",
+        "tip": "shirt、skirt、nurse 中的元音相同，嘴唇放松、声音靠后。",
+        "examples": ["shirt /ʃɜːt/ 衬衫", "skirt /skɜːt/ 短裙", "T-shirt /ˈtiːʃɜːt/ T恤衫"]
+      },
+      "words": [
+        {"en": "coat", "ipa": "/kəʊt/", "pos": "n.", "cn": "外套", "ex_en": "Put on your coat.", "ex_cn": "穿上你的外套。"},
+        {"en": "shirt", "ipa": "/ʃɜːt/", "pos": "n.", "cn": "衬衫", "ex_en": "His shirt is white.", "ex_cn": "他的衬衫是白色的。"},
+        {"en": "T-shirt", "ipa": "/ˈtiːʃɜːt/", "pos": "n.", "cn": "T恤衫", "ex_en": "I wear a T-shirt in summer.", "ex_cn": "夏天我穿T恤衫。"},
+        {"en": "skirt", "ipa": "/skɜːt/", "pos": "n.", "cn": "短裙", "ex_en": "Her skirt is blue.", "ex_cn": "她的裙子是蓝色的。"},
+        {"en": "dress", "ipa": "/dres/", "pos": "n.", "cn": "连衣裙", "ex_en": "This dress is pretty.", "ex_cn": "这条连衣裙很漂亮。"},
+        {"en": "trousers", "ipa": "/ˈtraʊzəz/", "pos": "n.", "cn": "裤子", "ex_en": "My trousers are black.", "ex_cn": "我的裤子是黑色的。"},
+        {"en": "shoes", "ipa": "/ʃuːz/", "pos": "n.", "cn": "鞋", "ex_en": "These shoes are new.", "ex_cn": "这双鞋是新的。"},
+        {"en": "socks", "ipa": "/sɒks/", "pos": "n.", "cn": "袜子", "ex_en": "I need clean socks.", "ex_cn": "我需要干净的袜子。"},
+        {"en": "cap", "ipa": "/kæp/", "pos": "n.", "cn": "帽子（鸭舌帽）", "ex_en": "He wears a red cap.", "ex_cn": "他戴着一顶红帽子。"},
+        {"en": "uniform", "ipa": "/ˈjuːnɪfɔːm/", "pos": "n.", "cn": "校服", "ex_en": "We wear our uniform on Monday.", "ex_cn": "我们周一穿校服。"},
+        {"en": "wear", "ipa": "/weə/", "pos": "v.", "cn": "穿；戴", "ex_en": "She is wearing a yellow dress.", "ex_cn": "她穿着一条黄裙子。"},
+        {"en": "new", "ipa": "/njuː/", "pos": "adj.", "cn": "新的", "ex_en": "I have a new schoolbag.", "ex_cn": "我有一个新书包。"}
+      ],
+      "patterns": [
+        {"en": "What are you wearing?", "cn": "你穿着什么？", "examples": [
+          {"en": "What are you wearing today?", "cn": "你今天穿的什么？"},
+          {"en": "I am wearing my uniform.", "cn": "我穿着校服。"}
+        ]},
+        {"en": "She is wearing a ... .", "cn": "她穿着一件……。", "examples": [
+          {"en": "She is wearing a blue skirt.", "cn": "她穿着一条蓝裙子。"},
+          {"en": "He is wearing black shoes.", "cn": "他穿着黑鞋子。"}
+        ]},
+        {"en": "Put on your ... .", "cn": "穿上你的……。", "examples": [
+          {"en": "Put on your coat. It is cold.", "cn": "穿上外套，天冷。"},
+          {"en": "Take off your cap in class.", "cn": "上课时摘下帽子。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "现在进行时 be + doing", "explain": "表示此刻正在做的事：主语 + am/is/are + 动词 -ing。wear → wearing。", "examples": [
+          {"en": "I am wearing a T-shirt.", "cn": "我穿着一件T恤。"},
+          {"en": "They are playing football.", "cn": "他们正在踢足球。"}
+        ]},
+        {"title": "成双成对的衣物用复数", "explain": "shoes、socks、trousers、glasses 通常用复数，前面用 a pair of 表示一双/一条。", "examples": [
+          {"en": "a pair of shoes", "cn": "一双鞋"},
+          {"en": "a pair of trousers", "cn": "一条裤子"}
+        ]}
+      ],
+      "tips": ["深圳校服多为运动装，介绍时可以说 Our uniform is blue and white sportswear."]
+    },
+    {
+      "id": "g3u5",
+      "no": 5,
+      "title_en": "Fruit and vegetables",
+      "title_cn": "水果和蔬菜",
+      "topic": "Food",
+      "overview": "认识常见果蔬，会表达喜欢与不喜欢，并说明原因。",
+      "phonics": {
+        "focus": "字母组合 ea /iː/",
+        "tip": "eat、peach、bean 中的 ea 读长音 /iː/。",
+        "examples": ["peach /piːtʃ/ 桃子", "bean /biːn/ 豆", "eat /iːt/ 吃"]
+      },
+      "words": [
+        {"en": "pear", "ipa": "/peə/", "pos": "n.", "cn": "梨", "ex_en": "This pear is juicy.", "ex_cn": "这个梨很多汁。"},
+        {"en": "grape", "ipa": "/ɡreɪp/", "pos": "n.", "cn": "葡萄", "ex_en": "I like green grapes.", "ex_cn": "我喜欢青葡萄。"},
+        {"en": "watermelon", "ipa": "/ˈwɔːtəmelən/", "pos": "n.", "cn": "西瓜", "ex_en": "Watermelon is cool in summer.", "ex_cn": "夏天吃西瓜很凉快。"},
+        {"en": "strawberry", "ipa": "/ˈstrɔːbəri/", "pos": "n.", "cn": "草莓", "ex_en": "Strawberries are red and sweet.", "ex_cn": "草莓又红又甜。"},
+        {"en": "peach", "ipa": "/piːtʃ/", "pos": "n.", "cn": "桃子", "ex_en": "I want a peach.", "ex_cn": "我想要一个桃子。"},
+        {"en": "tomato", "ipa": "/təˈmɑːtəʊ/", "pos": "n.", "cn": "西红柿", "ex_en": "Tomatoes are good for you.", "ex_cn": "西红柿对身体好。"},
+        {"en": "potato", "ipa": "/pəˈteɪtəʊ/", "pos": "n.", "cn": "土豆", "ex_en": "I like potato soup.", "ex_cn": "我喜欢土豆汤。"},
+        {"en": "carrot", "ipa": "/ˈkærət/", "pos": "n.", "cn": "胡萝卜", "ex_en": "Rabbits love carrots.", "ex_cn": "兔子爱吃胡萝卜。"},
+        {"en": "vegetable", "ipa": "/ˈvedʒtəbl/", "pos": "n.", "cn": "蔬菜", "ex_en": "Eat more vegetables.", "ex_cn": "多吃蔬菜。"},
+        {"en": "fruit", "ipa": "/fruːt/", "pos": "n.", "cn": "水果", "ex_en": "Fruit is healthy food.", "ex_cn": "水果是健康食品。"},
+        {"en": "fresh", "ipa": "/freʃ/", "pos": "adj.", "cn": "新鲜的", "ex_en": "The fruit here is fresh.", "ex_cn": "这里的水果很新鲜。"},
+        {"en": "delicious", "ipa": "/dɪˈlɪʃəs/", "pos": "adj.", "cn": "美味的", "ex_en": "The soup is delicious.", "ex_cn": "这汤很美味。"}
+      ],
+      "patterns": [
+        {"en": "Do you like ... ?", "cn": "你喜欢……吗？", "examples": [
+          {"en": "Do you like grapes?", "cn": "你喜欢葡萄吗？"},
+          {"en": "Yes, I do. They are sweet.", "cn": "是的，我喜欢，它们很甜。"}
+        ]},
+        {"en": "I do not like ... .", "cn": "我不喜欢……。", "examples": [
+          {"en": "I do not like carrots.", "cn": "我不喜欢胡萝卜。"},
+          {"en": "I do not like potatoes.", "cn": "我不喜欢土豆。"}
+        ]},
+        {"en": "How much is it?", "cn": "多少钱？", "examples": [
+          {"en": "How much is the watermelon?", "cn": "这个西瓜多少钱？"},
+          {"en": "It is twenty yuan.", "cn": "二十元。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "do not / does not 的否定", "explain": "第一、二人称和复数用 do not（don't），第三人称单数用 does not（doesn't），后接动词原形。", "examples": [
+          {"en": "I do not like tomatoes.", "cn": "我不喜欢西红柿。"},
+          {"en": "He does not like fish.", "cn": "他不喜欢鱼。"}
+        ]},
+        {"title": "以 o 结尾加 -es", "explain": "tomato → tomatoes，potato → potatoes，注意这两个词变复数加 -es。", "examples": [
+          {"en": "two tomatoes", "cn": "两个西红柿"}
+        ]}
+      ],
+      "tips": ["在水果店练习：How much is it? It is ten yuan. Here you are."]
+    },
+    {
+      "id": "g3u6",
+      "no": 6,
+      "title_en": "Places near my home",
+      "title_cn": "家附近的地方",
+      "topic": "Places",
+      "overview": "说清家附近有什么、怎么走，学会问路和指路的基本表达。",
+      "phonics": {
+        "focus": "字母组合 ar /ɑː/",
+        "tip": "park、market 中的 ar 读 /ɑː/，嘴巴张大。",
+        "examples": ["park /pɑːk/ 公园", "market /ˈmɑːkɪt/ 市场", "car /kɑː/ 小汽车"]
+      },
+      "words": [
+        {"en": "park", "ipa": "/pɑːk/", "pos": "n.", "cn": "公园", "ex_en": "We fly kites in Lianhuashan Park.", "ex_cn": "我们在莲花山公园放风筝。"},
+        {"en": "shop", "ipa": "/ʃɒp/", "pos": "n.", "cn": "商店", "ex_en": "There is a shop near my home.", "ex_cn": "我家附近有一家商店。"},
+        {"en": "street", "ipa": "/striːt/", "pos": "n.", "cn": "街道", "ex_en": "The street is clean.", "ex_cn": "这条街很干净。"},
+        {"en": "bank", "ipa": "/bæŋk/", "pos": "n.", "cn": "银行", "ex_en": "The bank is next to the shop.", "ex_cn": "银行在商店旁边。"},
+        {"en": "hospital", "ipa": "/ˈhɒspɪtl/", "pos": "n.", "cn": "医院", "ex_en": "The hospital is very big.", "ex_cn": "这家医院很大。"},
+        {"en": "supermarket", "ipa": "/ˈsuːpəmɑːkɪt/", "pos": "n.", "cn": "超市", "ex_en": "Mum goes to the supermarket.", "ex_cn": "妈妈去超市。"},
+        {"en": "bus stop", "ipa": "/bʌs stɒp/", "pos": "phr.", "cn": "公交车站", "ex_en": "Wait at the bus stop.", "ex_cn": "在公交车站等车。"},
+        {"en": "zoo", "ipa": "/zuː/", "pos": "n.", "cn": "动物园", "ex_en": "Let us go to the zoo.", "ex_cn": "我们去动物园吧。"},
+        {"en": "near", "ipa": "/nɪə/", "pos": "prep./adj.", "cn": "在……附近", "ex_en": "My school is near my home.", "ex_cn": "我的学校离家很近。"},
+        {"en": "behind", "ipa": "/bɪˈhaɪnd/", "pos": "prep.", "cn": "在……后面", "ex_en": "The park is behind the school.", "ex_cn": "公园在学校后面。"},
+        {"en": "cross", "ipa": "/krɒs/", "pos": "v.", "cn": "穿过", "ex_en": "Cross the road carefully.", "ex_cn": "小心过马路。"},
+        {"en": "turn", "ipa": "/tɜːn/", "pos": "v.", "cn": "转弯", "ex_en": "Turn left at the corner.", "ex_cn": "在拐角处左转。"}
+      ],
+      "patterns": [
+        {"en": "Where is the ... ?", "cn": "……在哪里？", "examples": [
+          {"en": "Where is the library?", "cn": "图书馆在哪里？"},
+          {"en": "It is next to the bank.", "cn": "它在银行旁边。"}
+        ]},
+        {"en": "How can I get to ... ?", "cn": "我怎么去……？", "examples": [
+          {"en": "How can I get to the park?", "cn": "我怎么去公园？"},
+          {"en": "Go straight and turn left.", "cn": "直走然后左转。"}
+        ]},
+        {"en": "It is near my home.", "cn": "它在我家附近。", "examples": [
+          {"en": "The supermarket is near my home.", "cn": "超市在我家附近。"},
+          {"en": "The bus stop is behind the shop.", "cn": "公交站在商店后面。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "常用方位介词", "explain": "in（在里面）、on（在上面）、near（附近）、next to（紧挨着）、behind（后面）、in front of（前面）。", "examples": [
+          {"en": "The bank is next to the hospital.", "cn": "银行紧挨着医院。"},
+          {"en": "The tree is in front of the shop.", "cn": "树在商店前面。"}
+        ]},
+        {"title": "指路常用句", "explain": "Go straight（直走）、Turn left/right（左/右转）、It is on your left（在你左边）。", "examples": [
+          {"en": "Go straight for two minutes.", "cn": "直走两分钟。"}
+        ]}
+      ],
+      "tips": ["用英语描述从家到学校的路线，是深圳小学常见的口语话题。"]
+    }
+  ]
+}
