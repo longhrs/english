@@ -53,7 +53,7 @@
           {"en": "We play football.", "cn": "我们踢足球。"}
         ]}
       ],
-      "tips": ["做一个 hobby survey，问 5 位同学 What is your hobby? 并记录答案。"]
+      "tips": ["教材对照：4A Module 1 Unit 2 Can you swim?；4B Module 2 My favourite things。", "做一个 hobby survey，问 5 位同学 What is your hobby? 并记录答案。"]
     },
     {
       "id": "g4u2",
@@ -104,7 +104,7 @@
           {"en": "I like it because it is fun.", "cn": "我喜欢它，因为它很有趣。"}
         ]}
       ],
-      "tips": ["节日名称首字母要大写：the Spring Festival、the Mid-Autumn Festival、National Day。"]
+      "tips": ["教材对照：4A/4B 的节日话题；5B Module 2 Unit 6 Holidays 会继续谈假期。", "节日名称首字母要大写：the Spring Festival、the Mid-Autumn Festival、National Day。"]
     },
     {
       "id": "g4u3",
@@ -155,7 +155,7 @@
           {"en": "It is the tallest building in the city.", "cn": "它是城里最高的楼。"}
         ]}
       ],
-      "tips": ["用 5 句话向外地朋友介绍深圳，可从 location、weather、food、places、people 五方面展开。"]
+      "tips": ["教材对照：4A/4B 的城市与场所话题；5A Module 3 Unit 9 Around the city 是进阶版。", "用 5 句话向外地朋友介绍深圳，可从 location、weather、food、places、people 五方面展开。"]
     },
     {
       "id": "g4u4",
@@ -206,7 +206,7 @@
           {"en": "She has a cold.", "cn": "她感冒了。"}
         ]}
       ],
-      "tips": ["校医室常用语：I do not feel well. May I see the school nurse?"]
+      "tips": ["教材对照：4A/4B 的身体与健康话题；6A Module 1 Unit 3 Healthy or unhealthy? 会系统讲一次。", "校医室常用语：I do not feel well. May I see the school nurse?"]
     },
     {
       "id": "g4u5",
@@ -258,7 +258,7 @@
           {"en": "It is big enough.", "cn": "它够大了。"}
         ]}
       ],
-      "tips": ["超市结账常用：Do you have a bag? / I will pay by phone."]
+      "tips": ["教材对照：4A Unit 8 At the shop 的购物话题。", "超市结账常用：Do you have a bag? / I will pay by phone."]
     },
     {
       "id": "g4u6",
@@ -309,7 +309,59 @@
           {"en": "Dolphins are friendly.", "cn": "海豚很友好。"}
         ]}
       ],
-      "tips": ["深圳红树林可以看到候鸟，可用 I saw many birds in the mangrove park. 记录。"]
+      "tips": ["教材对照：4B Module 4 Things we enjoy（Unit 10 My garden）与 5A Module 4 The natural world。", "深圳红树林可以看到候鸟，可用 I saw many birds in the mangrove park. 记录。"]
+    },
+    {
+      "id": "g4u7",
+      "no": 7,
+      "title_en": "My garden",
+      "title_cn": "我的小花园",
+      "topic": "Garden",
+      "overview": "认识花园里的植物和小昆虫，会说植物需要什么、怎么照顾它们。对应课本 4B Unit 10 My garden。",
+      "phonics": {
+        "focus": "字母 g 的两种读音 /ɡ/ 与 /dʒ/",
+        "tip": "g 在 a、o、u 前多读 /ɡ/（garden、grass）；在 e、i、y 前常读 /dʒ/（orange、gym）。",
+        "examples": ["garden /ˈɡɑːdn/ 花园", "grass /ɡrɑːs/ 草地", "orange /ˈɒrɪndʒ/ 橙子"]
+      },
+      "words": [
+        {"en": "garden", "ipa": "/ˈɡɑːdn/", "pos": "n.", "cn": "花园", "ex_en": "There are many flowers in the garden.", "ex_cn": "花园里有很多花。"},
+        {"en": "plant", "ipa": "/plɑːnt/", "pos": "n./v.", "cn": "植物；种植", "ex_en": "We plant a tree in spring.", "ex_cn": "我们在春天种一棵树。"},
+        {"en": "seed", "ipa": "/siːd/", "pos": "n.", "cn": "种子", "ex_en": "Put the seed in the soil.", "ex_cn": "把种子放进泥土里。"},
+        {"en": "soil", "ipa": "/sɔɪl/", "pos": "n.", "cn": "泥土", "ex_en": "The soil is wet after the rain.", "ex_cn": "下过雨后泥土是湿的。"},
+        {"en": "grass", "ipa": "/ɡrɑːs/", "pos": "n.", "cn": "草；草地", "ex_en": "The grass is green.", "ex_cn": "草地是绿色的。"},
+        {"en": "leaf", "ipa": "/liːf/", "pos": "n.", "cn": "叶子", "ex_en": "This leaf is yellow.", "ex_cn": "这片叶子是黄色的。"},
+        {"en": "flower", "ipa": "/ˈflaʊə/", "pos": "n.", "cn": "花", "ex_en": "The flower smells nice.", "ex_cn": "这朵花很香。"},
+        {"en": "grow", "ipa": "/ɡrəʊ/", "pos": "v.", "cn": "生长；种植", "ex_en": "Plants grow fast in spring.", "ex_cn": "植物在春天长得快。"},
+        {"en": "water", "ipa": "/ˈwɔːtə/", "pos": "v./n.", "cn": "浇水；水", "ex_en": "I water the plants every day.", "ex_cn": "我每天给植物浇水。"},
+        {"en": "pick", "ipa": "/pɪk/", "pos": "v.", "cn": "摘；采", "ex_en": "Do not pick the flowers.", "ex_cn": "不要摘花。"},
+        {"en": "sunshine", "ipa": "/ˈsʌnʃaɪn/", "pos": "n.", "cn": "阳光", "ex_en": "Plants need sunshine.", "ex_cn": "植物需要阳光。"},
+        {"en": "insect", "ipa": "/ˈɪnsekt/", "pos": "n.", "cn": "昆虫", "ex_en": "An insect is on the leaf.", "ex_cn": "一只昆虫在叶子上。"}
+      ],
+      "patterns": [
+        {"en": "There are ... in the garden.", "cn": "花园里有……。", "examples": [
+          {"en": "There are ten flowers in the garden.", "cn": "花园里有十朵花。"},
+          {"en": "There is a bird in the garden.", "cn": "花园里有一只鸟。"}
+        ]},
+        {"en": "Plants need ... .", "cn": "植物需要……。", "examples": [
+          {"en": "Plants need water and sunshine.", "cn": "植物需要水和阳光。"},
+          {"en": "Plants need good soil.", "cn": "植物需要好的泥土。"}
+        ]},
+        {"en": "Do not pick the flowers.", "cn": "不要摘花。", "examples": [
+          {"en": "Do not pick the flowers.", "cn": "不要摘花。"},
+          {"en": "Do not walk on the grass.", "cn": "不要在草地上走。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "名词复数里的 f → ves", "explain": "以 f 或 fe 结尾的名词，复数常把 f 变成 v 再加 es：leaf → leaves，knife → knives。", "examples": [
+          {"en": "One leaf is yellow.", "cn": "一片叶子是黄色的。"},
+          {"en": "The leaves are falling.", "cn": "叶子正在落下。"}
+        ]},
+        {"title": "祈使句的否定式", "explain": "不让别人做某事，用 Do not（口语 Don't）+ 动词原形。", "examples": [
+          {"en": "Do not pick the flowers.", "cn": "不要摘花。"},
+          {"en": "Don't touch the insect.", "cn": "别碰那只昆虫。"}
+        ]}
+      ],
+      "tips": ["教材对照：沪教牛津版（深圳用）4B Module 4 Things we enjoy Unit 10 My garden。", "深圳四季常绿，可以到小区花园认一认 bougainvillea（簕杜鹃，深圳市花）再用英语描述它的颜色。"]
     }
   ]
 }

@@ -53,7 +53,7 @@
           {"en": "I want to learn the guitar.", "cn": "我想学吉他。"}
         ]}
       ],
-      "tips": ["理想主题演讲结构：开头点题 + 两条理由 + 具体行动 + 结尾升华。"]
+      "tips": ["教材对照：5A Module 1 Unit 1 My future；6A Module 1 Unit 1 Growing up。", "理想主题演讲结构：开头点题 + 两条理由 + 具体行动 + 结尾升华。"]
     },
     {
       "id": "g6u2",
@@ -104,7 +104,7 @@
           {"en": "It is a kind of art from China. It shows our history.", "cn": "这是一种来自中国的艺术，它体现了我们的历史。"}
         ]}
       ],
-      "tips": ["向外国朋友介绍深圳可以提：a young city、high technology、good food、the sea。"]
+      "tips": ["教材对照：6B Module 2 Work and play（Unit 4 Art / Unit 5 Crafts）。", "向外国朋友介绍深圳可以提：a young city、high technology、good food、the sea。"]
     },
     {
       "id": "g6u3",
@@ -155,7 +155,7 @@
           {"en": "She speaks Chinese and English.", "cn": "她会说汉语和英语。"}
         ]}
       ],
-      "tips": ["写笔友信的格式：称呼 Dear ... , 正文, 结尾 Yours, 署名。"]
+      "tips": ["教材对照：6A/6B 的旅行与世界话题；5A Module 3 Unit 8 An outing 是基础。", "写笔友信的格式：称呼 Dear ... , 正文, 结尾 Yours, 署名。"]
     },
     {
       "id": "g6u4",
@@ -205,7 +205,7 @@
           {"en": "The story is interesting and I am interested in it.", "cn": "这个故事很有趣，我对它很感兴趣。"}
         ]}
       ],
-      "tips": ["与同学产生矛盾时的表达：I am sorry. / It is OK. / Let us be friends again."]
+      "tips": ["教材对照：6A Module 2 Relationships；5A Module 2 Unit 5 Friends。", "与同学产生矛盾时的表达：I am sorry. / It is OK. / Let us be friends again."]
     },
     {
       "id": "g6u5",
@@ -256,7 +256,7 @@
           {"en": "You must not swim alone.", "cn": "你绝对不可以独自游泳。"}
         ]}
       ],
-      "tips": ["常用急救电话：110 police、119 fire、120 ambulance，练习说 Call 120, please!"]
+      "tips": ["教材对照：2A Module 4 Unit 12 In the street 讲过马路安全，本单元把它扩展到更多场景。", "常用急救电话：110 police、119 fire、120 ambulance，练习说 Call 120, please!"]
     },
     {
       "id": "g6u6",
@@ -307,7 +307,59 @@
           {"en": "I used to play in this playground.", "cn": "我以前常在这个操场上玩。"}
         ]}
       ],
-      "tips": ["毕业留言常用句：Best wishes! / Keep in touch! / I will never forget you."]
+      "tips": ["教材对照：6B Module 1 Unit 3 Our school in the future。", "毕业留言常用句：Best wishes! / Keep in touch! / I will never forget you."]
+    },
+    {
+      "id": "g6u7",
+      "no": 7,
+      "title_en": "Growing up and changes",
+      "title_cn": "成长与变化",
+      "topic": "Growing up",
+      "overview": "比较「过去的我」和「现在的我」，用比较级和 used to 讲成长里的变化。对应课本 6A Unit 1 Growing up 与 6B Unit 2 Changes in our lives。",
+      "phonics": {
+        "focus": "字母组合 ge / dge 的 /dʒ/",
+        "tip": "/dʒ/ 是有声音的「浊音」，舌尖抵上齿龈后放开，声带要振动，别读成 /tʃ/。",
+        "examples": ["change /tʃeɪndʒ/ 变化", "age /eɪdʒ/ 年龄", "bridge /brɪdʒ/ 桥"]
+      },
+      "words": [
+        {"en": "grow up", "ipa": "/ɡrəʊ ʌp/", "pos": "v.", "cn": "长大", "ex_en": "I want to grow up healthy and strong.", "ex_cn": "我想健康强壮地长大。"},
+        {"en": "change", "ipa": "/tʃeɪndʒ/", "pos": "n./v.", "cn": "变化；改变", "ex_en": "Our city changes every year.", "ex_cn": "我们的城市每年都在变。"},
+        {"en": "past", "ipa": "/pɑːst/", "pos": "n.", "cn": "过去", "ex_en": "In the past, people wrote letters.", "ex_cn": "过去人们写信。"},
+        {"en": "future", "ipa": "/ˈfjuːtʃə/", "pos": "n.", "cn": "未来", "ex_en": "In the future, I want to be a teacher.", "ex_cn": "将来我想当老师。"},
+        {"en": "age", "ipa": "/eɪdʒ/", "pos": "n.", "cn": "年龄", "ex_en": "At the age of six, I started school.", "ex_cn": "六岁时我开始上学。"},
+        {"en": "taller", "ipa": "/ˈtɔːlə/", "pos": "adj.", "cn": "更高的", "ex_en": "I am taller than last year.", "ex_cn": "我比去年高了。"},
+        {"en": "than", "ipa": "/ðæn/", "pos": "conj.", "cn": "比", "ex_en": "He is stronger than me.", "ex_cn": "他比我强壮。"},
+        {"en": "before", "ipa": "/bɪˈfɔː/", "pos": "adv./prep.", "cn": "以前", "ex_en": "I could not swim before.", "ex_cn": "我以前不会游泳。"},
+        {"en": "now", "ipa": "/naʊ/", "pos": "adv.", "cn": "现在", "ex_en": "Now I can swim well.", "ex_cn": "现在我游得很好。"},
+        {"en": "memory", "ipa": "/ˈmeməri/", "pos": "n.", "cn": "回忆；记忆", "ex_en": "I have happy memories of Grade One.", "ex_cn": "我有很多一年级的美好回忆。"},
+        {"en": "proud", "ipa": "/praʊd/", "pos": "adj.", "cn": "自豪的", "ex_en": "My parents are proud of me.", "ex_cn": "我的父母为我骄傲。"},
+        {"en": "better", "ipa": "/ˈbetə/", "pos": "adj./adv.", "cn": "更好（的）", "ex_en": "I read better than before.", "ex_cn": "我读得比以前好了。"}
+      ],
+      "patterns": [
+        {"en": "I used to ... , but now I ... .", "cn": "我以前……，但现在我……。", "examples": [
+          {"en": "I used to be short.", "cn": "我以前个子矮。"},
+          {"en": "Now I am tall.", "cn": "现在我个子高了。"}
+        ]},
+        {"en": "... is ...er than ... .", "cn": "……比……更……。", "examples": [
+          {"en": "I am taller than my sister.", "cn": "我比妹妹高。"},
+          {"en": "Today is better than yesterday.", "cn": "今天比昨天好。"}
+        ]},
+        {"en": "In the past, ... .", "cn": "在过去，……。", "examples": [
+          {"en": "In the past, we used candles.", "cn": "过去我们用蜡烛。"},
+          {"en": "In the past, I could not ride a bike.", "cn": "过去我不会骑自行车。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "形容词比较级", "explain": "单音节词加 -er（tall → taller）；重读闭音节双写末尾字母（big → bigger）；辅音字母 + y 结尾把 y 变 i 加 -er（happy → happier）；比较对象前用 than。", "examples": [
+          {"en": "She is younger than me.", "cn": "她比我小。"},
+          {"en": "This book is thinner than that one.", "cn": "这本书比那本薄。"}
+        ]},
+        {"title": "used to 表示过去的习惯", "explain": "used to + 动词原形，表示「过去常常，现在不再」；否定用 didn't use to。", "examples": [
+          {"en": "I used to walk to school.", "cn": "我过去常走路上学。"},
+          {"en": "He didn't use to like maths.", "cn": "他过去不喜欢数学。"}
+        ]}
+      ],
+      "tips": ["教材对照：沪教牛津版（深圳用）6A Module 1 Unit 1 Growing up、6B Module 1 Unit 2 Changes in our lives。", "写「我的变化」小作文时，先写 In the past ...，再写 Now ...，最后写 In the future ...，三段就成篇。"]
     }
   ]
 }

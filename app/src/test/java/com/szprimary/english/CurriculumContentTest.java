@@ -39,8 +39,8 @@ public class CurriculumContentTest {
 
     @Test
     public void hasEnoughUnitsAndWords() {
-        assertEquals(36, curriculum.allUnits().size());
-        assertTrue("词汇总量应不少于 400", curriculum.totalWords() >= 400);
+        assertEquals(42, curriculum.allUnits().size());
+        assertTrue("词汇总量应不少于 470", curriculum.totalWords() >= 470);
         List<Grade> grades = curriculum.grades;
         for (int i = 0; i < grades.size(); i++) {
             assertTrue(grades.get(i).title + " 单元数不足", grades.get(i).units.size() >= 4);

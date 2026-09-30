@@ -52,7 +52,7 @@
           {"en": "We have English on Tuesday.", "cn": "我们周二有英语课。"}
         ]}
       ],
-      "tips": ["深圳很多小学有 reading time，可以用 I read in the library at noon. 介绍。"]
+      "tips": ["教材对照：3A 的校园与教室话题（Module 1 Getting to know you 之后的 Places and activities）。", "深圳很多小学有 reading time，可以用 I read in the library at noon. 介绍。"]
     },
     {
       "id": "g3u2",
@@ -104,7 +104,7 @@
           {"en": "He is never late.", "cn": "他从不迟到。"}
         ]}
       ],
-      "tips": ["读时间的常用说法：7:30 = seven thirty 或 half past seven。"]
+      "tips": ["教材对照：3A/3B 的时间与作息话题，配合课本的 What time is it? 对话练习。", "读时间的常用说法：7:30 = seven thirty 或 half past seven。"]
     },
     {
       "id": "g3u3",
@@ -155,7 +155,7 @@
           {"en": "Does he work in Shenzhen?", "cn": "他在深圳工作吗？"}
         ]}
       ],
-      "tips": ["采访家人职业并用 3 句话介绍，是很好的口语作业。"]
+      "tips": ["教材对照：3A/3B 的职业话题；5A Unit 1 My future、6A Unit 1 Growing up 会再深入。", "采访家人职业并用 3 句话介绍，是很好的口语作业。"]
     },
     {
       "id": "g3u4",
@@ -207,7 +207,7 @@
           {"en": "a pair of trousers", "cn": "一条裤子"}
         ]}
       ],
-      "tips": ["深圳校服多为运动装，介绍时可以说 Our uniform is blue and white sportswear."]
+      "tips": ["教材对照：3A/3B 的服装话题，可与课本 Revision 里的购物对话一起练。", "深圳校服多为运动装，介绍时可以说 Our uniform is blue and white sportswear."]
     },
     {
       "id": "g3u5",
@@ -258,7 +258,7 @@
           {"en": "two tomatoes", "cn": "两个西红柿"}
         ]}
       ],
-      "tips": ["在水果店练习：How much is it? It is ten yuan. Here you are."]
+      "tips": ["教材对照：3A 的 At the fruit shop 一类购物话题；2B Unit 5 Food I like 是基础。", "在水果店练习：How much is it? It is ten yuan. Here you are."]
     },
     {
       "id": "g3u6",
@@ -309,7 +309,59 @@
           {"en": "Go straight for two minutes.", "cn": "直走两分钟。"}
         ]}
       ],
-      "tips": ["用英语描述从家到学校的路线，是深圳小学常见的口语话题。"]
+      "tips": ["教材对照：3A Module 3 Places and activities，讲的是住处附近的地点与活动。", "用英语描述从家到学校的路线，是深圳小学常见的口语话题。"]
+    },
+    {
+      "id": "g3u7",
+      "no": 7,
+      "title_en": "Tastes and sounds",
+      "title_cn": "味道与声音",
+      "topic": "Senses",
+      "overview": "用 taste、smell、sound 描述味道和声音，学会「感官动词 + 形容词」的说法。对应课本 3B Unit 2 Tastes 和 Unit 3 Sounds。",
+      "phonics": {
+        "focus": "辅音连缀 sw- /sw/、sm- /sm/、sn- /sn/",
+        "tip": "先把 /s/ 拉住，再顺势接后面的音，像蛇吐气一样连成一个音。",
+        "examples": ["sweet /swiːt/ 甜的", "smell /smel/ 闻", "snack /snæk/ 零食"]
+      },
+      "words": [
+        {"en": "taste", "ipa": "/teɪst/", "pos": "v./n.", "cn": "尝；味道", "ex_en": "Please taste the soup.", "ex_cn": "请尝尝这个汤。"},
+        {"en": "sweet", "ipa": "/swiːt/", "pos": "adj.", "cn": "甜的", "ex_en": "The cake is sweet.", "ex_cn": "这个蛋糕是甜的。"},
+        {"en": "sour", "ipa": "/ˈsaʊə/", "pos": "adj.", "cn": "酸的", "ex_en": "The lemon is sour.", "ex_cn": "柠檬是酸的。"},
+        {"en": "salty", "ipa": "/ˈsɔːlti/", "pos": "adj.", "cn": "咸的", "ex_en": "The soup is too salty.", "ex_cn": "这汤太咸了。"},
+        {"en": "bitter", "ipa": "/ˈbɪtə/", "pos": "adj.", "cn": "苦的", "ex_en": "The medicine is bitter.", "ex_cn": "这药很苦。"},
+        {"en": "smell", "ipa": "/smel/", "pos": "v./n.", "cn": "闻；气味", "ex_en": "Smell the flower.", "ex_cn": "闻闻这朵花。"},
+        {"en": "sound", "ipa": "/saʊnd/", "pos": "n.", "cn": "声音", "ex_en": "I hear a strange sound.", "ex_cn": "我听到一个奇怪的声音。"},
+        {"en": "loud", "ipa": "/laʊd/", "pos": "adj.", "cn": "大声的", "ex_en": "The music is too loud.", "ex_cn": "音乐太吵了。"},
+        {"en": "quiet", "ipa": "/ˈkwaɪət/", "pos": "adj.", "cn": "安静的", "ex_en": "Please be quiet in class.", "ex_cn": "上课请保持安静。"},
+        {"en": "hear", "ipa": "/hɪə/", "pos": "v.", "cn": "听见", "ex_en": "I can hear a bird.", "ex_cn": "我能听见一只鸟。"},
+        {"en": "noise", "ipa": "/nɔɪz/", "pos": "n.", "cn": "噪音", "ex_en": "Do not make noise here.", "ex_cn": "不要在这里制造噪音。"},
+        {"en": "soft", "ipa": "/sɒft/", "pos": "adj.", "cn": "柔和的；柔软的", "ex_en": "The soft music helps me sleep.", "ex_cn": "柔和的音乐让我容易入睡。"}
+      ],
+      "patterns": [
+        {"en": "How does it taste?", "cn": "它尝起来怎么样？", "examples": [
+          {"en": "How does it taste?", "cn": "它尝起来怎么样？"},
+          {"en": "It tastes sweet.", "cn": "它尝起来是甜的。"}
+        ]},
+        {"en": "What can you hear?", "cn": "你能听到什么？", "examples": [
+          {"en": "I can hear a train.", "cn": "我能听见一列火车。"},
+          {"en": "I can hear the rain.", "cn": "我能听见雨声。"}
+        ]},
+        {"en": "It smells ... .", "cn": "它闻起来……。", "examples": [
+          {"en": "It smells nice.", "cn": "它闻起来很香。"},
+          {"en": "It smells bad.", "cn": "它闻起来很难闻。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "感官动词 + 形容词", "explain": "taste、smell、sound、feel 后面直接跟形容词，不跟副词：It tastes sweet.（不说 sweetly）。", "examples": [
+          {"en": "The soup tastes salty.", "cn": "这汤尝起来很咸。"},
+          {"en": "The music sounds soft.", "cn": "音乐听起来很柔和。"}
+        ]},
+        {"title": "can 表示「能」", "explain": "can 后面永远用动词原形，第三人称也不加 s：He can hear it.", "examples": [
+          {"en": "I can smell the flowers.", "cn": "我能闻到花香。"},
+          {"en": "He can hear the bell.", "cn": "他能听见铃声。"}
+        ]}
+      ],
+      "tips": ["教材对照：沪教牛津版（深圳用）3B Module 1 Using my five senses Unit 2 Tastes、Unit 3 Sounds。", "尝东西时先说 It tastes ...，再补一句 I like it. 或 I don't like it."]
     }
   ]
 }

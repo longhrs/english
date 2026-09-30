@@ -47,11 +47,14 @@ public final class AboutActivity extends Activity {
         LinearLayout content2 = Ui.card(this);
         content2.addView(Ui.text(this, "内容说明", 16, Ui.TEXT, true));
         content2.addView(Ui.spacer(this, 8));
-        content2.addView(Ui.body(this, "本应用的词汇、句型和语法按深圳小学常见的话题顺序自行编写整理，"
-                + "覆盖问候、颜色数字、家庭、校园、时间、职业、服装、饮食、城市、健康、购物、"
-                + "爱好、节日、旅行、运动、科技、环保、文化、安全、小升初等话题，"
-                + "并非任何出版社教材的原文摘录，也不隶属于任何学校或机构。"
-                + "具体以学校所用教材和老师的要求为准。"));
+        content2.addView(Ui.body(this, "本应用的词汇、句型和语法按深圳小学通用的沪教牛津版（深圳用）教材"
+                + "话题与单元顺序对照编写整理，覆盖问候、颜色数字、家庭、同学、校园、时间、职业、服装、"
+                + "饮食、街道交通、城市、健康、购物、自然、爱好、节日、旅行、运动、科技、环保、文化、"
+                + "安全、成长变化、小升初等话题。每个单元的「学习小贴士」里都标注了教材对照，"
+                + "写明它对应课本哪一册、哪个 Module / Unit。"));
+        content2.addView(Ui.spacer(this, 8));
+        content2.addView(Ui.body(this, "所有文字均为本项目自行撰写，并非任何出版社教材的原文摘录，"
+                + "也不隶属于任何学校或机构；教材版次会调整，具体以学校当年所用课本和老师的要求为准。"));
         content.addView(content2);
 
         LinearLayout privacy = Ui.card(this);

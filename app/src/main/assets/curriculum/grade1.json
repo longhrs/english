@@ -50,7 +50,7 @@
           {"en": "Amy and I are friends.", "cn": "艾米和我是朋友。"}
         ]}
       ],
-      "tips": ["课堂用语：Stand up, please. 请起立。", "课堂用语：Sit down, please. 请坐下。"]
+      "tips": ["教材对照：沪教牛津版（深圳用）1A Module 1 Getting to know you（Unit 1 Hello）。", "课堂用语：Stand up, please. 请起立。", "课堂用语：Sit down, please. 请坐下。"]
     },
     {
       "id": "g1u2",
@@ -100,7 +100,7 @@
           {"en": "a white cap", "cn": "一顶白帽子"}
         ]}
       ],
-      "tips": ["深圳的校服常见蓝白两色，可以用 My uniform is blue and white. 来描述。"]
+      "tips": ["教材对照：1A/1B 的颜色话题；同名单元 Colours 在 3B Module 1 Using my five senses 会再学一次。", "深圳的校服常见蓝白两色，可以用 My uniform is blue and white. 来描述。"]
     },
     {
       "id": "g1u3",
@@ -149,7 +149,7 @@
           {"en": "How many cats?", "cn": "有几只猫？"}
         ]}
       ],
-      "tips": ["数数时可以拍手打节奏，帮助记住 /θ/ 在 three 里的咬舌音。"]
+      "tips": ["教材对照：1A/1B 的数字话题；seven 到 ten 等数词在 2A Module 1 还会复现。", "数数时可以拍手打节奏，帮助记住 /θ/ 在 three 里的咬舌音。"]
     },
     {
       "id": "g1u4",
@@ -198,7 +198,7 @@
           {"en": "my family", "cn": "我的家庭"}
         ]}
       ],
-      "tips": ["向别人介绍家人照片时，先说 This is ...，再补一句 He/She is ...。"]
+      "tips": ["教材对照：1A Module 2 My family, my friends and me；2A Unit 5 That's my family 是同一话题。", "向别人介绍家人照片时，先说 This is ...，再补一句 He/She is ...。"]
     },
     {
       "id": "g1u5",
@@ -247,7 +247,7 @@
           {"en": "one foot, two feet", "cn": "一只脚，两只脚"}
         ]}
       ],
-      "tips": ["配合 Simon says 游戏练习指令，听到 Simon says 才做动作。"]
+      "tips": ["教材对照：1A Module 1 Unit 3 My face；2A Unit 6 My hair is short 会继续描述长相。", "配合 Simon says 游戏练习指令，听到 Simon says 才做动作。"]
     },
     {
       "id": "g1u6",
@@ -297,7 +297,57 @@
           {"en": "The pen is in my bag.", "cn": "钢笔在我的书包里。"}
         ]}
       ],
-      "tips": ["借东西时说 May I use your ruler?，归还时说 Thank you.。"]
+      "tips": ["教材对照：1A Module 3 Places and activities；2A Unit 7 In the playground、Unit 8 In my room 同类。", "借东西时说 May I use your ruler?，归还时说 Thank you.。"]
+    },
+    {
+      "id": "g1u7",
+      "no": 7,
+      "title_en": "My classmates",
+      "title_cn": "我的同学",
+      "topic": "Classmates",
+      "overview": "介绍班上的同学，会用 he 和 she 说「他」「她」，并简单描述高矮和新同学。对应课本 1A Unit 2 My classmates。",
+      "phonics": {
+        "focus": "字母 Gg /ɡ/ 与 Ll /l/",
+        "tip": "/ɡ/ 舌根抵住软腭后放开、声带振动；/l/ 舌尖轻抵上齿龈，气流从舌两侧出来。",
+        "examples": ["girl /ɡɜːl/ 女孩", "good /ɡʊd/ 好的", "little /ˈlɪtl/ 小的"]
+      },
+      "words": [
+        {"en": "classmate", "ipa": "/ˈklɑːsmeɪt/", "pos": "n.", "cn": "同学", "ex_en": "This is my classmate.", "ex_cn": "这是我的同学。"},
+        {"en": "boy", "ipa": "/bɔɪ/", "pos": "n.", "cn": "男孩", "ex_en": "The boy is my classmate.", "ex_cn": "那个男孩是我的同学。"},
+        {"en": "girl", "ipa": "/ɡɜːl/", "pos": "n.", "cn": "女孩", "ex_en": "The girl is Kitty.", "ex_cn": "那个女孩是琪蒂。"},
+        {"en": "he", "ipa": "/hiː/", "pos": "pron.", "cn": "他", "ex_en": "He is my friend.", "ex_cn": "他是我的朋友。"},
+        {"en": "she", "ipa": "/ʃiː/", "pos": "pron.", "cn": "她", "ex_en": "She is a new pupil.", "ex_cn": "她是一名新学生。"},
+        {"en": "new", "ipa": "/njuː/", "pos": "adj.", "cn": "新的", "ex_en": "He is a new classmate.", "ex_cn": "他是新来的同学。"},
+        {"en": "tall", "ipa": "/tɔːl/", "pos": "adj.", "cn": "高的", "ex_en": "Peter is tall.", "ex_cn": "彼得个子高。"},
+        {"en": "short", "ipa": "/ʃɔːt/", "pos": "adj.", "cn": "矮的；短的", "ex_en": "Kitty is short.", "ex_cn": "琪蒂个子矮。"},
+        {"en": "class", "ipa": "/klɑːs/", "pos": "n.", "cn": "班级", "ex_en": "We are in Class One.", "ex_cn": "我们在一班。"},
+        {"en": "pupil", "ipa": "/ˈpjuːpl/", "pos": "n.", "cn": "小学生", "ex_en": "I am a pupil.", "ex_cn": "我是一名小学生。"}
+      ],
+      "patterns": [
+        {"en": "This is my classmate ... .", "cn": "这是我的同学……。", "examples": [
+          {"en": "This is my classmate Peter.", "cn": "这是我的同学彼得。"},
+          {"en": "This is my classmate Kitty.", "cn": "这是我的同学琪蒂。"}
+        ]},
+        {"en": "He is ... / She is ... .", "cn": "他是……／她是……。", "examples": [
+          {"en": "He is tall.", "cn": "他个子高。"},
+          {"en": "She is a new pupil.", "cn": "她是一名新学生。"}
+        ]},
+        {"en": "Who is he?", "cn": "他是谁？", "examples": [
+          {"en": "Who is he?", "cn": "他是谁？"},
+          {"en": "He is my classmate.", "cn": "他是我的同学。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "he 和 she 不能混用", "explain": "说男生用 he，说女生用 she；中文里「他」和「她」读音一样，英语里读音完全不同，要特别留心。", "examples": [
+          {"en": "He is my brother.", "cn": "他是我的哥哥。"},
+          {"en": "She is my sister.", "cn": "她是我的姐姐。"}
+        ]},
+        {"title": "形容词放在 be 动词后面", "explain": "描述人用「主语 + is + 形容词」，形容词不加 s，也不用管人数。", "examples": [
+          {"en": "Peter is tall.", "cn": "彼得个子高。"},
+          {"en": "Kitty is short.", "cn": "琪蒂个子矮。"}
+        ]}
+      ],
+      "tips": ["教材对照：沪教牛津版（深圳用）1A Module 1 Getting to know you Unit 2 My classmates。", "认识新同学时可以说 Nice to meet you.，对方回 Nice to meet you, too."]
     }
   ]
 }

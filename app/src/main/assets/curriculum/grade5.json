@@ -52,7 +52,7 @@
           {"en": "I would like to help you.", "cn": "我想帮你。"}
         ]}
       ],
-      "tips": ["班会发言开头可用：Good morning, everyone. I would like to talk about ..."]
+      "tips": ["教材对照：5A Module 1 Unit 2 Going to school；Unit 3 My birthday 也在同一模块。", "班会发言开头可用：Good morning, everyone. I would like to talk about ..."]
     },
     {
       "id": "g5u2",
@@ -104,7 +104,7 @@
           {"en": "I did not take photos.", "cn": "我没有拍照。"}
         ]}
       ],
-      "tips": ["写游记时按 when-where-who-what-feeling 五要素组织，句子更完整。"]
+      "tips": ["教材对照：5A Module 3 Out and about（Unit 7 At the beach / Unit 8 An outing）。", "写游记时按 when-where-who-what-feeling 五要素组织，句子更完整。"]
     },
     {
       "id": "g5u3",
@@ -156,7 +156,7 @@
           {"en": "You look happy.", "cn": "你看起来很开心。"}
         ]}
       ],
-      "tips": ["用英语写下一道家常菜的三步做法，是很好的写作练习。"]
+      "tips": ["教材对照：5A/5B 的饮食话题；6A Module 1 Unit 3 Healthy or unhealthy? 谈的是同一件事。", "用英语写下一道家常菜的三步做法，是很好的写作练习。"]
     },
     {
       "id": "g5u4",
@@ -208,7 +208,7 @@
           {"en": "He ran 800 metres.", "cn": "他跑了八百米。"}
         ]}
       ],
-      "tips": ["校运会加油口号：Come on! / You can do it! / Well done!"]
+      "tips": ["教材对照：4A Unit 2 Can you swim? 起步，6B Module 2 Unit 6 PE lessons 收尾。", "校运会加油口号：Come on! / You can do it! / Well done!"]
     },
     {
       "id": "g5u5",
@@ -258,7 +258,7 @@
           {"en": "It is fast, but it can be dangerous.", "cn": "它很快，但可能有危险。"}
         ]}
       ],
-      "tips": ["网络安全提醒句：Never share your real name or address online."]
+      "tips": ["教材对照：5B Module 1 Unit 3 In the future；6B Module 1 Unit 2 Changes in our lives。", "网络安全提醒句：Never share your real name or address online."]
     },
     {
       "id": "g5u6",
@@ -308,7 +308,59 @@
           {"en": "Use fewer plastic bags and less paper.", "cn": "少用塑料袋，少用纸。"}
         ]}
       ],
-      "tips": ["深圳实行垃圾分类，可用英语说四类：recyclable waste、kitchen waste、hazardous waste、other waste。"]
+      "tips": ["教材对照：5A Module 4 The natural world（Unit 10 Wind / Unit 11 Water / Unit 12 Fire）。", "深圳实行垃圾分类，可用英语说四类：recyclable waste、kitchen waste、hazardous waste、other waste。"]
+    },
+    {
+      "id": "g5u7",
+      "no": 7,
+      "title_en": "Wind, water and fire",
+      "title_cn": "风、水与火",
+      "topic": "Nature",
+      "overview": "用英语描述风、水、火这三种自然力量：它们能做什么、怎么用它们、又要怎么小心。对应课本 5A Module 4 The natural world。",
+      "phonics": {
+        "focus": "字母 i 的长短音对比 /aɪ/ 与 /ɪ/",
+        "tip": "开音节里的 i 多读 /aɪ/（fire、kite）；闭音节里多读 /ɪ/（wind、windy）。",
+        "examples": ["fire /ˈfaɪə/ 火", "kite /kaɪt/ 风筝", "wind /wɪnd/ 风"]
+      },
+      "words": [
+        {"en": "wind", "ipa": "/wɪnd/", "pos": "n.", "cn": "风", "ex_en": "The wind is strong today.", "ex_cn": "今天风很大。"},
+        {"en": "windy", "ipa": "/ˈwɪndi/", "pos": "adj.", "cn": "有风的", "ex_en": "It is windy in Shenzhen today.", "ex_cn": "今天深圳刮风。"},
+        {"en": "blow", "ipa": "/bləʊ/", "pos": "v.", "cn": "吹", "ex_en": "The wind can blow the leaves away.", "ex_cn": "风能把树叶吹走。"},
+        {"en": "fire", "ipa": "/ˈfaɪə/", "pos": "n.", "cn": "火", "ex_en": "Do not play with fire.", "ex_cn": "不要玩火。"},
+        {"en": "burn", "ipa": "/bɜːn/", "pos": "v.", "cn": "燃烧", "ex_en": "Paper burns quickly.", "ex_cn": "纸烧得很快。"},
+        {"en": "candle", "ipa": "/ˈkændl/", "pos": "n.", "cn": "蜡烛", "ex_en": "The candles are burning.", "ex_cn": "蜡烛正在燃烧。"},
+        {"en": "flow", "ipa": "/fləʊ/", "pos": "v.", "cn": "流动", "ex_en": "Rivers flow to the sea.", "ex_cn": "河流流向大海。"},
+        {"en": "river", "ipa": "/ˈrɪvə/", "pos": "n.", "cn": "河流", "ex_en": "The river is very long.", "ex_cn": "这条河很长。"},
+        {"en": "steam", "ipa": "/stiːm/", "pos": "n.", "cn": "蒸汽", "ex_en": "Hot water makes steam.", "ex_cn": "热水会产生蒸汽。"},
+        {"en": "ice", "ipa": "/aɪs/", "pos": "n.", "cn": "冰", "ex_en": "Ice is cold and hard.", "ex_cn": "冰又冷又硬。"},
+        {"en": "dangerous", "ipa": "/ˈdeɪndʒərəs/", "pos": "adj.", "cn": "危险的", "ex_en": "Fire is dangerous.", "ex_cn": "火是危险的。"},
+        {"en": "useful", "ipa": "/ˈjuːsfl/", "pos": "adj.", "cn": "有用的", "ex_en": "Water is very useful.", "ex_cn": "水非常有用。"}
+      ],
+      "patterns": [
+        {"en": "The wind blows ... .", "cn": "风吹……。", "examples": [
+          {"en": "The wind blows hard.", "cn": "风刮得很猛。"},
+          {"en": "The wind blows my kite high.", "cn": "风把我的风筝吹得很高。"}
+        ]},
+        {"en": "We use ... to ... .", "cn": "我们用……来……。", "examples": [
+          {"en": "We use water to wash clothes.", "cn": "我们用水洗衣服。"},
+          {"en": "We use fire to cook food.", "cn": "我们用火做饭。"}
+        ]},
+        {"en": "Be careful with ... .", "cn": "小心……。", "examples": [
+          {"en": "Be careful with fire.", "cn": "小心火。"},
+          {"en": "Be careful with hot water.", "cn": "小心热水。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "不可数名词", "explain": "water、ice、fire、steam 一般不加 s，也不说 a water；要计量就用 a glass of water、a piece of ice。", "examples": [
+          {"en": "I drink a glass of water.", "cn": "我喝一杯水。"},
+          {"en": "There is ice on the road.", "cn": "路上有冰。"}
+        ]},
+        {"title": "can 表示能力与可能", "explain": "can 后面接动词原形，表示「能够」；否定是 cannot / can't。", "examples": [
+          {"en": "Wind can move a boat.", "cn": "风能推动小船。"},
+          {"en": "Water cannot burn.", "cn": "水不会燃烧。"}
+        ]}
+      ],
+      "tips": ["教材对照：沪教牛津版（深圳用）5A Module 4 The natural world Unit 10 Wind、Unit 11 Water、Unit 12 Fire。", "台风季可以练一组表达：The typhoon is coming. Stay at home and keep safe."]
     }
   ]
 }

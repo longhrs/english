@@ -51,7 +51,7 @@
           {"en": "Listen to the teacher.", "cn": "听老师讲。"}
         ]}
       ],
-      "tips": ["闭上眼睛让同桌发出声音，用 I can hear ... 来猜，练习听力词汇。"]
+      "tips": ["教材对照：1B Module 1 Using my five senses（Look and see / Listen and hear / Taste and smell）与 2B Module 1（What can you see? / Touch and feel / Can you hear a train?）。", "闭上眼睛让同桌发出声音，用 I can hear ... 来猜，练习听力词汇。"]
     },
     {
       "id": "g2u2",
@@ -100,7 +100,7 @@
           {"en": "I have a dog. The dog is black.", "cn": "我有一只狗。这只狗是黑色的。"}
         ]}
       ],
-      "tips": ["可以去深圳野生动物园实地认动物，边看边说 Look! It is a giraffe."]
+      "tips": ["教材对照：2A Module 4 Unit 11 In the forest；2B Module 2 Unit 6 Animals I like。", "可以去深圳野生动物园实地认动物，边看边说 Look! It is a giraffe."]
     },
     {
       "id": "g2u3",
@@ -149,7 +149,7 @@
           {"en": "No, thank you.", "cn": "不用了，谢谢。"}
         ]}
       ],
-      "tips": ["在餐厅可以练习 May I have some water, please?"]
+      "tips": ["教材对照：2A Module 3 Unit 9 Dinner is ready；2B Module 2 Unit 5 Food I like。", "在餐厅可以练习 May I have some water, please?"]
     },
     {
       "id": "g2u4",
@@ -198,7 +198,7 @@
           {"en": "It is yours.", "cn": "这是你的。"}
         ]}
       ],
-      "tips": ["和同学交换玩具时练习 Can I play with your robot? 和 Here you are."]
+      "tips": ["教材对照：2B Module 2 My favourite things（Unit 4 Things I like doing）。", "和同学交换玩具时练习 Can I play with your robot? 和 Here you are."]
     },
     {
       "id": "g2u5",
@@ -247,7 +247,7 @@
           {"en": "rain → rainy", "cn": "雨 → 多雨的"}
         ]}
       ],
-      "tips": ["深圳五月到九月是雨季，台风天气可以说 There is a typhoon."]
+      "tips": ["教材对照：2B Module 3 Things around us Unit 7 The four seasons。", "深圳五月到九月是雨季，台风天气可以说 There is a typhoon."]
     },
     {
       "id": "g2u6",
@@ -296,7 +296,57 @@
           {"en": "I go home on foot.", "cn": "我步行回家。"}
         ]}
       ],
-      "tips": ["把自己一天的作息写成 5 句话，每天朗读一遍，养成口语习惯。"]
+      "tips": ["教材对照：2A Unit 4 Can you swim? 与 2B Unit 4 Things I like doing 的日常活动话题。", "把自己一天的作息写成 5 句话，每天朗读一遍，养成口语习惯。"]
+    },
+    {
+      "id": "g2u7",
+      "no": 7,
+      "title_en": "In the street",
+      "title_cn": "在街上",
+      "topic": "Street",
+      "overview": "认识街上的交通工具和信号灯，学会说自己怎么上学，并用祈使句提醒别人注意安全。对应课本 2A Unit 12 In the street。",
+      "phonics": {
+        "focus": "辅音连缀 st- /st/ 与 tr- /tr/",
+        "tip": "两个辅音连着读，中间不要加元音：street 不读成「思特里特」。",
+        "examples": ["street /striːt/ 街道", "stop /stɒp/ 停", "train /treɪn/ 火车"]
+      },
+      "words": [
+        {"en": "street", "ipa": "/striːt/", "pos": "n.", "cn": "街道", "ex_en": "Look at the busy street.", "ex_cn": "看这条繁忙的街道。"},
+        {"en": "road", "ipa": "/rəʊd/", "pos": "n.", "cn": "马路", "ex_en": "Do not play on the road.", "ex_cn": "不要在马路上玩。"},
+        {"en": "car", "ipa": "/kɑː/", "pos": "n.", "cn": "小汽车", "ex_en": "The car is red.", "ex_cn": "那辆小汽车是红色的。"},
+        {"en": "bus", "ipa": "/bʌs/", "pos": "n.", "cn": "公共汽车", "ex_en": "I go to school by bus.", "ex_cn": "我坐公共汽车上学。"},
+        {"en": "bike", "ipa": "/baɪk/", "pos": "n.", "cn": "自行车", "ex_en": "My bike is new.", "ex_cn": "我的自行车是新的。"},
+        {"en": "taxi", "ipa": "/ˈtæksi/", "pos": "n.", "cn": "出租车", "ex_en": "We take a taxi to the park.", "ex_cn": "我们打出租车去公园。"},
+        {"en": "light", "ipa": "/laɪt/", "pos": "n.", "cn": "灯；信号灯", "ex_en": "The light is red now.", "ex_cn": "现在是红灯。"},
+        {"en": "cross", "ipa": "/krɒs/", "pos": "v.", "cn": "穿过；横过", "ex_en": "Cross the road with Mum.", "ex_cn": "和妈妈一起过马路。"},
+        {"en": "wait", "ipa": "/weɪt/", "pos": "v.", "cn": "等待", "ex_en": "Wait for the green light.", "ex_cn": "等绿灯。"},
+        {"en": "safe", "ipa": "/seɪf/", "pos": "adj.", "cn": "安全的", "ex_en": "It is safe now.", "ex_cn": "现在安全了。"}
+      ],
+      "patterns": [
+        {"en": "I go to school by ... .", "cn": "我坐……上学。", "examples": [
+          {"en": "I go to school by bus.", "cn": "我坐公共汽车上学。"},
+          {"en": "I go to school by bike.", "cn": "我骑自行车上学。"}
+        ]},
+        {"en": "Stop at the red light.", "cn": "红灯停。", "examples": [
+          {"en": "Stop at the red light.", "cn": "红灯停。"},
+          {"en": "Go at the green light.", "cn": "绿灯行。"}
+        ]},
+        {"en": "Look left and right.", "cn": "左右看一看。", "examples": [
+          {"en": "Look left and right.", "cn": "左右看一看。"},
+          {"en": "Wait for the green light.", "cn": "等绿灯。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "祈使句", "explain": "提醒或命令别人时，句子直接用动词开头，不说主语：Stop! Wait! Look!；客气一点可以加 please。", "examples": [
+          {"en": "Stop here, please.", "cn": "请在这里停下。"},
+          {"en": "Wait for me.", "cn": "等等我。"}
+        ]},
+        {"title": "by + 交通工具", "explain": "说乘坐某种交通工具用 by bus / by bike / by car，中间不加 a 或 the；「走路」是 on foot。", "examples": [
+          {"en": "She goes home by car.", "cn": "她坐小汽车回家。"},
+          {"en": "I go to school on foot.", "cn": "我走路上学。"}
+        ]}
+      ],
+      "tips": ["教材对照：沪教牛津版（深圳用）2A Module 4 The world around us Unit 12 In the street。", "深圳的斑马线前常有「礼让行人」标志，可以练一句 Thank you for waiting."]
     }
   ]
 }
