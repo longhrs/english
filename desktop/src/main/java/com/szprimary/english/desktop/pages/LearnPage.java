@@ -8,11 +8,26 @@ import com.szprimary.english.core.model.Word;
 import com.szprimary.english.desktop.ui.Navigator;
 import com.szprimary.english.desktop.ui.Card;
 import com.szprimary.english.desktop.ui.HBox;
+import com.szprimary.english.desktop.ui.ImageBox;
 import com.szprimary.english.desktop.ui.RoundButton;
 import com.szprimary.english.desktop.ui.Ui;
 import com.szprimary.english.desktop.ui.VBox;
 
+import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.awt.event.KeyEvent;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
+
+import javax.swing.ImageIcon;
+import javax.swing.JDialog;
+import javax.swing.JFileChooser;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.JScrollPane;
+import javax.swing.filechooser.FileNameExtensionFilter;
 
 import javax.swing.JComponent;
 
@@ -54,6 +69,8 @@ public final class LearnPage extends BasePage {
             for (int i = 0; i < unit.patterns.size(); i++) {
                 content.add(patternCard(unit.patterns.get(i)));
             }
+        } else if (section == 3) {
+            buildImages(content);
         } else {
             for (int i = 0; i < unit.grammar.size(); i++) {
                 content.add(grammarCard(unit.grammar.get(i)));
@@ -81,6 +98,9 @@ public final class LearnPage extends BasePage {
         row.add(tab("词汇 " + unit.words.size(), 0));
         row.add(tab("句型 " + unit.patterns.size(), 1));
         row.add(tab("语法 " + unit.grammar.size(), 2));
+        if (repo.images().enabled()) {
+            row.add(tab("课本图片 " + repo.images().count(unit.id), 3));
+        }
         return row;
     }
 
@@ -326,6 +346,115 @@ public final class LearnPage extends BasePage {
             }
         }
         return card;
+    }
+
+    // ---- 课本图片：家长自己拍照或截图添加，只保存在本机 ----
+
+    private void buildImages(VBox content) {
+        List<File> files = repo.images().list(unit.id);
+        Card intro = Ui.card();
+        intro.add(Ui.text("课本图片", 16, Ui.TEXT, true));
+        intro.add(Ui.spacer(4));
+        intro.add(Ui.body("把课本里这一单元的页面拍照或截图后添加进来，学习时可以对照课本的插图和对话。"
+                + "图片只保存在这台电脑上，不会上传，也不会打包进程序。"));
+        intro.add(Ui.spacer(10));
+        intro.add(Ui.align(Ui.primary("＋ 添加课本图片…", new Runnable() {
+            @Override
+            public void run() {
+                chooseImages();
+            }
+        }), "left"));
+        content.add(intro);
+        if (files.isEmpty()) {
+            Card empty = Ui.card();
+            empty.add(Ui.hint("还没有添加图片。支持 JPG、PNG、GIF、BMP，一次可以选多张。"));
+            content.add(empty);
+            return;
+        }
+        for (int i = 0; i < files.size(); i++) {
+            final File file = files.get(i);
+            final BufferedImage img = repo.images().load(file);
+            Card card = Ui.card();
+            card.add(Ui.hint("第 " + (i + 1) + " / " + files.size() + " 张"));
+            card.add(Ui.spacer(6));
+            if (img == null) {
+                card.add(Ui.body("这张图片无法读取：" + file.getName()));
+            } else {
+                ImageBox box = new ImageBox(img);
+                Ui.clickable(box, new Runnable() {
+                    @Override
+                    public void run() {
+                        showLarge(img);
+                    }
+                });
+                card.add(box);
+            }
+            card.add(Ui.spacer(10));
+            HBox actions = Ui.row(10);
+            if (img != null) {
+                actions.add(Ui.weight(Ui.soft("查看大图", new Runnable() {
+                    @Override
+                    public void run() {
+                        showLarge(img);
+                    }
+                }), 1f));
+            }
+            actions.add(Ui.weight(Ui.outlined("删除这张", Ui.RED, new Runnable() {
+                @Override
+                public void run() {
+                    int choice = JOptionPane.showConfirmDialog(nav, "确定删除这张课本图片吗？", "删除图片",
+                            JOptionPane.OK_CANCEL_OPTION, JOptionPane.WARNING_MESSAGE);
+                    if (choice == JOptionPane.OK_OPTION) {
+                        repo.images().delete(file);
+                        nav.refresh();
+                    }
+                }
+            }), 1f));
+            card.add(actions);
+            content.add(card);
+        }
+    }
+
+    private void chooseImages() {
+        JFileChooser chooser = new JFileChooser();
+        chooser.setDialogTitle("选择课本图片（可多选）");
+        chooser.setMultiSelectionEnabled(true);
+        chooser.setFileFilter(new FileNameExtensionFilter("图片（JPG、PNG、GIF、BMP）", "jpg", "jpeg", "png", "gif", "bmp"));
+        if (chooser.showOpenDialog(nav) != JFileChooser.APPROVE_OPTION) {
+            return;
+        }
+        int ok = 0;
+        StringBuilder errors = new StringBuilder();
+        for (File f : chooser.getSelectedFiles()) {
+            try {
+                repo.images().add(unit.id, f);
+                ok++;
+            } catch (IOException e) {
+                errors.append(e.getMessage()).append('\n');
+            }
+        }
+        nav.refresh();
+        if (errors.length() > 0) {
+            JOptionPane.showMessageDialog(nav, errors.toString().trim(), "部分图片没有添加", JOptionPane.WARNING_MESSAGE);
+        }
+        if (ok > 0) {
+            nav.toast("已添加 " + ok + " 张图片");
+        }
+    }
+
+    private void showLarge(BufferedImage img) {
+        java.awt.Window owner = javax.swing.SwingUtilities.getWindowAncestor(nav);
+        JDialog dialog = new JDialog(owner, unit.displayTitle() + " · 课本图片");
+        dialog.setModal(true);
+        JLabel label = new JLabel(new ImageIcon(img));
+        JScrollPane scroll = new JScrollPane(label);
+        scroll.getVerticalScrollBar().setUnitIncrement(28);
+        dialog.setContentPane(scroll);
+        Dimension screen = Toolkit.getDefaultToolkit().getScreenSize();
+        dialog.setSize(Math.min(img.getWidth() + 40, screen.width * 9 / 10),
+                Math.min(img.getHeight() + 60, screen.height * 9 / 10));
+        dialog.setLocationRelativeTo(owner);
+        dialog.setVisible(true);
     }
 
     @Override

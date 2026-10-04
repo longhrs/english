@@ -362,6 +362,39 @@ public class PagesTest {
     }
 
     @Test
+    public void textbookImagesTab() throws Exception {
+        final java.io.File tmp = java.nio.file.Files.createTempDirectory("szimgpage").toFile();
+        onEdt(new Body() {
+            @Override
+            public void run() throws Exception {
+                com.szprimary.english.desktop.TextbookImages images =
+                        new com.szprimary.english.desktop.TextbookImages(new java.io.File(tmp, "images"));
+                DesktopRepo repo = new DesktopRepo(new ResourceContentSource(), new MemoryProgressStore(), "内存",
+                        new Speaker.Silent("测试"), images);
+                Navigator nav = nav(repo);
+                nav.push(new LearnPage(nav, "g3u8"));
+                layout(nav);
+                click(nav, "课本图片 0");
+                assertTrue(text(nav).contains("还没有添加图片"));
+                images.add("g3u8", com.szprimary.english.desktop.TextbookImagesTest.png(tmp, "p.png", 1200, 900));
+                nav.refresh();
+                layout(nav);
+                String t = text(nav);
+                assertTrue(t.contains("课本图片 1"));
+                assertTrue(t.contains("第 1 / 1 张"));
+                assertTrue(t.contains("删除这张"));
+                boolean hasImage = false;
+                for (Component c : all(nav.pageContent())) {
+                    if (c instanceof com.szprimary.english.desktop.ui.ImageBox && c.getHeight() > 100) {
+                        hasImage = true;
+                    }
+                }
+                assertTrue("图片应显示出来", hasImage);
+            }
+        });
+    }
+
+    @Test
     public void statsAndAboutBuild() throws Exception {
         onEdt(new Body() {
             @Override

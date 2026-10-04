@@ -75,6 +75,11 @@ public final class AboutPage extends BasePage {
             privacy.add(Ui.spacer(4));
             privacy.add(Ui.hint("进度文件：" + repo.progressLocation()));
         }
+        if (repo.images().enabled()) {
+            privacy.add(Ui.spacer(4));
+            privacy.add(Ui.hint("课本图片：" + repo.images().root().getAbsolutePath()
+                    + "（在各单元「知识引导 → 课本图片」里添加，只保存在本机）"));
+        }
         content.add(privacy);
 
         Card tts = Ui.card();

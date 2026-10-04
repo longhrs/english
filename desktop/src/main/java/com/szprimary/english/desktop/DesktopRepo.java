@@ -25,6 +25,7 @@ public final class DesktopRepo {
     private final Speaker speaker;
     private final String loadError;
     private final String progressLocation;
+    private final TextbookImages images;
 
     /** 练习结束后由练习页写入，供成绩页读取。 */
     public QuizResult lastResult;
@@ -32,6 +33,11 @@ public final class DesktopRepo {
     public String lastQuizTitle;
 
     public DesktopRepo(ContentSource content, ProgressStore store, String progressLocation, Speaker speaker) {
+        this(content, store, progressLocation, speaker, new TextbookImages(null));
+    }
+
+    public DesktopRepo(ContentSource content, ProgressStore store, String progressLocation, Speaker speaker,
+                       TextbookImages images) {
         Curriculum loaded;
         String error = null;
         try {
@@ -51,13 +57,15 @@ public final class DesktopRepo {
         this.progress = pm;
         this.speaker = speaker;
         this.progressLocation = progressLocation;
+        this.images = images;
     }
 
     /** 正式运行时的组装：classpath 课程数据 + 本机进度文件 + 系统朗读。 */
     public static DesktopRepo createDefault() {
         FileProgressStore store = new FileProgressStore(AppPaths.progressFile());
         return new DesktopRepo(new ResourceContentSource(), store,
-                store.file().getAbsolutePath(), Speaker.create());
+                store.file().getAbsolutePath(), Speaker.create(),
+                new TextbookImages(new java.io.File(AppPaths.dataDir(), "images")));
     }
 
     public Curriculum curriculum() {
@@ -74,6 +82,10 @@ public final class DesktopRepo {
 
     public String loadError() {
         return loadError;
+    }
+
+    public TextbookImages images() {
+        return images;
     }
 
     public String progressLocation() {

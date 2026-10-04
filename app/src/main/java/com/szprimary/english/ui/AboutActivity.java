@@ -60,7 +60,7 @@ public final class AboutActivity extends Activity {
         privacy.addView(Ui.text(this, "隐私", 16, Ui.TEXT, true));
         privacy.addView(Ui.spacer(this, 8));
         privacy.addView(Ui.body(this, "本应用不申请网络权限，不收集任何个人信息。"
-                + "学习进度只保存在本机，卸载应用即删除。"));
+                + "学习进度和你添加的课本图片只保存在本机，卸载应用即删除。"));
         content.addView(privacy);
 
         LinearLayout tts = Ui.card(this);
