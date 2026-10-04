@@ -206,6 +206,11 @@ public class PagesTest {
                         assertTrue(t.contains("3B Unit 8 What do you do on Children's Day?"));
                         assertTrue(t.contains("拓展话题"));
                     }
+                    if (g == 4) {
+                        String t = text(nav);
+                        assertTrue(t.contains("四年级上册（4A）· 新版课本"));
+                        assertTrue(t.contains("4A Unit 5 How are the seasons different?"));
+                    }
                     for (Unit unit : repo.curriculum().grade(g).units) {
                         assertTrue(text(nav).contains(unit.displayTitle()));
                         nav.push(new LearnPage(nav, unit.id));

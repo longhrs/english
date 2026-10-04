@@ -1,14 +1,123 @@
 {
   "grade": 4,
   "title": "四年级",
-  "subtitle": "爱好、节日、城市、健康与购物：能连贯说一小段话（单元对照为旧版课本，新版目录待核对）",
+  "subtitle": "新版沪教版课本：四年级上册已核实 Unit 4、Unit 5；其余新版单元目录待核对，另附 7 个拓展话题",
   "units": [
+    {
+      "id": "g4u8",
+      "no": 8,
+      "title_en": "How do we use numbers?",
+      "title_cn": "我们怎样使用数字",
+      "topic": "Numbers",
+      "book": "4A",
+      "book_unit": 4,
+      "overview": "用英语读 20 到 100 的数字，分清单数和双数，会说简单的加减法算式。",
+      "phonics": {
+        "focus": "字母组合 th 在数字里的 /θ/",
+        "tip": "舌尖轻放在上下齿之间送气，three、thirty、thirteen 都是这个音，不要读成 /s/。",
+        "examples": ["three /θriː/ 三", "thirty /ˈθɜːti/ 三十", "thirteen /ˌθɜːˈtiːn/ 十三"]
+      },
+      "words": [
+        {"en": "number", "ipa": "/ˈnʌmbə/", "pos": "n.", "cn": "数字；号码", "ex_en": "What's your favourite number?", "ex_cn": "你最喜欢哪个数字？"},
+        {"en": "count", "ipa": "/kaʊnt/", "pos": "v.", "cn": "数（数）", "ex_en": "Let's count from one to twenty.", "ex_cn": "我们从一数到二十吧。"},
+        {"en": "odd", "ipa": "/ɒd/", "pos": "adj.", "cn": "奇数的；单数的", "ex_en": "Seven is an odd number.", "ex_cn": "七是单数。"},
+        {"en": "even", "ipa": "/ˈiːvn/", "pos": "adj.", "cn": "偶数的；双数的", "ex_en": "Ten is an even number.", "ex_cn": "十是双数。"},
+        {"en": "plus", "ipa": "/plʌs/", "pos": "prep.", "cn": "加", "ex_en": "Five plus three is eight.", "ex_cn": "五加三等于八。"},
+        {"en": "minus", "ipa": "/ˈmaɪnəs/", "pos": "prep.", "cn": "减", "ex_en": "Nine minus four is five.", "ex_cn": "九减四等于五。"},
+        {"en": "equal", "ipa": "/ˈiːkwəl/", "pos": "v.", "cn": "等于", "ex_en": "Two plus two equals four.", "ex_cn": "二加二等于四。"},
+        {"en": "twenty", "ipa": "/ˈtwenti/", "pos": "num.", "cn": "二十", "ex_en": "There are twenty pupils in our group.", "ex_cn": "我们组有二十名学生。"},
+        {"en": "forty", "ipa": "/ˈfɔːti/", "pos": "num.", "cn": "四十", "ex_en": "My dad is forty.", "ex_cn": "我爸爸四十岁。"},
+        {"en": "hundred", "ipa": "/ˈhʌndrəd/", "pos": "num.", "cn": "百", "ex_en": "One hundred is a big number.", "ex_cn": "一百是个大数。"},
+        {"en": "how many", "ipa": "/haʊ ˈmeni/", "pos": "phr.", "cn": "多少（可数）", "ex_en": "How many books do you have?", "ex_cn": "你有多少本书？"},
+        {"en": "answer", "ipa": "/ˈɑːnsə/", "pos": "n./v.", "cn": "答案；回答", "ex_en": "The answer is twelve.", "ex_cn": "答案是十二。"}
+      ],
+      "patterns": [
+        {"en": "What's ... plus / minus ... ? — It's ... .", "cn": "……加／减……等于多少？——是……。", "examples": [
+          {"en": "What's six plus seven?", "cn": "六加七等于多少？"},
+          {"en": "It's thirteen.", "cn": "等于十三。"}
+        ]},
+        {"en": "Is ... an odd / even number?", "cn": "……是单数／双数吗？", "examples": [
+          {"en": "Is nine an odd number?", "cn": "九是单数吗？"},
+          {"en": "Yes, it is.", "cn": "是的。"}
+        ]},
+        {"en": "How many ... are there? — There are ... .", "cn": "有多少……？——有……。", "examples": [
+          {"en": "How many desks are there?", "cn": "有多少张课桌？"},
+          {"en": "There are forty desks.", "cn": "有四十张课桌。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "英语怎么读算式", "explain": "加用 plus，减用 minus，等于可以用 is 或 equals：3 + 4 = 7 读作 Three plus four is seven. / Three plus four equals seven.", "examples": [
+          {"en": "Ten minus two is eight.", "cn": "十减二等于八。"},
+          {"en": "Six plus six equals twelve.", "cn": "六加六等于十二。"}
+        ]},
+        {"title": "整十数的拼写", "explain": "twenty、thirty、forty、fifty、sixty、seventy、eighty、ninety，都以 -ty 结尾；注意 forty 没有 u（four 有 u），fifty 不是 fivety。", "examples": [
+          {"en": "My grandpa is forty-two.", "cn": "我爷爷四十二岁。"},
+          {"en": "There are fifty-five apples.", "cn": "有五十五个苹果。"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）四年级上册 Unit 4 How do we use numbers?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "买东西、看门牌号时用英语读出来：Room 302 读作 Room three oh two。"]
+    },
+    {
+      "id": "g4u9",
+      "no": 9,
+      "title_en": "How are the seasons different?",
+      "title_cn": "四季有什么不同",
+      "topic": "Seasons",
+      "book": "4A",
+      "book_unit": 5,
+      "overview": "说出四季的名称和冷暖，描述每个季节的变化，说说自己最喜欢哪个季节、为什么。",
+      "phonics": {
+        "focus": "字母组合 ow 的两种读音 /əʊ/ 与 /aʊ/",
+        "tip": "snow、grow 里读 /əʊ/；how、now 里读 /aʊ/，嘴巴先张大再收圆。",
+        "examples": ["snow /snəʊ/ 雪", "grow /ɡrəʊ/ 生长", "how /haʊ/ 怎样"]
+      },
+      "words": [
+        {"en": "season", "ipa": "/ˈsiːzn/", "pos": "n.", "cn": "季节", "ex_en": "There are four seasons in a year.", "ex_cn": "一年有四个季节。"},
+        {"en": "spring", "ipa": "/sprɪŋ/", "pos": "n.", "cn": "春天", "ex_en": "Flowers come out in spring.", "ex_cn": "春天花儿开放。"},
+        {"en": "summer", "ipa": "/ˈsʌmə/", "pos": "n.", "cn": "夏天", "ex_en": "It's hot in summer.", "ex_cn": "夏天很热。"},
+        {"en": "autumn", "ipa": "/ˈɔːtəm/", "pos": "n.", "cn": "秋天", "ex_en": "Leaves turn yellow in autumn.", "ex_cn": "秋天树叶变黄。"},
+        {"en": "winter", "ipa": "/ˈwɪntə/", "pos": "n.", "cn": "冬天", "ex_en": "It often snows in winter in Beijing.", "ex_cn": "北京冬天常下雪。"},
+        {"en": "warm", "ipa": "/wɔːm/", "pos": "adj.", "cn": "温暖的", "ex_en": "Spring is warm.", "ex_cn": "春天很暖和。"},
+        {"en": "cool", "ipa": "/kuːl/", "pos": "adj.", "cn": "凉爽的", "ex_en": "Autumn is cool.", "ex_cn": "秋天很凉爽。"},
+        {"en": "year", "ipa": "/jɪə/", "pos": "n.", "cn": "年", "ex_en": "My favourite time of the year is summer.", "ex_cn": "一年中我最喜欢夏天。"},
+        {"en": "grow", "ipa": "/ɡrəʊ/", "pos": "v.", "cn": "生长", "ex_en": "Plants grow fast in spring.", "ex_cn": "春天植物长得快。"},
+        {"en": "snow", "ipa": "/snəʊ/", "pos": "n./v.", "cn": "雪；下雪", "ex_en": "Children play in the snow.", "ex_cn": "孩子们在雪地里玩。"},
+        {"en": "fall", "ipa": "/fɔːl/", "pos": "v.", "cn": "落下", "ex_en": "Leaves fall from the trees.", "ex_cn": "树叶从树上落下。"},
+        {"en": "usually", "ipa": "/ˈjuːʒuəli/", "pos": "adv.", "cn": "通常", "ex_en": "We usually swim in summer.", "ex_cn": "我们通常在夏天游泳。"}
+      ],
+      "patterns": [
+        {"en": "In ... , it's ... .", "cn": "在……，天气……。", "examples": [
+          {"en": "In spring, it's warm.", "cn": "春天很暖和。"},
+          {"en": "In winter, it's cold.", "cn": "冬天很冷。"}
+        ]},
+        {"en": "What's your favourite season? — I like ... .", "cn": "你最喜欢哪个季节？——我喜欢……。", "examples": [
+          {"en": "What's your favourite season?", "cn": "你最喜欢哪个季节？"},
+          {"en": "I like autumn.", "cn": "我喜欢秋天。"}
+        ]},
+        {"en": "In ... , I usually ... .", "cn": "在……，我通常……。", "examples": [
+          {"en": "In summer, I usually swim.", "cn": "夏天我通常去游泳。"},
+          {"en": "In autumn, I usually fly kites.", "cn": "秋天我通常放风筝。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "in + 季节", "explain": "表示「在某个季节」用 in，季节名前一般不加 the：in spring、in winter。", "examples": [
+          {"en": "Birds sing in spring.", "cn": "鸟儿在春天歌唱。"},
+          {"en": "We eat ice cream in summer.", "cn": "我们夏天吃冰淇淋。"}
+        ]},
+        {"title": "一般现在时说规律", "explain": "说自然规律和习惯用一般现在时；主语是第三人称单数时动词加 -s：It snows. A tree grows. Leaves fall.", "examples": [
+          {"en": "It often rains in spring.", "cn": "春天常下雨。"},
+          {"en": "The tree grows tall.", "cn": "这棵树长高了。"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）四年级上册 Unit 5 How are the seasons different?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "深圳四季不太分明，可以和北方城市比一比：In Shenzhen, it doesn't snow in winter."]
+    },
     {
       "id": "g4u1",
       "no": 1,
       "title_en": "Hobbies",
       "title_cn": "兴趣爱好",
       "topic": "Hobbies",
+      "book": "拓展",
       "overview": "谈论自己和别人的爱好，学会用 like doing 和 be good at。",
       "phonics": {
         "focus": "动词 -ing 的读音 /ɪŋ/",
@@ -61,6 +170,7 @@
       "title_en": "Festivals",
       "title_cn": "节日",
       "topic": "Festivals",
+      "book": "拓展",
       "overview": "介绍中国传统节日和节日活动，学会用一般将来时谈计划。",
       "phonics": {
         "focus": "字母组合 al /ɔːl/ 与 /əl/",
@@ -112,6 +222,7 @@
       "title_en": "My city Shenzhen",
       "title_cn": "我的城市——深圳",
       "topic": "City",
+      "book": "拓展",
       "overview": "用英语介绍深圳：交通、景点和城市特点，学会 There be 与形容词比较。",
       "phonics": {
         "focus": "重音位置",
@@ -163,6 +274,7 @@
       "title_en": "Keeping healthy",
       "title_cn": "保持健康",
       "topic": "Health",
+      "book": "拓展",
       "overview": "描述身体不适、给出健康建议，学会 should 和 have a ... 的说法。",
       "phonics": {
         "focus": "字母组合 ea 的另一种读音 /e/",
@@ -214,6 +326,7 @@
       "title_en": "Shopping",
       "title_cn": "购物",
       "topic": "Shopping",
+      "book": "拓展",
       "overview": "在商店里问价、挑选和付款，学会 How much 与 too/enough 的用法。",
       "phonics": {
         "focus": "字母组合 ou /aʊ/",
@@ -266,6 +379,7 @@
       "title_en": "Animals and nature",
       "title_cn": "动物与自然",
       "topic": "Nature",
+      "book": "拓展",
       "overview": "描述动物的特征和栖息地，表达保护自然的想法。",
       "phonics": {
         "focus": "字母组合 oa /əʊ/",
@@ -317,6 +431,7 @@
       "title_en": "My garden",
       "title_cn": "我的小花园",
       "topic": "Garden",
+      "book": "拓展",
       "overview": "认识花园里的植物和小昆虫，会说植物需要什么、怎么照顾它们。对应课本 4B Unit 10 My garden。",
       "phonics": {
         "focus": "字母 g 的两种读音 /ɡ/ 与 /dʒ/",

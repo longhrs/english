@@ -39,8 +39,8 @@ public class CurriculumContentTest {
 
     @Test
     public void hasEnoughUnitsAndWords() {
-        assertEquals(54, curriculum.allUnits().size());
-        assertTrue("词汇总量应不少于 590", curriculum.totalWords() >= 590);
+        assertEquals(56, curriculum.allUnits().size());
+        assertTrue("词汇总量应不少于 610", curriculum.totalWords() >= 610);
         List<Grade> grades = curriculum.grades;
         for (int i = 0; i < grades.size(); i++) {
             assertTrue(grades.get(i).title + " 单元数不足", grades.get(i).units.size() >= 4);
@@ -65,6 +65,9 @@ public class CurriculumContentTest {
         assertEquals("拓展", extra.book);
         assertTrue(extra.displayTitle().startsWith("拓展 · "));
         assertEquals("Unit 1 Hello!", curriculum.unit("g1u1").displayTitle());
+        // 四年级上册已核实的新版单元排在四年级最前
+        assertEquals("4A Unit 4 How do we use numbers?", curriculum.grade(4).units.get(0).displayTitle());
+        assertEquals("4A Unit 5 How are the seasons different?", curriculum.grade(4).units.get(1).displayTitle());
     }
 
     @Test
