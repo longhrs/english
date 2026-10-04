@@ -65,23 +65,15 @@
 `ShenzhenPrimaryEnglish-vX.Y.apk` 附件即可。仓库是公开的，Release 附件**免登录**，
 手机浏览器点开就能下载安装（需允许「安装未知来源应用」）。
 
-Release 由 CI 自动维护：每次 push 到 `main`，构建成功后会按
-`app/build.gradle` 里的 `versionName` 发布（或更新）对应版本的 Release。
-想发新版本，改 `versionName`（顺便把 `versionCode` 加 1）再推 `main` 即可；
-也可以打 `v` 开头的标签推上去，或在 Actions 页面手动触发 workflow 并填写版本号。
-
-```bash
-# 方式 A：改版本号后推 main
-# 方式 B：打标签
-git tag v1.1 && git push origin v1.1
-```
+Release 只来自稳定分支 `main`，发版流程见下文「分支与发版」。
 
 ### 方式二：GitHub Actions 产物（需要登录 GitHub）
 
-每次 push 都会自动跑 `.github/workflows/build-apk.yml`：校验内容 → 跑单元测试 → 打包 Debug APK。
+每次 push（任何分支）都会自动跑 `.github/workflows/build-apk.yml`：校验内容 → 跑单元测试 → 打包 Debug APK。
+开发分支 `dev` 上的试用版就从这里下载。
 
 1. 打开仓库的 **Actions** 标签页
-2. 点最新一次 **Build APK** 运行记录
+2. 点对应分支最新一次 **Build APK** 运行记录（`dev` 的试用版就选分支为 `dev` 的那条）
 3. 在 **Artifacts** 里下载 `ShenzhenPrimaryEnglish-debug-apk`
 4. 解压得到 `ShenzhenPrimaryEnglish-debug.apk`，传到安卓手机安装（需允许「安装未知来源应用」）
 
@@ -97,6 +89,38 @@ git tag v1.1 && git push origin v1.1
 ### 方式四：Android Studio
 
 直接用 Android Studio 打开本目录，等 Gradle 同步完成后点 **Run**。
+
+## 分支与发版
+
+| 分支 | 用途 | 推送后 CI 做什么 |
+| --- | --- | --- |
+| `dev` | 开发分支，日常改动都推这里 | 校验内容 + 单元测试 + 打包 APK（Actions 产物），**不发版** |
+| `main` | 稳定分支，只放验证过的版本 | 同上，并按 `versionName` 发布/更新 Release |
+
+一次改动从开发到发版：
+
+1. **在 `dev` 上开发**，推送后等 CI 全绿。
+2. **真机验证**：从 Actions 里下载 `dev` 的 APK 装到手机上，把改动涉及的页面点一遍
+   （界面、朗读、页面跳转这些 CI 测不到）。
+3. **改版本号**：决定发版时，在 `dev` 上把 `app/build.gradle` 的 `versionName` 加一档、
+   `versionCode` 加 1，作为这次发版的最后一个提交。
+4. **晋级到 `main`**：把 `dev` 快进合并进 `main` 再推送，CI 构建成功后自动发布新 Release。
+
+```bash
+git checkout dev && git pull
+# ……开发、提交、推送，等 CI 全绿、真机验证通过……
+git checkout main && git pull
+git merge --ff-only dev      # 只允许快进，保证 main 就是验证过的那个提交
+git push origin main         # 触发发版
+git checkout dev
+```
+
+注意：
+
+- `main` **每推一次都会发版**。同一个 `versionName` 再推一次 `main`，会用新构建的 APK 覆盖该版本
+  Release 里的附件，所以只改文档时可以先攒在 `dev`，跟下一次发版一起进 `main`。
+- `merge --ff-only` 失败说明 `main` 上有 `dev` 没有的提交，先把 `main` 合回 `dev` 并重新验证，再晋级。
+- 也可以打 `v` 开头的标签推上去，或在 Actions 页面手动触发 workflow 并填写版本号来发版。
 
 ## 运行要求
 
