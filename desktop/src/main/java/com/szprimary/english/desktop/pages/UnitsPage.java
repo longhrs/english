@@ -47,9 +47,35 @@ public final class UnitsPage extends BasePage {
         intro.add(Ui.spacer(4));
         intro.add(Ui.body(grade.subtitle));
         content.add(intro);
+        String lastBook = "";
         for (int i = 0; i < grade.units.size(); i++) {
-            content.add(unitCard(grade.units.get(i)));
+            Unit unit = grade.units.get(i);
+            if (!unit.book.equals(lastBook)) {
+                String heading = bookHeading(unit.book);
+                if (heading != null) {
+                    content.add(Ui.text(heading, 16, Ui.PRIMARY, true));
+                }
+                lastBook = unit.book;
+            }
+            content.add(unitCard(unit));
         }
+    }
+
+    /** 单元列表里的分组标题：按课本册次分组（只在单元标注了 book 时显示）。 */
+    static String bookHeading(String book) {
+        if (book == null || book.length() == 0) {
+            return null;
+        }
+        if ("拓展".equals(book)) {
+            return "拓展话题（旧版课本内容，可作课外拓展）";
+        }
+        if (book.length() == 2 && Character.isDigit(book.charAt(0))) {
+            String[] grades = {"", "一", "二", "三", "四", "五", "六"};
+            int g = book.charAt(0) - '0';
+            String half = book.charAt(1) == 'A' ? "上册" : "下册";
+            return (g >= 1 && g <= 6 ? grades[g] : String.valueOf(g)) + "年级" + half + "（" + book + "）· 新版课本";
+        }
+        return book;
     }
 
     private JComponent unitCard(final Unit unit) {

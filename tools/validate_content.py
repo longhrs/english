@@ -68,6 +68,11 @@ for path in sorted(glob.glob(os.path.join(ROOT, "grade*.json"))):
         for key in ("title_en", "title_cn", "overview"):
             if not unit.get(key, "").strip():
                 err(where, "缺少 %s" % key)
+        if "book_unit" in unit:
+            if not isinstance(unit["book_unit"], int) or unit["book_unit"] < 1:
+                err(where, "book_unit 应为正整数")
+            if not unit.get("book", "").strip():
+                err(where, "有 book_unit 时必须写 book（如 3A）")
 
         words = unit.get("words", [])
         if len(words) < 8:

@@ -1,7 +1,7 @@
 {
   "grade": 1,
   "title": "一年级",
-  "subtitle": "起步：字母语音、问候、颜色数字与身边的人和物",
+  "subtitle": "起步：字母语音、问候、颜色数字与身边的人和物（新版课本从三年级开始，本年级为启蒙内容）",
   "units": [
     {
       "id": "g1u1",
@@ -50,7 +50,7 @@
           {"en": "Amy and I are friends.", "cn": "艾米和我是朋友。"}
         ]}
       ],
-      "tips": ["教材对照：沪教牛津版（深圳用）1A Module 1 Getting to know you（Unit 1 Hello）。", "课堂用语：Stand up, please. 请起立。", "课堂用语：Sit down, please. 请坐下。"]
+      "tips": ["旧版教材对照：沪教牛津版（深圳用）1A Module 1 Getting to know you（Unit 1 Hello）。", "课堂用语：Stand up, please. 请起立。", "课堂用语：Sit down, please. 请坐下。"]
     },
     {
       "id": "g1u2",
@@ -100,7 +100,7 @@
           {"en": "a white cap", "cn": "一顶白帽子"}
         ]}
       ],
-      "tips": ["教材对照：1A/1B 的颜色话题；同名单元 Colours 在 3B Module 1 Using my five senses 会再学一次。", "深圳的校服常见蓝白两色，可以用 My uniform is blue and white. 来描述。"]
+      "tips": ["旧版教材对照：1A/1B 的颜色话题；同名单元 Colours 在 3B Module 1 Using my five senses 会再学一次。", "深圳的校服常见蓝白两色，可以用 My uniform is blue and white. 来描述。"]
     },
     {
       "id": "g1u3",
@@ -149,7 +149,7 @@
           {"en": "How many cats?", "cn": "有几只猫？"}
         ]}
       ],
-      "tips": ["教材对照：1A/1B 的数字话题；seven 到 ten 等数词在 2A Module 1 还会复现。", "数数时可以拍手打节奏，帮助记住 /θ/ 在 three 里的咬舌音。"]
+      "tips": ["旧版教材对照：1A/1B 的数字话题；seven 到 ten 等数词在 2A Module 1 还会复现。", "数数时可以拍手打节奏，帮助记住 /θ/ 在 three 里的咬舌音。"]
     },
     {
       "id": "g1u4",
@@ -198,7 +198,7 @@
           {"en": "my family", "cn": "我的家庭"}
         ]}
       ],
-      "tips": ["教材对照：1A Module 2 My family, my friends and me；2A Unit 5 That's my family 是同一话题。", "向别人介绍家人照片时，先说 This is ...，再补一句 He/She is ...。"]
+      "tips": ["旧版教材对照：1A Module 2 My family, my friends and me；2A Unit 5 That's my family 是同一话题。", "向别人介绍家人照片时，先说 This is ...，再补一句 He/She is ...。"]
     },
     {
       "id": "g1u5",
@@ -247,7 +247,7 @@
           {"en": "one foot, two feet", "cn": "一只脚，两只脚"}
         ]}
       ],
-      "tips": ["教材对照：1A Module 1 Unit 3 My face；2A Unit 6 My hair is short 会继续描述长相。", "配合 Simon says 游戏练习指令，听到 Simon says 才做动作。"]
+      "tips": ["旧版教材对照：1A Module 1 Unit 3 My face；2A Unit 6 My hair is short 会继续描述长相。", "配合 Simon says 游戏练习指令，听到 Simon says 才做动作。"]
     },
     {
       "id": "g1u6",
@@ -297,7 +297,7 @@
           {"en": "The pen is in my bag.", "cn": "钢笔在我的书包里。"}
         ]}
       ],
-      "tips": ["教材对照：1A Module 3 Places and activities；2A Unit 7 In the playground、Unit 8 In my room 同类。", "借东西时说 May I use your ruler?，归还时说 Thank you.。"]
+      "tips": ["旧版教材对照：1A Module 3 Places and activities；2A Unit 7 In the playground、Unit 8 In my room 同类。", "借东西时说 May I use your ruler?，归还时说 Thank you.。"]
     },
     {
       "id": "g1u7",
@@ -347,7 +347,7 @@
           {"en": "Kitty is short.", "cn": "琪蒂个子矮。"}
         ]}
       ],
-      "tips": ["教材对照：沪教牛津版（深圳用）1A Module 1 Getting to know you Unit 2 My classmates。", "认识新同学时可以说 Nice to meet you.，对方回 Nice to meet you, too."]
+      "tips": ["旧版教材对照：沪教牛津版（深圳用）1A Module 1 Getting to know you Unit 2 My classmates。", "认识新同学时可以说 Nice to meet you.，对方回 Nice to meet you, too."]
     }
   ]
 }

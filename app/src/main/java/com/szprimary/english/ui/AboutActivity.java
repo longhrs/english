@@ -47,11 +47,10 @@ public final class AboutActivity extends Activity {
         LinearLayout content2 = Ui.card(this);
         content2.addView(Ui.text(this, "内容说明", 16, Ui.TEXT, true));
         content2.addView(Ui.spacer(this, 8));
-        content2.addView(Ui.body(this, "本应用的词汇、句型和语法按深圳小学通用的沪教牛津版（深圳用）教材"
-                + "话题与单元顺序对照编写整理，覆盖问候、颜色数字、家庭、同学、校园、时间、职业、服装、"
-                + "饮食、街道交通、城市、健康、购物、自然、爱好、节日、旅行、运动、科技、环保、文化、"
-                + "安全、成长变化、小升初等话题。每个单元的「学习小贴士」里都标注了教材对照，"
-                + "写明它对应课本哪一册、哪个 Module / Unit。"));
+        content2.addView(Ui.body(this, "三年级已按 2024 年审定的新版沪教版英语课本（上海教育出版社·义务教育教科书）编排："
+                + "三年级上册（3A）全部 8 个单元、三年级下册（3B）已核实的 4 个单元，单元标题与课本一致。"
+                + "新版课本从三年级开始，一、二年级为启蒙内容；四至六年级的「教材对照」暂时指向旧版"
+                + "（沪教牛津版·深圳用），新版目录核实后再更新。每个单元的「学习小贴士」里都标注了对应的课本单元。"));
         content2.addView(Ui.spacer(this, 8));
         content2.addView(Ui.body(this, "所有文字均为本项目自行撰写，并非任何出版社教材的原文摘录，"
                 + "也不隶属于任何学校或机构；教材版次会调整，具体以学校当年所用课本和老师的要求为准。"));

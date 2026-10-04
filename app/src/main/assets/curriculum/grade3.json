@@ -1,14 +1,643 @@
 {
   "grade": 3,
   "title": "三年级",
-  "subtitle": "学校、时间、职业、服装与身边的场所：开始写完整句子",
+  "subtitle": "已按 2024 新版沪教版课本编排：3A 全部 8 个单元 + 3B 已核实的 4 个单元；另附 7 个拓展话题",
   "units": [
+    {
+      "id": "g3u8",
+      "no": 8,
+      "title_en": "How do we feel?",
+      "title_cn": "我们感觉怎么样",
+      "topic": "Feelings",
+      "book": "3A",
+      "book_unit": 1,
+      "overview": "学会问候别人「你好吗」，并用 happy、sad、angry、tired 等词说出自己的感受。",
+      "phonics": {
+        "focus": "字母 Aa、Bb 的发音",
+        "tip": "Aa 在单词里常读 /æ/，嘴巴张大；Bb 读 /b/，双唇闭紧再爆开。",
+        "examples": ["bag /bæɡ/ 书包", "boy /bɔɪ/ 男孩", "sad /sæd/ 难过的"]
+      },
+      "words": [
+        {"en": "happy", "ipa": "/ˈhæpi/", "pos": "adj.", "cn": "高兴的", "ex_en": "I am happy today.", "ex_cn": "我今天很高兴。"},
+        {"en": "sad", "ipa": "/sæd/", "pos": "adj.", "cn": "难过的", "ex_en": "The girl is sad.", "ex_cn": "那个女孩很难过。"},
+        {"en": "angry", "ipa": "/ˈæŋɡri/", "pos": "adj.", "cn": "生气的", "ex_en": "Are you angry?", "ex_cn": "你生气了吗？"},
+        {"en": "tired", "ipa": "/ˈtaɪəd/", "pos": "adj.", "cn": "累的", "ex_en": "I am tired after PE.", "ex_cn": "上完体育课我很累。"},
+        {"en": "fine", "ipa": "/faɪn/", "pos": "adj.", "cn": "好的；健康的", "ex_en": "I'm fine, thank you.", "ex_cn": "我很好，谢谢。"},
+        {"en": "great", "ipa": "/ɡreɪt/", "pos": "adj.", "cn": "很好的；棒极了", "ex_en": "I feel great!", "ex_cn": "我感觉棒极了！"},
+        {"en": "feel", "ipa": "/fiːl/", "pos": "v.", "cn": "感觉", "ex_en": "How do you feel?", "ex_cn": "你感觉怎么样？"},
+        {"en": "boy", "ipa": "/bɔɪ/", "pos": "n.", "cn": "男孩", "ex_en": "The boy is happy.", "ex_cn": "那个男孩很高兴。"},
+        {"en": "girl", "ipa": "/ɡɜːl/", "pos": "n.", "cn": "女孩", "ex_en": "This girl is tired.", "ex_cn": "这个女孩累了。"},
+        {"en": "you", "ipa": "/juː/", "pos": "pron.", "cn": "你；你们", "ex_en": "How are you?", "ex_cn": "你好吗？"}
+      ],
+      "patterns": [
+        {"en": "How are you? — I'm ... .", "cn": "你好吗？——我……。", "examples": [
+          {"en": "How are you?", "cn": "你好吗？"},
+          {"en": "I'm fine, thank you.", "cn": "我很好，谢谢。"}
+        ]},
+        {"en": "Are you ... ?", "cn": "你……吗？", "examples": [
+          {"en": "Are you happy?", "cn": "你高兴吗？"},
+          {"en": "Yes, I am.", "cn": "是的，我高兴。"}
+        ]},
+        {"en": "I feel ... .", "cn": "我感觉……。", "examples": [
+          {"en": "I feel tired.", "cn": "我感觉累了。"},
+          {"en": "I feel great today.", "cn": "我今天感觉棒极了。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "I'm 就是 I am", "explain": "说自己的状态用 I am，口语里常缩写成 I'm；问别人用 Are you ...?，回答 Yes, I am. 或 No, I'm not.", "examples": [
+          {"en": "I'm sad.", "cn": "我很难过。"},
+          {"en": "Are you angry? No, I'm not.", "cn": "你生气了吗？没有。"}
+        ]},
+        {"title": "形容词描述感受", "explain": "happy、sad、angry、tired 是形容词，放在 am / are / is 后面，说明人的感受。", "examples": [
+          {"en": "She is happy.", "cn": "她很高兴。"},
+          {"en": "We are tired.", "cn": "我们累了。"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级上册 Unit 1 How do we feel?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "看到同学不开心时，可以问一句 Are you OK?（你还好吗？）"]
+    },
+    {
+      "id": "g3u9",
+      "no": 9,
+      "title_en": "What's interesting about families?",
+      "title_cn": "家庭里有趣的事",
+      "topic": "Family",
+      "book": "3A",
+      "book_unit": 2,
+      "overview": "介绍自己的家人，说说他们是谁、在做什么，学会用 This is my ... 和 I love my family.",
+      "phonics": {
+        "focus": "字母 Cc、Dd 的发音",
+        "tip": "Cc 在 a、o、u 前常读 /k/；Dd 读 /d/，舌尖抵住上齿龈。",
+        "examples": ["dad /dæd/ 爸爸", "cat /kæt/ 猫", "dog /dɒɡ/ 狗"]
+      },
+      "words": [
+        {"en": "family", "ipa": "/ˈfæməli/", "pos": "n.", "cn": "家；家庭", "ex_en": "I love my family.", "ex_cn": "我爱我的家。"},
+        {"en": "dad", "ipa": "/dæd/", "pos": "n.", "cn": "爸爸", "ex_en": "This is my dad.", "ex_cn": "这是我爸爸。"},
+        {"en": "mum", "ipa": "/mʌm/", "pos": "n.", "cn": "妈妈", "ex_en": "My mum is a doctor.", "ex_cn": "我妈妈是一名医生。"},
+        {"en": "grandpa", "ipa": "/ˈɡrænpɑː/", "pos": "n.", "cn": "爷爷；外公", "ex_en": "Grandpa can cook.", "ex_cn": "爷爷会做饭。"},
+        {"en": "grandma", "ipa": "/ˈɡrænmɑː/", "pos": "n.", "cn": "奶奶；外婆", "ex_en": "My grandma is kind.", "ex_cn": "我奶奶很和蔼。"},
+        {"en": "brother", "ipa": "/ˈbrʌðə/", "pos": "n.", "cn": "哥哥；弟弟", "ex_en": "My brother is tall.", "ex_cn": "我哥哥个子高。"},
+        {"en": "sister", "ipa": "/ˈsɪstə/", "pos": "n.", "cn": "姐姐；妹妹", "ex_en": "This is my little sister.", "ex_cn": "这是我的小妹妹。"},
+        {"en": "baby", "ipa": "/ˈbeɪbi/", "pos": "n.", "cn": "婴儿", "ex_en": "The baby is sleeping.", "ex_cn": "宝宝正在睡觉。"},
+        {"en": "love", "ipa": "/lʌv/", "pos": "v.", "cn": "爱", "ex_en": "I love you, Mum.", "ex_cn": "妈妈，我爱你。"},
+        {"en": "this", "ipa": "/ðɪs/", "pos": "pron.", "cn": "这；这个", "ex_en": "Who is this?", "ex_cn": "这是谁？"}
+      ],
+      "patterns": [
+        {"en": "This is my ... .", "cn": "这是我的……。", "examples": [
+          {"en": "This is my grandpa.", "cn": "这是我的爷爷。"},
+          {"en": "This is my sister.", "cn": "这是我的妹妹。"}
+        ]},
+        {"en": "Who is he / she?", "cn": "他／她是谁？", "examples": [
+          {"en": "Who is she?", "cn": "她是谁？"},
+          {"en": "She is my mum.", "cn": "她是我妈妈。"}
+        ]},
+        {"en": "I love my ... .", "cn": "我爱我的……。", "examples": [
+          {"en": "I love my family.", "cn": "我爱我的家人。"},
+          {"en": "I love my brother.", "cn": "我爱我的弟弟。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "he 和 she", "explain": "说男性家人用 he（他），说女性家人用 she（她）。介绍时先说 This is my ...，再补一句 He is ... / She is ...。", "examples": [
+          {"en": "This is my dad. He is tall.", "cn": "这是我爸爸。他个子高。"},
+          {"en": "This is my grandma. She is kind.", "cn": "这是我奶奶。她很和蔼。"}
+        ]},
+        {"title": "my 的用法", "explain": "my 意思是「我的」，后面直接跟名词，不再加 a 或 the。", "examples": [
+          {"en": "my mum", "cn": "我的妈妈"},
+          {"en": "my family", "cn": "我的家人"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级上册 Unit 2 What's interesting about families?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "可以拿一张全家福，用 This is my ... 把每个人介绍一遍。"]
+    },
+    {
+      "id": "g3u10",
+      "no": 10,
+      "title_en": "What do we look like?",
+      "title_cn": "我们长什么样",
+      "topic": "Appearance",
+      "book": "3A",
+      "book_unit": 3,
+      "overview": "认识五官和头发，用 long、short、big、small 描述自己和别人的样子。",
+      "phonics": {
+        "focus": "字母 Ee、Ff 的发音",
+        "tip": "Ee 在闭音节里读短音 /e/；Ff 读 /f/，上齿轻咬下唇送气。",
+        "examples": ["head /hed/ 头", "face /feɪs/ 脸", "leg /leɡ/ 腿"]
+      },
+      "words": [
+        {"en": "face", "ipa": "/feɪs/", "pos": "n.", "cn": "脸", "ex_en": "Wash your face.", "ex_cn": "洗洗你的脸。"},
+        {"en": "eye", "ipa": "/aɪ/", "pos": "n.", "cn": "眼睛", "ex_en": "I have big eyes.", "ex_cn": "我的眼睛很大。"},
+        {"en": "ear", "ipa": "/ɪə/", "pos": "n.", "cn": "耳朵", "ex_en": "The rabbit has long ears.", "ex_cn": "兔子的耳朵很长。"},
+        {"en": "nose", "ipa": "/nəʊz/", "pos": "n.", "cn": "鼻子", "ex_en": "Touch your nose.", "ex_cn": "摸摸你的鼻子。"},
+        {"en": "mouth", "ipa": "/maʊθ/", "pos": "n.", "cn": "嘴", "ex_en": "Open your mouth.", "ex_cn": "张开你的嘴。"},
+        {"en": "hair", "ipa": "/heə/", "pos": "n.", "cn": "头发", "ex_en": "My hair is short.", "ex_cn": "我的头发是短的。"},
+        {"en": "head", "ipa": "/hed/", "pos": "n.", "cn": "头", "ex_en": "Nod your head.", "ex_cn": "点点头。"},
+        {"en": "long", "ipa": "/lɒŋ/", "pos": "adj.", "cn": "长的", "ex_en": "Her hair is long.", "ex_cn": "她的头发很长。"},
+        {"en": "short", "ipa": "/ʃɔːt/", "pos": "adj.", "cn": "短的；矮的", "ex_en": "I have short hair.", "ex_cn": "我留着短头发。"},
+        {"en": "big", "ipa": "/bɪɡ/", "pos": "adj.", "cn": "大的", "ex_en": "The cat has big eyes.", "ex_cn": "这只猫眼睛很大。"},
+        {"en": "small", "ipa": "/smɔːl/", "pos": "adj.", "cn": "小的", "ex_en": "The bird has a small mouth.", "ex_cn": "这只鸟的嘴很小。"},
+        {"en": "look", "ipa": "/lʊk/", "pos": "v.", "cn": "看；看起来", "ex_en": "Look at my new haircut.", "ex_cn": "看我的新发型。"}
+      ],
+      "patterns": [
+        {"en": "I have ... .", "cn": "我有……。", "examples": [
+          {"en": "I have long hair.", "cn": "我留着长头发。"},
+          {"en": "I have small ears.", "cn": "我的耳朵很小。"}
+        ]},
+        {"en": "My ... is / are ... .", "cn": "我的……是……的。", "examples": [
+          {"en": "My hair is short.", "cn": "我的头发是短的。"},
+          {"en": "My eyes are big.", "cn": "我的眼睛很大。"}
+        ]},
+        {"en": "Touch your ... .", "cn": "摸摸你的……。", "examples": [
+          {"en": "Touch your nose.", "cn": "摸摸你的鼻子。"},
+          {"en": "Touch your ears.", "cn": "摸摸你的耳朵。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "单数 is，复数 are", "explain": "一个东西用 is（My nose is small.），两个或更多用 are（My eyes are big.）。眼睛、耳朵通常是一对，用复数 eyes、ears。", "examples": [
+          {"en": "My mouth is small.", "cn": "我的嘴很小。"},
+          {"en": "My ears are big.", "cn": "我的耳朵很大。"}
+        ]},
+        {"title": "形容词放在名词前", "explain": "描述「什么样的」东西时，形容词放在名词前面：long hair、big eyes。", "examples": [
+          {"en": "She has long hair.", "cn": "她留着长头发。"},
+          {"en": "He has big eyes.", "cn": "他的眼睛很大。"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级上册 Unit 3 What do we look like?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "照着镜子边指边说：This is my nose. My nose is small."]
+    },
+    {
+      "id": "g3u11",
+      "no": 11,
+      "title_en": "How do we have fun?",
+      "title_cn": "我们怎么玩得开心",
+      "topic": "Fun",
+      "book": "3A",
+      "book_unit": 4,
+      "overview": "说出常见的玩具和游戏，学会邀请同学一起玩、和别人分享。",
+      "phonics": {
+        "focus": "字母 Gg、Hh 的发音",
+        "tip": "Gg 在 a、o、u 前常读 /ɡ/；Hh 读 /h/，像轻轻哈气。",
+        "examples": ["game /ɡeɪm/ 游戏", "have /hæv/ 有", "hop /hɒp/ 单脚跳"]
+      },
+      "words": [
+        {"en": "play", "ipa": "/pleɪ/", "pos": "v.", "cn": "玩", "ex_en": "Let's play together.", "ex_cn": "我们一起玩吧。"},
+        {"en": "game", "ipa": "/ɡeɪm/", "pos": "n.", "cn": "游戏", "ex_en": "This game is fun.", "ex_cn": "这个游戏很好玩。"},
+        {"en": "fun", "ipa": "/fʌn/", "pos": "n./adj.", "cn": "乐趣；有趣的", "ex_en": "We have fun at the park.", "ex_cn": "我们在公园玩得很开心。"},
+        {"en": "ball", "ipa": "/bɔːl/", "pos": "n.", "cn": "球", "ex_en": "Throw the ball to me.", "ex_cn": "把球扔给我。"},
+        {"en": "doll", "ipa": "/dɒl/", "pos": "n.", "cn": "玩偶；娃娃", "ex_en": "I have a pretty doll.", "ex_cn": "我有一个漂亮的娃娃。"},
+        {"en": "kite", "ipa": "/kaɪt/", "pos": "n.", "cn": "风筝", "ex_en": "Let's fly a kite.", "ex_cn": "我们去放风筝吧。"},
+        {"en": "toy", "ipa": "/tɔɪ/", "pos": "n.", "cn": "玩具", "ex_en": "This is my favourite toy.", "ex_cn": "这是我最喜欢的玩具。"},
+        {"en": "book", "ipa": "/bʊk/", "pos": "n.", "cn": "书", "ex_en": "I read a funny book.", "ex_cn": "我读了一本有趣的书。"},
+        {"en": "share", "ipa": "/ʃeə/", "pos": "v.", "cn": "分享", "ex_en": "Let's share the toys.", "ex_cn": "我们一起分享玩具吧。"},
+        {"en": "together", "ipa": "/təˈɡeðə/", "pos": "adv.", "cn": "一起", "ex_en": "We play together after school.", "ex_cn": "我们放学后一起玩。"}
+      ],
+      "patterns": [
+        {"en": "Let's play ... !", "cn": "我们一起玩……吧！", "examples": [
+          {"en": "Let's play a game!", "cn": "我们玩个游戏吧！"},
+          {"en": "Let's play with the ball.", "cn": "我们来玩球吧。"}
+        ]},
+        {"en": "Can I play with your ... ?", "cn": "我可以玩你的……吗？", "examples": [
+          {"en": "Can I play with your kite?", "cn": "我可以玩你的风筝吗？"},
+          {"en": "Sure. Here you are.", "cn": "当然，给你。"}
+        ]},
+        {"en": "I like ... .", "cn": "我喜欢……。", "examples": [
+          {"en": "I like my doll.", "cn": "我喜欢我的娃娃。"},
+          {"en": "I like this game.", "cn": "我喜欢这个游戏。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "Let's + 动词原形", "explain": "Let's 是 Let us 的缩写，用来提议「我们一起做某事」，后面直接跟动词原形。", "examples": [
+          {"en": "Let's fly a kite.", "cn": "我们去放风筝吧。"},
+          {"en": "Let's share.", "cn": "我们分享吧。"}
+        ]},
+        {"title": "礼貌用语", "explain": "借别人东西先问 Can I ...?，拿到后说 Thank you.；递给别人时说 Here you are.。", "examples": [
+          {"en": "Can I have the ball, please?", "cn": "请问我可以拿这个球吗？"},
+          {"en": "Here you are.", "cn": "给你。"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级上册 Unit 4 How do we have fun?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "课间玩游戏时试着全程用英语：Let's play! Your turn. My turn."]
+    },
+    {
+      "id": "g3u12",
+      "no": 12,
+      "title_en": "What do we eat?",
+      "title_cn": "我们吃什么",
+      "topic": "Food",
+      "book": "3A",
+      "book_unit": 5,
+      "overview": "认识常见的食物、水果、蔬菜和饮料，说出自己喜欢吃什么、喝什么。",
+      "phonics": {
+        "focus": "字母 Ii、Jj 的发音",
+        "tip": "Ii 在闭音节里读短音 /ɪ/；Jj 读 /dʒ/，声带振动。",
+        "examples": ["fish /fɪʃ/ 鱼", "milk /mɪlk/ 牛奶", "juice /dʒuːs/ 果汁"]
+      },
+      "words": [
+        {"en": "milk", "ipa": "/mɪlk/", "pos": "n.", "cn": "牛奶", "ex_en": "I drink milk every morning.", "ex_cn": "我每天早上喝牛奶。"},
+        {"en": "juice", "ipa": "/dʒuːs/", "pos": "n.", "cn": "果汁", "ex_en": "Can I have some juice?", "ex_cn": "我能喝点果汁吗？"},
+        {"en": "tomato", "ipa": "/təˈmɑːtəʊ/", "pos": "n.", "cn": "番茄；西红柿", "ex_en": "I like tomatoes.", "ex_cn": "我喜欢番茄。"},
+        {"en": "carrot", "ipa": "/ˈkærət/", "pos": "n.", "cn": "胡萝卜", "ex_en": "Rabbits like carrots.", "ex_cn": "兔子喜欢胡萝卜。"},
+        {"en": "apple", "ipa": "/ˈæpl/", "pos": "n.", "cn": "苹果", "ex_en": "An apple a day is good for you.", "ex_cn": "一天一个苹果对你有好处。"},
+        {"en": "banana", "ipa": "/bəˈnɑːnə/", "pos": "n.", "cn": "香蕉", "ex_en": "The monkey eats a banana.", "ex_cn": "猴子在吃香蕉。"},
+        {"en": "grape", "ipa": "/ɡreɪp/", "pos": "n.", "cn": "葡萄", "ex_en": "These grapes are sweet.", "ex_cn": "这些葡萄很甜。"},
+        {"en": "meat", "ipa": "/miːt/", "pos": "n.", "cn": "肉", "ex_en": "I eat meat and rice.", "ex_cn": "我吃肉和米饭。"},
+        {"en": "fish", "ipa": "/fɪʃ/", "pos": "n.", "cn": "鱼；鱼肉", "ex_en": "We eat fish on Friday.", "ex_cn": "我们星期五吃鱼。"},
+        {"en": "eat", "ipa": "/iːt/", "pos": "v.", "cn": "吃", "ex_en": "What do you eat for lunch?", "ex_cn": "你午饭吃什么？"},
+        {"en": "drink", "ipa": "/drɪŋk/", "pos": "v.", "cn": "喝", "ex_en": "Drink some water.", "ex_cn": "喝点水吧。"}
+      ],
+      "patterns": [
+        {"en": "What do you eat? — I eat ... .", "cn": "你吃什么？——我吃……。", "examples": [
+          {"en": "What do you eat for breakfast?", "cn": "你早饭吃什么？"},
+          {"en": "I eat eggs and bread.", "cn": "我吃鸡蛋和面包。"}
+        ]},
+        {"en": "Do you like ... ?", "cn": "你喜欢……吗？", "examples": [
+          {"en": "Do you like carrots?", "cn": "你喜欢胡萝卜吗？"},
+          {"en": "Yes, I do.", "cn": "是的，我喜欢。"}
+        ]},
+        {"en": "Can I have some ... ?", "cn": "我能要一些……吗？", "examples": [
+          {"en": "Can I have some milk?", "cn": "我能喝点牛奶吗？"},
+          {"en": "Yes, here you are.", "cn": "可以，给你。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "Do you like ...? 的回答", "explain": "肯定回答 Yes, I do.，否定回答 No, I don't.；问的东西是可数的要用复数：Do you like apples?", "examples": [
+          {"en": "Do you like grapes? No, I don't.", "cn": "你喜欢葡萄吗？不喜欢。"},
+          {"en": "Do you like bananas? Yes, I do.", "cn": "你喜欢香蕉吗？喜欢。"}
+        ]},
+        {"title": "可数名词复数", "explain": "多数名词加 -s（apple → apples）；以 o 结尾的 tomato 要加 -es（tomatoes）。milk、juice、meat 一般不加 -s。", "examples": [
+          {"en": "I like tomatoes.", "cn": "我喜欢番茄。"},
+          {"en": "I drink milk.", "cn": "我喝牛奶。"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级上册 Unit 5 What do we eat?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "吃饭时说一说桌上的菜：I eat fish. I don't eat carrots."]
+    },
+    {
+      "id": "g3u13",
+      "no": 13,
+      "title_en": "What do we like about small animals?",
+      "title_cn": "我们喜欢小动物的什么",
+      "topic": "Small animals",
+      "book": "3A",
+      "book_unit": 6,
+      "overview": "认识身边的小动物，说说它们长什么样、会做什么、为什么喜欢它们。",
+      "phonics": {
+        "focus": "字母 Kk、Ll 的发音",
+        "tip": "Kk 读 /k/，送气；Ll 在词首读清晰的 /l/，舌尖抵上齿龈。",
+        "examples": ["kitten /ˈkɪtn/ 小猫", "leg /leɡ/ 腿", "little /ˈlɪtl/ 小的"]
+      },
+      "words": [
+        {"en": "rabbit", "ipa": "/ˈræbɪt/", "pos": "n.", "cn": "兔子", "ex_en": "The rabbit can jump.", "ex_cn": "兔子会跳。"},
+        {"en": "cat", "ipa": "/kæt/", "pos": "n.", "cn": "猫", "ex_en": "My cat is soft.", "ex_cn": "我的猫软软的。"},
+        {"en": "dog", "ipa": "/dɒɡ/", "pos": "n.", "cn": "狗", "ex_en": "The dog can run fast.", "ex_cn": "这只狗跑得很快。"},
+        {"en": "bird", "ipa": "/bɜːd/", "pos": "n.", "cn": "鸟", "ex_en": "The bird can sing.", "ex_cn": "小鸟会唱歌。"},
+        {"en": "mouse", "ipa": "/maʊs/", "pos": "n.", "cn": "老鼠", "ex_en": "The mouse is small.", "ex_cn": "老鼠很小。"},
+        {"en": "cute", "ipa": "/kjuːt/", "pos": "adj.", "cn": "可爱的", "ex_en": "The puppy is cute.", "ex_cn": "小狗很可爱。"},
+        {"en": "soft", "ipa": "/sɒft/", "pos": "adj.", "cn": "柔软的", "ex_en": "Its fur is soft.", "ex_cn": "它的毛软软的。"},
+        {"en": "tail", "ipa": "/teɪl/", "pos": "n.", "cn": "尾巴", "ex_en": "The cat has a long tail.", "ex_cn": "这只猫有一条长尾巴。"},
+        {"en": "jump", "ipa": "/dʒʌmp/", "pos": "v.", "cn": "跳", "ex_en": "Rabbits jump high.", "ex_cn": "兔子跳得很高。"},
+        {"en": "run", "ipa": "/rʌn/", "pos": "v.", "cn": "跑", "ex_en": "Dogs like to run.", "ex_cn": "狗喜欢跑。"},
+        {"en": "fly", "ipa": "/flaɪ/", "pos": "v.", "cn": "飞", "ex_en": "Birds can fly.", "ex_cn": "鸟会飞。"}
+      ],
+      "patterns": [
+        {"en": "I like ... . They are ... .", "cn": "我喜欢……。它们……。", "examples": [
+          {"en": "I like rabbits.", "cn": "我喜欢兔子。"},
+          {"en": "They are cute.", "cn": "它们很可爱。"}
+        ]},
+        {"en": "It has ... .", "cn": "它有……。", "examples": [
+          {"en": "It has long ears.", "cn": "它有长长的耳朵。"},
+          {"en": "It has a short tail.", "cn": "它有一条短尾巴。"}
+        ]},
+        {"en": "It can ... .", "cn": "它会……。", "examples": [
+          {"en": "It can jump.", "cn": "它会跳。"},
+          {"en": "It can fly.", "cn": "它会飞。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "说一类动物用复数", "explain": "表示「喜欢某种动物」时，动物名用复数：I like cats. 说其中一只时用 It：It is cute.", "examples": [
+          {"en": "I like dogs.", "cn": "我喜欢狗。"},
+          {"en": "It can run fast.", "cn": "它跑得快。"}
+        ]},
+        {"title": "has 和 have", "explain": "说「它／他／她有」用 has，说「我／你／我们／它们有」用 have。", "examples": [
+          {"en": "It has big eyes.", "cn": "它的眼睛很大。"},
+          {"en": "They have long tails.", "cn": "它们有长尾巴。"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级上册 Unit 6 What do we like about small animals?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "照顾小动物时说说：It is hungry. Let's feed it."]
+    },
+    {
+      "id": "g3u14",
+      "no": 14,
+      "title_en": "What do we know about weather?",
+      "title_cn": "我们对天气知道多少",
+      "topic": "Weather",
+      "book": "3A",
+      "book_unit": 7,
+      "overview": "用英语说出晴、雨、阴、风、雪等天气和冷热感受，并说说不同天气适合做什么。",
+      "phonics": {
+        "focus": "字母 Mm、Nn 的发音",
+        "tip": "Mm 读 /m/，双唇闭合用鼻子出声；Nn 读 /n/，舌尖抵上齿龈用鼻子出声。",
+        "examples": ["sunny /ˈsʌni/ 晴朗的", "rain /reɪn/ 雨", "warm /wɔːm/ 温暖的"]
+      },
+      "words": [
+        {"en": "weather", "ipa": "/ˈweðə/", "pos": "n.", "cn": "天气", "ex_en": "How's the weather today?", "ex_cn": "今天天气怎么样？"},
+        {"en": "sunny", "ipa": "/ˈsʌni/", "pos": "adj.", "cn": "晴朗的", "ex_en": "It's sunny today.", "ex_cn": "今天天气晴朗。"},
+        {"en": "rainy", "ipa": "/ˈreɪni/", "pos": "adj.", "cn": "下雨的", "ex_en": "It's rainy in Shenzhen.", "ex_cn": "深圳在下雨。"},
+        {"en": "cloudy", "ipa": "/ˈklaʊdi/", "pos": "adj.", "cn": "多云的", "ex_en": "It's cloudy this morning.", "ex_cn": "今天上午多云。"},
+        {"en": "windy", "ipa": "/ˈwɪndi/", "pos": "adj.", "cn": "有风的", "ex_en": "It's windy. Let's fly a kite.", "ex_cn": "今天有风，我们去放风筝吧。"},
+        {"en": "snowy", "ipa": "/ˈsnəʊi/", "pos": "adj.", "cn": "下雪的", "ex_en": "It's snowy in Harbin.", "ex_cn": "哈尔滨在下雪。"},
+        {"en": "hot", "ipa": "/hɒt/", "pos": "adj.", "cn": "热的", "ex_en": "It's hot in summer.", "ex_cn": "夏天很热。"},
+        {"en": "cold", "ipa": "/kəʊld/", "pos": "adj.", "cn": "冷的", "ex_en": "It's cold. Put on your coat.", "ex_cn": "天冷了，穿上外套。"},
+        {"en": "warm", "ipa": "/wɔːm/", "pos": "adj.", "cn": "温暖的", "ex_en": "It's warm in spring.", "ex_cn": "春天很暖和。"},
+        {"en": "umbrella", "ipa": "/ʌmˈbrelə/", "pos": "n.", "cn": "雨伞", "ex_en": "Take your umbrella.", "ex_cn": "带上你的雨伞。"}
+      ],
+      "patterns": [
+        {"en": "How's the weather? — It's ... .", "cn": "天气怎么样？——……。", "examples": [
+          {"en": "How's the weather today?", "cn": "今天天气怎么样？"},
+          {"en": "It's sunny and hot.", "cn": "晴天，很热。"}
+        ]},
+        {"en": "It's ... . Let's ... .", "cn": "天气……。我们……吧。", "examples": [
+          {"en": "It's windy. Let's fly a kite.", "cn": "有风，我们去放风筝吧。"},
+          {"en": "It's rainy. Let's read at home.", "cn": "下雨了，我们在家看书吧。"}
+        ]},
+        {"en": "Take your ... .", "cn": "带上你的……。", "examples": [
+          {"en": "Take your umbrella.", "cn": "带上你的雨伞。"},
+          {"en": "Take your coat.", "cn": "带上你的外套。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "用 It's 说天气", "explain": "英语说天气时，主语用 It：It's sunny. It's cold. 这里的 it 不翻译成「它」。", "examples": [
+          {"en": "It's cloudy.", "cn": "多云。"},
+          {"en": "It's warm today.", "cn": "今天很暖和。"}
+        ]},
+        {"title": "名词加 -y 变形容词", "explain": "sun → sunny，rain → rainy，cloud → cloudy，wind → windy，snow → snowy；注意 sun 要双写 n。", "examples": [
+          {"en": "The sun is bright. It's sunny.", "cn": "阳光明媚，天气晴朗。"},
+          {"en": "I see rain. It's rainy.", "cn": "我看到下雨了。"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级上册 Unit 7 What do we know about weather?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "每天出门前用英语报一次天气：It's cloudy and warm today."]
+    },
+    {
+      "id": "g3u15",
+      "no": 15,
+      "title_en": "Why do we like birthdays?",
+      "title_cn": "我们为什么喜欢生日",
+      "topic": "Birthdays",
+      "book": "3A",
+      "book_unit": 8,
+      "overview": "学会祝别人生日快乐、送礼物和道谢，说说生日会上有什么。",
+      "phonics": {
+        "focus": "字母 Oo、Pp 的发音",
+        "tip": "Oo 在闭音节里读短音 /ɒ/；Pp 读 /p/，双唇爆破并送气。",
+        "examples": ["doll /dɒl/ 娃娃", "party /ˈpɑːti/ 聚会", "plane /pleɪn/ 飞机"]
+      },
+      "words": [
+        {"en": "birthday", "ipa": "/ˈbɜːθdeɪ/", "pos": "n.", "cn": "生日", "ex_en": "Happy birthday to you!", "ex_cn": "祝你生日快乐！"},
+        {"en": "cake", "ipa": "/keɪk/", "pos": "n.", "cn": "蛋糕", "ex_en": "The birthday cake is big.", "ex_cn": "生日蛋糕很大。"},
+        {"en": "candle", "ipa": "/ˈkændl/", "pos": "n.", "cn": "蜡烛", "ex_en": "There are nine candles on the cake.", "ex_cn": "蛋糕上有九根蜡烛。"},
+        {"en": "gift", "ipa": "/ɡɪft/", "pos": "n.", "cn": "礼物", "ex_en": "This gift is for you.", "ex_cn": "这份礼物是给你的。"},
+        {"en": "card", "ipa": "/kɑːd/", "pos": "n.", "cn": "卡片", "ex_en": "I make a birthday card.", "ex_cn": "我做了一张生日卡。"},
+        {"en": "noodles", "ipa": "/ˈnuːdlz/", "pos": "n.", "cn": "面条", "ex_en": "We eat noodles on birthdays.", "ex_cn": "我们过生日时吃面条。"},
+        {"en": "toy plane", "ipa": "/tɔɪ pleɪn/", "pos": "n.", "cn": "玩具飞机", "ex_en": "I want a toy plane.", "ex_cn": "我想要一架玩具飞机。"},
+        {"en": "doll", "ipa": "/dɒl/", "pos": "n.", "cn": "玩偶；娃娃", "ex_en": "Thank you for the doll.", "ex_cn": "谢谢你送的娃娃。"},
+        {"en": "party", "ipa": "/ˈpɑːti/", "pos": "n.", "cn": "聚会", "ex_en": "Come to my birthday party.", "ex_cn": "来参加我的生日会吧。"},
+        {"en": "old", "ipa": "/əʊld/", "pos": "adj.", "cn": "……岁的", "ex_en": "How old are you?", "ex_cn": "你几岁了？"}
+      ],
+      "patterns": [
+        {"en": "Happy birthday! — Thank you.", "cn": "生日快乐！——谢谢。", "examples": [
+          {"en": "Happy birthday, Kitty!", "cn": "生日快乐，琪蒂！"},
+          {"en": "Thank you very much.", "cn": "非常感谢。"}
+        ]},
+        {"en": "This is for you.", "cn": "这是给你的。", "examples": [
+          {"en": "This card is for you.", "cn": "这张卡片是给你的。"},
+          {"en": "What a nice gift!", "cn": "多好的礼物啊！"}
+        ]},
+        {"en": "How old are you? — I'm ... .", "cn": "你几岁了？——我……岁。", "examples": [
+          {"en": "How old are you?", "cn": "你几岁了？"},
+          {"en": "I'm nine.", "cn": "我九岁。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "问年龄", "explain": "问年龄用 How old are you?，回答 I'm + 数字（可以加 years old）：I'm nine. / I'm nine years old.", "examples": [
+          {"en": "How old is your brother?", "cn": "你哥哥几岁了？"},
+          {"en": "He is twelve.", "cn": "他十二岁。"}
+        ]},
+        {"title": "收到礼物怎么说", "explain": "送礼物说 This is for you.，收到时说 Thank you. 或 Thank you for the ...，还可以夸一句 It's so nice!", "examples": [
+          {"en": "Thank you for the cake.", "cn": "谢谢你的蛋糕。"},
+          {"en": "It's so nice!", "cn": "真漂亮！"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级上册 Unit 8 Why do we like birthdays?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "中国人过生日常吃长寿面，可以说 We eat long noodles on birthdays."]
+    },
+    {
+      "id": "g3u16",
+      "no": 16,
+      "title_en": "How do we spend our free time?",
+      "title_cn": "我们怎样度过空闲时间",
+      "topic": "Free time",
+      "book": "3B",
+      "book_unit": 1,
+      "overview": "说出课余时间常做的活动，用 I can ... / I can't ... 说自己会做什么、不会做什么。",
+      "phonics": {
+        "focus": "字母 Qq、Rr 的发音",
+        "tip": "Qq 总是和 u 连在一起读 /kw/；Rr 读 /r/，舌尖向上卷但不碰上颚。",
+        "examples": ["read /riːd/ 阅读", "run /rʌn/ 跑", "quick /kwɪk/ 快的"]
+      },
+      "words": [
+        {"en": "read", "ipa": "/riːd/", "pos": "v.", "cn": "阅读", "ex_en": "I can read English books.", "ex_cn": "我会读英语书。"},
+        {"en": "sing", "ipa": "/sɪŋ/", "pos": "v.", "cn": "唱歌", "ex_en": "She can sing well.", "ex_cn": "她唱歌唱得好。"},
+        {"en": "paint", "ipa": "/peɪnt/", "pos": "v.", "cn": "画画（涂色）", "ex_en": "I like to paint flowers.", "ex_cn": "我喜欢画花。"},
+        {"en": "dance", "ipa": "/dɑːns/", "pos": "v.", "cn": "跳舞", "ex_en": "Can you dance?", "ex_cn": "你会跳舞吗？"},
+        {"en": "swim", "ipa": "/swɪm/", "pos": "v.", "cn": "游泳", "ex_en": "I can swim in summer.", "ex_cn": "我夏天会去游泳。"},
+        {"en": "play basketball", "ipa": "/pleɪ ˈbɑːskɪtbɔːl/", "pos": "phr.", "cn": "打篮球", "ex_en": "I play basketball after school.", "ex_cn": "我放学后打篮球。"},
+        {"en": "play ping-pong", "ipa": "/pleɪ ˈpɪŋpɒŋ/", "pos": "phr.", "cn": "打乒乓球", "ex_en": "We play ping-pong on Sunday.", "ex_cn": "我们周日打乒乓球。"},
+        {"en": "play football", "ipa": "/pleɪ ˈfʊtbɔːl/", "pos": "phr.", "cn": "踢足球", "ex_en": "Boys play football in the playground.", "ex_cn": "男孩们在操场踢足球。"},
+        {"en": "free", "ipa": "/friː/", "pos": "adj.", "cn": "空闲的", "ex_en": "What do you do in your free time?", "ex_cn": "你空闲时做什么？"},
+        {"en": "can", "ipa": "/kæn/", "pos": "v.", "cn": "能；会", "ex_en": "I can paint.", "ex_cn": "我会画画。"}
+      ],
+      "patterns": [
+        {"en": "I can ... . / I can't ... .", "cn": "我会……。／我不会……。", "examples": [
+          {"en": "I can play basketball.", "cn": "我会打篮球。"},
+          {"en": "I can't swim.", "cn": "我不会游泳。"}
+        ]},
+        {"en": "Can you ... ? — Yes, I can. / No, I can't.", "cn": "你会……吗？", "examples": [
+          {"en": "Can you dance?", "cn": "你会跳舞吗？"},
+          {"en": "No, I can't.", "cn": "不，我不会。"}
+        ]},
+        {"en": "In my free time, I ... .", "cn": "在空闲时间，我……。", "examples": [
+          {"en": "In my free time, I read.", "cn": "空闲时我看书。"},
+          {"en": "In my free time, I play football.", "cn": "空闲时我踢足球。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "can / can't + 动词原形", "explain": "can 表示「会、能」，后面跟动词原形；否定 can't = cannot；问句把 can 放到句首。", "examples": [
+          {"en": "He can sing.", "cn": "他会唱歌。"},
+          {"en": "Can she swim? Yes, she can.", "cn": "她会游泳吗？会。"}
+        ]},
+        {"title": "play + 球类不加 the", "explain": "说「打／踢某种球」时，play 后面直接跟球类名称，不加 the：play football、play basketball。", "examples": [
+          {"en": "Let's play ping-pong.", "cn": "我们打乒乓球吧。"},
+          {"en": "They play football.", "cn": "他们踢足球。"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级下册 Unit 1 How do we spend our free time?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "周末和家人做一个小调查：Can you swim? Can you dance?"]
+    },
+    {
+      "id": "g3u17",
+      "no": 17,
+      "title_en": "How do we make friends?",
+      "title_cn": "我们怎样交朋友",
+      "topic": "Friends",
+      "book": "3B",
+      "book_unit": 2,
+      "overview": "学会主动认识新朋友：打招呼、问名字、邀请一起玩，说说好朋友是什么样的。",
+      "phonics": {
+        "focus": "字母 Ss、Tt 的发音",
+        "tip": "Ss 读 /s/，像蛇发出的嘶嘶声；Tt 读 /t/，舌尖抵上齿龈后弹开。",
+        "examples": ["smile /smaɪl/ 微笑", "together /təˈɡeðə/ 一起", "kind /kaɪnd/ 友好的"]
+      },
+      "words": [
+        {"en": "friend", "ipa": "/frend/", "pos": "n.", "cn": "朋友", "ex_en": "Tom is my good friend.", "ex_cn": "汤姆是我的好朋友。"},
+        {"en": "name", "ipa": "/neɪm/", "pos": "n.", "cn": "名字", "ex_en": "What's your name?", "ex_cn": "你叫什么名字？"},
+        {"en": "meet", "ipa": "/miːt/", "pos": "v.", "cn": "遇见；认识", "ex_en": "Nice to meet you.", "ex_cn": "很高兴认识你。"},
+        {"en": "kind", "ipa": "/kaɪnd/", "pos": "adj.", "cn": "友好的；善良的", "ex_en": "My friend is kind.", "ex_cn": "我的朋友很友善。"},
+        {"en": "help", "ipa": "/help/", "pos": "v.", "cn": "帮助", "ex_en": "Friends help each other.", "ex_cn": "朋友之间互相帮助。"},
+        {"en": "smile", "ipa": "/smaɪl/", "pos": "v./n.", "cn": "微笑", "ex_en": "Smile and say hello.", "ex_cn": "微笑着打个招呼。"},
+        {"en": "new", "ipa": "/njuː/", "pos": "adj.", "cn": "新的", "ex_en": "She is my new friend.", "ex_cn": "她是我的新朋友。"},
+        {"en": "share", "ipa": "/ʃeə/", "pos": "v.", "cn": "分享", "ex_en": "We share our snacks.", "ex_cn": "我们分享零食。"},
+        {"en": "together", "ipa": "/təˈɡeðə/", "pos": "adv.", "cn": "一起", "ex_en": "We walk home together.", "ex_cn": "我们一起走路回家。"},
+        {"en": "nice", "ipa": "/naɪs/", "pos": "adj.", "cn": "好的；令人愉快的", "ex_en": "You are so nice.", "ex_cn": "你真好。"}
+      ],
+      "patterns": [
+        {"en": "What's your name? — My name is ... .", "cn": "你叫什么名字？——我叫……。", "examples": [
+          {"en": "What's your name?", "cn": "你叫什么名字？"},
+          {"en": "My name is Alice.", "cn": "我叫爱丽丝。"}
+        ]},
+        {"en": "Nice to meet you.", "cn": "很高兴认识你。", "examples": [
+          {"en": "Nice to meet you.", "cn": "很高兴认识你。"},
+          {"en": "Nice to meet you, too.", "cn": "我也很高兴认识你。"}
+        ]},
+        {"en": "Let's be friends!", "cn": "我们做朋友吧！", "examples": [
+          {"en": "Let's be friends!", "cn": "我们做朋友吧！"},
+          {"en": "Let's play together.", "cn": "我们一起玩吧。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "What's = What is", "explain": "What's your name? 里的 What's 是 What is 的缩写；回答可以说 My name is ... 或 I'm ...。", "examples": [
+          {"en": "What's his name?", "cn": "他叫什么名字？"},
+          {"en": "His name is Ben.", "cn": "他叫本。"}
+        ]},
+        {"title": "回应要加 too", "explain": "别人说 Nice to meet you. 时，回答 Nice to meet you, too.，too 表示「也」，放在句末。", "examples": [
+          {"en": "I like reading, too.", "cn": "我也喜欢阅读。"},
+          {"en": "Me too!", "cn": "我也是！"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级下册 Unit 2 How do we make friends?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "认识新同学时三步走：Hello! → What's your name? → Let's be friends!"]
+    },
+    {
+      "id": "g3u18",
+      "no": 18,
+      "title_en": "What do we do at school?",
+      "title_cn": "我们在学校做什么",
+      "topic": "School",
+      "book": "3B",
+      "book_unit": 7,
+      "overview": "认识学校里的各个地方，说出在哪里可以做什么，会问路、会介绍自己的学校。",
+      "phonics": {
+        "focus": "字母 Uu、Vv 的发音",
+        "tip": "Uu 在闭音节里读短音 /ʌ/；Vv 读 /v/，上齿轻咬下唇、声带振动。",
+        "examples": ["lunch /lʌntʃ/ 午饭", "music /ˈmjuːzɪk/ 音乐", "visit /ˈvɪzɪt/ 参观"]
+      },
+      "words": [
+        {"en": "school", "ipa": "/skuːl/", "pos": "n.", "cn": "学校", "ex_en": "Welcome to our school.", "ex_cn": "欢迎来到我们学校。"},
+        {"en": "classroom", "ipa": "/ˈklɑːsruːm/", "pos": "n.", "cn": "教室", "ex_en": "Our classroom is big and bright.", "ex_cn": "我们的教室又大又亮。"},
+        {"en": "library", "ipa": "/ˈlaɪbrəri/", "pos": "n.", "cn": "图书馆", "ex_en": "We read books in the library.", "ex_cn": "我们在图书馆看书。"},
+        {"en": "playground", "ipa": "/ˈpleɪɡraʊnd/", "pos": "n.", "cn": "操场", "ex_en": "We run in the playground.", "ex_cn": "我们在操场上跑步。"},
+        {"en": "music room", "ipa": "/ˈmjuːzɪk ruːm/", "pos": "n.", "cn": "音乐教室", "ex_en": "We sing in the music room.", "ex_cn": "我们在音乐教室唱歌。"},
+        {"en": "art room", "ipa": "/ɑːt ruːm/", "pos": "n.", "cn": "美术教室", "ex_en": "We paint in the art room.", "ex_cn": "我们在美术教室画画。"},
+        {"en": "canteen", "ipa": "/kænˈtiːn/", "pos": "n.", "cn": "食堂", "ex_en": "We have lunch in the canteen.", "ex_cn": "我们在食堂吃午饭。"},
+        {"en": "lunch", "ipa": "/lʌntʃ/", "pos": "n.", "cn": "午饭", "ex_en": "Lunch is at twelve.", "ex_cn": "十二点吃午饭。"},
+        {"en": "where", "ipa": "/weə/", "pos": "adv.", "cn": "在哪里", "ex_en": "Where is the library?", "ex_cn": "图书馆在哪里？"},
+        {"en": "learn", "ipa": "/lɜːn/", "pos": "v.", "cn": "学习", "ex_en": "We learn English at school.", "ex_cn": "我们在学校学英语。"}
+      ],
+      "patterns": [
+        {"en": "Where is the ... ? — It's ... .", "cn": "……在哪里？——它在……。", "examples": [
+          {"en": "Where is the art room?", "cn": "美术教室在哪里？"},
+          {"en": "It's next to the library.", "cn": "它在图书馆旁边。"}
+        ]},
+        {"en": "We can ... in the ... .", "cn": "我们可以在……里……。", "examples": [
+          {"en": "We can read in the library.", "cn": "我们可以在图书馆看书。"},
+          {"en": "We can play in the playground.", "cn": "我们可以在操场上玩。"}
+        ]},
+        {"en": "This is our ... .", "cn": "这是我们的……。", "examples": [
+          {"en": "This is our classroom.", "cn": "这是我们的教室。"},
+          {"en": "This is our canteen.", "cn": "这是我们的食堂。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "in the + 地点", "explain": "说「在某个地方」做事，用 in the + 地点：in the library、in the music room。操场常说 in the playground 或 on the playground。", "examples": [
+          {"en": "They sing in the music room.", "cn": "他们在音乐教室唱歌。"},
+          {"en": "We eat in the canteen.", "cn": "我们在食堂吃饭。"}
+        ]},
+        {"title": "Where 问地点", "explain": "Where is ...? 问「……在哪里」，回答用 It's + 位置：It's on the first floor. / It's next to ...。", "examples": [
+          {"en": "Where is your classroom?", "cn": "你的教室在哪里？"},
+          {"en": "It's on the second floor.", "cn": "在二楼。"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级下册 Unit 7 What do we do at school?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "当一回小导游，用英语给家人介绍你的学校：This is our library. We can read here."]
+    },
+    {
+      "id": "g3u19",
+      "no": 19,
+      "title_en": "What do you do on Children's Day?",
+      "title_cn": "你在儿童节做什么",
+      "topic": "Children's Day",
+      "book": "3B",
+      "book_unit": 8,
+      "overview": "说说儿童节去哪里玩、做什么，学会用 go to the ... 表达去不同的地方。",
+      "phonics": {
+        "focus": "字母 Ww、Xx、Yy、Zz 的发音",
+        "tip": "Ww 读 /w/，双唇撮圆；Xx 在词尾读 /ks/；Yy 在词首读 /j/；Zz 读 /z/。",
+        "examples": ["zoo /zuː/ 动物园", "fox /fɒks/ 狐狸", "yes /jes/ 是"]
+      },
+      "words": [
+        {"en": "Children's Day", "ipa": "/ˈtʃɪldrənz deɪ/", "pos": "n.", "cn": "儿童节", "ex_en": "Children's Day is on 1st June.", "ex_cn": "儿童节在六月一日。"},
+        {"en": "beach", "ipa": "/biːtʃ/", "pos": "n.", "cn": "海滩", "ex_en": "We go to the beach in Dameisha.", "ex_cn": "我们去大梅沙海滩。"},
+        {"en": "cinema", "ipa": "/ˈsɪnəmə/", "pos": "n.", "cn": "电影院", "ex_en": "Let's go to the cinema.", "ex_cn": "我们去电影院吧。"},
+        {"en": "film", "ipa": "/fɪlm/", "pos": "n.", "cn": "电影", "ex_en": "We watch a film.", "ex_cn": "我们看了一部电影。"},
+        {"en": "park", "ipa": "/pɑːk/", "pos": "n.", "cn": "公园", "ex_en": "I fly a kite in the park.", "ex_cn": "我在公园放风筝。"},
+        {"en": "zoo", "ipa": "/zuː/", "pos": "n.", "cn": "动物园", "ex_en": "We see pandas at the zoo.", "ex_cn": "我们在动物园看熊猫。"},
+        {"en": "elephant", "ipa": "/ˈelɪfənt/", "pos": "n.", "cn": "大象", "ex_en": "The elephant has a long nose.", "ex_cn": "大象有长长的鼻子。"},
+        {"en": "museum", "ipa": "/mjuˈziːəm/", "pos": "n.", "cn": "博物馆", "ex_en": "We visit the museum.", "ex_cn": "我们参观博物馆。"},
+        {"en": "pizza", "ipa": "/ˈpiːtsə/", "pos": "n.", "cn": "比萨饼", "ex_en": "We eat pizza for lunch.", "ex_cn": "我们午饭吃比萨。"},
+        {"en": "shop", "ipa": "/ʃɒp/", "pos": "n./v.", "cn": "商店；购物", "ex_en": "We shop for gifts.", "ex_cn": "我们去买礼物。"}
+      ],
+      "patterns": [
+        {"en": "What do you do on Children's Day?", "cn": "你在儿童节做什么？", "examples": [
+          {"en": "What do you do on Children's Day?", "cn": "你在儿童节做什么？"},
+          {"en": "I go to the zoo.", "cn": "我去动物园。"}
+        ]},
+        {"en": "Let's go to the ... .", "cn": "我们去……吧。", "examples": [
+          {"en": "Let's go to the beach.", "cn": "我们去海滩吧。"},
+          {"en": "Let's go to the museum.", "cn": "我们去博物馆吧。"}
+        ]},
+        {"en": "I see ... at the ... .", "cn": "我在……看到……。", "examples": [
+          {"en": "I see elephants at the zoo.", "cn": "我在动物园看到了大象。"},
+          {"en": "I see a film at the cinema.", "cn": "我在电影院看了一场电影。"}
+        ]}
+      ],
+      "grammar": [
+        {"title": "go to the + 地点", "explain": "「去某地」用 go to the + 地点：go to the park、go to the cinema。表示回家说 go home，不加 to。", "examples": [
+          {"en": "We go to the park.", "cn": "我们去公园。"},
+          {"en": "Then we go home.", "cn": "然后我们回家。"}
+        ]},
+        {"title": "节日前用 on", "explain": "在具体的某一天（包括节日当天）用 on：on Children's Day、on Sunday。", "examples": [
+          {"en": "We have a party on Children's Day.", "cn": "儿童节我们开派对。"},
+          {"en": "I go swimming on Sunday.", "cn": "我周日去游泳。"}
+        ]}
+      ],
+      "tips": ["教材对照：新版沪教版英语（上海教育出版社·义务教育教科书，2024 年审定）三年级下册 Unit 8 What do you do on Children's Day?。单元主题与课本一致；单词、句子和讲解为本应用自行编写，课本里的核心词汇和要求以老师为准。", "深圳儿童节好去处：Shenzhen Museum、Dameisha Beach、Safari Park，试着用英语说一说。"]
+    },
     {
       "id": "g3u1",
       "no": 1,
       "title_en": "My school",
       "title_cn": "我的学校",
       "topic": "School",
+      "book": "拓展",
       "overview": "介绍校园里的地方和课程安排，学会用 There is / There are 描述学校。",
       "phonics": {
         "focus": "字母组合 oo 的长短音 /uː/ 与 /ʊ/",
@@ -52,7 +681,7 @@
           {"en": "We have English on Tuesday.", "cn": "我们周二有英语课。"}
         ]}
       ],
-      "tips": ["教材对照：3A 的校园与教室话题（Module 1 Getting to know you 之后的 Places and activities）。", "深圳很多小学有 reading time，可以用 I read in the library at noon. 介绍。"]
+      "tips": ["旧版教材对照：3A 的校园与教室话题（Module 1 Getting to know you 之后的 Places and activities）。", "深圳很多小学有 reading time，可以用 I read in the library at noon. 介绍。"]
     },
     {
       "id": "g3u2",
@@ -60,6 +689,7 @@
       "title_en": "What time is it?",
       "title_cn": "时间与作息",
       "topic": "Time",
+      "book": "拓展",
       "overview": "会看钟表说时间，用一般现在时描述每天固定做的事。",
       "phonics": {
         "focus": "字母组合 th 的两种读音 /θ/ 与 /ð/",
@@ -104,7 +734,7 @@
           {"en": "He is never late.", "cn": "他从不迟到。"}
         ]}
       ],
-      "tips": ["教材对照：3A/3B 的时间与作息话题，配合课本的 What time is it? 对话练习。", "读时间的常用说法：7:30 = seven thirty 或 half past seven。"]
+      "tips": ["旧版教材对照：3A/3B 的时间与作息话题，配合课本的 What time is it? 对话练习。", "读时间的常用说法：7:30 = seven thirty 或 half past seven。"]
     },
     {
       "id": "g3u3",
@@ -112,6 +742,7 @@
       "title_en": "Jobs",
       "title_cn": "职业",
       "topic": "Jobs",
+      "book": "拓展",
       "overview": "介绍家人和身边人的职业，学会 What does he do? 的问答。",
       "phonics": {
         "focus": "字母组合 er /ə/ 结尾",
@@ -155,7 +786,7 @@
           {"en": "Does he work in Shenzhen?", "cn": "他在深圳工作吗？"}
         ]}
       ],
-      "tips": ["教材对照：3A/3B 的职业话题；5A Unit 1 My future、6A Unit 1 Growing up 会再深入。", "采访家人职业并用 3 句话介绍，是很好的口语作业。"]
+      "tips": ["旧版教材对照：3A/3B 的职业话题；5A Unit 1 My future、6A Unit 1 Growing up 会再深入。", "采访家人职业并用 3 句话介绍，是很好的口语作业。"]
     },
     {
       "id": "g3u4",
@@ -163,6 +794,7 @@
       "title_en": "Clothes",
       "title_cn": "服装",
       "topic": "Clothes",
+      "book": "拓展",
       "overview": "描述自己和同学穿的衣服，学会现在进行时 be wearing。",
       "phonics": {
         "focus": "字母组合 ir / ur /ɜː/",
@@ -207,7 +839,7 @@
           {"en": "a pair of trousers", "cn": "一条裤子"}
         ]}
       ],
-      "tips": ["教材对照：3A/3B 的服装话题，可与课本 Revision 里的购物对话一起练。", "深圳校服多为运动装，介绍时可以说 Our uniform is blue and white sportswear."]
+      "tips": ["旧版教材对照：3A/3B 的服装话题，可与课本 Revision 里的购物对话一起练。", "深圳校服多为运动装，介绍时可以说 Our uniform is blue and white sportswear."]
     },
     {
       "id": "g3u5",
@@ -215,6 +847,7 @@
       "title_en": "Fruit and vegetables",
       "title_cn": "水果和蔬菜",
       "topic": "Food",
+      "book": "拓展",
       "overview": "认识常见果蔬，会表达喜欢与不喜欢，并说明原因。",
       "phonics": {
         "focus": "字母组合 ea /iː/",
@@ -258,7 +891,7 @@
           {"en": "two tomatoes", "cn": "两个西红柿"}
         ]}
       ],
-      "tips": ["教材对照：3A 的 At the fruit shop 一类购物话题；2B Unit 5 Food I like 是基础。", "在水果店练习：How much is it? It is ten yuan. Here you are."]
+      "tips": ["旧版教材对照：3A 的 At the fruit shop 一类购物话题；2B Unit 5 Food I like 是基础。", "在水果店练习：How much is it? It is ten yuan. Here you are."]
     },
     {
       "id": "g3u6",
@@ -266,6 +899,7 @@
       "title_en": "Places near my home",
       "title_cn": "家附近的地方",
       "topic": "Places",
+      "book": "拓展",
       "overview": "说清家附近有什么、怎么走，学会问路和指路的基本表达。",
       "phonics": {
         "focus": "字母组合 ar /ɑː/",
@@ -309,7 +943,7 @@
           {"en": "Go straight for two minutes.", "cn": "直走两分钟。"}
         ]}
       ],
-      "tips": ["教材对照：3A Module 3 Places and activities，讲的是住处附近的地点与活动。", "用英语描述从家到学校的路线，是深圳小学常见的口语话题。"]
+      "tips": ["旧版教材对照：3A Module 3 Places and activities，讲的是住处附近的地点与活动。", "用英语描述从家到学校的路线，是深圳小学常见的口语话题。"]
     },
     {
       "id": "g3u7",
@@ -317,6 +951,7 @@
       "title_en": "Tastes and sounds",
       "title_cn": "味道与声音",
       "topic": "Senses",
+      "book": "拓展",
       "overview": "用 taste、smell、sound 描述味道和声音，学会「感官动词 + 形容词」的说法。对应课本 3B Unit 2 Tastes 和 Unit 3 Sounds。",
       "phonics": {
         "focus": "辅音连缀 sw- /sw/、sm- /sm/、sn- /sn/",
@@ -361,7 +996,7 @@
           {"en": "He can hear the bell.", "cn": "他能听见铃声。"}
         ]}
       ],
-      "tips": ["教材对照：沪教牛津版（深圳用）3B Module 1 Using my five senses Unit 2 Tastes、Unit 3 Sounds。", "尝东西时先说 It tastes ...，再补一句 I like it. 或 I don't like it."]
+      "tips": ["旧版教材对照：沪教牛津版（深圳用）3B Module 1 Using my five senses Unit 2 Tastes、Unit 3 Sounds。", "尝东西时先说 It tastes ...，再补一句 I like it. 或 I don't like it."]
     }
   ]
 }

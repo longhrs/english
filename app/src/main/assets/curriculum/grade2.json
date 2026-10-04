@@ -1,7 +1,7 @@
 {
   "grade": 2,
   "title": "二年级",
-  "subtitle": "五感、动物、食物、玩具与天气：把单词说成句子",
+  "subtitle": "五感、动物、食物、玩具与天气：把单词说成句子（新版课本从三年级开始，本年级为启蒙内容）",
   "units": [
     {
       "id": "g2u1",
@@ -51,7 +51,7 @@
           {"en": "Listen to the teacher.", "cn": "听老师讲。"}
         ]}
       ],
-      "tips": ["教材对照：1B Module 1 Using my five senses（Look and see / Listen and hear / Taste and smell）与 2B Module 1（What can you see? / Touch and feel / Can you hear a train?）。", "闭上眼睛让同桌发出声音，用 I can hear ... 来猜，练习听力词汇。"]
+      "tips": ["旧版教材对照：1B Module 1 Using my five senses（Look and see / Listen and hear / Taste and smell）与 2B Module 1（What can you see? / Touch and feel / Can you hear a train?）。", "闭上眼睛让同桌发出声音，用 I can hear ... 来猜，练习听力词汇。"]
     },
     {
       "id": "g2u2",
@@ -100,7 +100,7 @@
           {"en": "I have a dog. The dog is black.", "cn": "我有一只狗。这只狗是黑色的。"}
         ]}
       ],
-      "tips": ["教材对照：2A Module 4 Unit 11 In the forest；2B Module 2 Unit 6 Animals I like。", "可以去深圳野生动物园实地认动物，边看边说 Look! It is a giraffe."]
+      "tips": ["旧版教材对照：2A Module 4 Unit 11 In the forest；2B Module 2 Unit 6 Animals I like。", "可以去深圳野生动物园实地认动物，边看边说 Look! It is a giraffe."]
     },
     {
       "id": "g2u3",
@@ -149,7 +149,7 @@
           {"en": "No, thank you.", "cn": "不用了，谢谢。"}
         ]}
       ],
-      "tips": ["教材对照：2A Module 3 Unit 9 Dinner is ready；2B Module 2 Unit 5 Food I like。", "在餐厅可以练习 May I have some water, please?"]
+      "tips": ["旧版教材对照：2A Module 3 Unit 9 Dinner is ready；2B Module 2 Unit 5 Food I like。", "在餐厅可以练习 May I have some water, please?"]
     },
     {
       "id": "g2u4",
@@ -198,7 +198,7 @@
           {"en": "It is yours.", "cn": "这是你的。"}
         ]}
       ],
-      "tips": ["教材对照：2B Module 2 My favourite things（Unit 4 Things I like doing）。", "和同学交换玩具时练习 Can I play with your robot? 和 Here you are."]
+      "tips": ["旧版教材对照：2B Module 2 My favourite things（Unit 4 Things I like doing）。", "和同学交换玩具时练习 Can I play with your robot? 和 Here you are."]
     },
     {
       "id": "g2u5",
@@ -247,7 +247,7 @@
           {"en": "rain → rainy", "cn": "雨 → 多雨的"}
         ]}
       ],
-      "tips": ["教材对照：2B Module 3 Things around us Unit 7 The four seasons。", "深圳五月到九月是雨季，台风天气可以说 There is a typhoon."]
+      "tips": ["旧版教材对照：2B Module 3 Things around us Unit 7 The four seasons。", "深圳五月到九月是雨季，台风天气可以说 There is a typhoon."]
     },
     {
       "id": "g2u6",
@@ -296,7 +296,7 @@
           {"en": "I go home on foot.", "cn": "我步行回家。"}
         ]}
       ],
-      "tips": ["教材对照：2A Unit 4 Can you swim? 与 2B Unit 4 Things I like doing 的日常活动话题。", "把自己一天的作息写成 5 句话，每天朗读一遍，养成口语习惯。"]
+      "tips": ["旧版教材对照：2A Unit 4 Can you swim? 与 2B Unit 4 Things I like doing 的日常活动话题。", "把自己一天的作息写成 5 句话，每天朗读一遍，养成口语习惯。"]
     },
     {
       "id": "g2u7",
@@ -346,7 +346,7 @@
           {"en": "I go to school on foot.", "cn": "我走路上学。"}
         ]}
       ],
-      "tips": ["教材对照：沪教牛津版（深圳用）2A Module 4 The world around us Unit 12 In the street。", "深圳的斑马线前常有「礼让行人」标志，可以练一句 Thank you for waiting."]
+      "tips": ["旧版教材对照：沪教牛津版（深圳用）2A Module 4 The world around us Unit 12 In the street。", "深圳的斑马线前常有「礼让行人」标志，可以练一句 Thank you for waiting."]
     }
   ]
 }

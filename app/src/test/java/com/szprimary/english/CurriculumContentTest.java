@@ -39,12 +39,32 @@ public class CurriculumContentTest {
 
     @Test
     public void hasEnoughUnitsAndWords() {
-        assertEquals(42, curriculum.allUnits().size());
-        assertTrue("词汇总量应不少于 470", curriculum.totalWords() >= 470);
+        assertEquals(54, curriculum.allUnits().size());
+        assertTrue("词汇总量应不少于 590", curriculum.totalWords() >= 590);
         List<Grade> grades = curriculum.grades;
         for (int i = 0; i < grades.size(); i++) {
             assertTrue(grades.get(i).title + " 单元数不足", grades.get(i).units.size() >= 4);
         }
+    }
+
+    /** 三年级按 2024 新版沪教版课本编排：3A 的 8 个单元按顺序排在最前，标题与课本一致。 */
+    @Test
+    public void grade3FollowsNewTextbook() {
+        String[] titles = {"How do we feel?", "What's interesting about families?", "What do we look like?",
+                "How do we have fun?", "What do we eat?", "What do we like about small animals?",
+                "What do we know about weather?", "Why do we like birthdays?"};
+        List<Unit> units = curriculum.grade(3).units;
+        for (int i = 0; i < titles.length; i++) {
+            Unit unit = units.get(i);
+            assertEquals("3A", unit.book);
+            assertEquals(i + 1, unit.bookUnit);
+            assertEquals(titles[i], unit.titleEn);
+            assertEquals("3A Unit " + (i + 1) + " " + titles[i], unit.displayTitle());
+        }
+        Unit extra = curriculum.unit("g3u1");
+        assertEquals("拓展", extra.book);
+        assertTrue(extra.displayTitle().startsWith("拓展 · "));
+        assertEquals("Unit 1 Hello!", curriculum.unit("g1u1").displayTitle());
     }
 
     @Test

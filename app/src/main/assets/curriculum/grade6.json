@@ -1,7 +1,7 @@
 {
   "grade": 6,
   "title": "六年级",
-  "subtitle": "理想、文化、世界、情感、安全与小升初：综合表达与语篇",
+  "subtitle": "理想、文化、世界、情感、安全与小升初：综合表达与语篇（单元对照为旧版课本，新版目录待核对）",
   "units": [
     {
       "id": "g6u1",
@@ -53,7 +53,7 @@
           {"en": "I want to learn the guitar.", "cn": "我想学吉他。"}
         ]}
       ],
-      "tips": ["教材对照：5A Module 1 Unit 1 My future；6A Module 1 Unit 1 Growing up。", "理想主题演讲结构：开头点题 + 两条理由 + 具体行动 + 结尾升华。"]
+      "tips": ["旧版教材对照：5A Module 1 Unit 1 My future；6A Module 1 Unit 1 Growing up。", "理想主题演讲结构：开头点题 + 两条理由 + 具体行动 + 结尾升华。"]
     },
     {
       "id": "g6u2",
@@ -104,7 +104,7 @@
           {"en": "It is a kind of art from China. It shows our history.", "cn": "这是一种来自中国的艺术，它体现了我们的历史。"}
         ]}
       ],
-      "tips": ["教材对照：6B Module 2 Work and play（Unit 4 Art / Unit 5 Crafts）。", "向外国朋友介绍深圳可以提：a young city、high technology、good food、the sea。"]
+      "tips": ["旧版教材对照：6B Module 2 Work and play（Unit 4 Art / Unit 5 Crafts）。", "向外国朋友介绍深圳可以提：a young city、high technology、good food、the sea。"]
     },
     {
       "id": "g6u3",
@@ -155,7 +155,7 @@
           {"en": "She speaks Chinese and English.", "cn": "她会说汉语和英语。"}
         ]}
       ],
-      "tips": ["教材对照：6A/6B 的旅行与世界话题；5A Module 3 Unit 8 An outing 是基础。", "写笔友信的格式：称呼 Dear ... , 正文, 结尾 Yours, 署名。"]
+      "tips": ["旧版教材对照：6A/6B 的旅行与世界话题；5A Module 3 Unit 8 An outing 是基础。", "写笔友信的格式：称呼 Dear ... , 正文, 结尾 Yours, 署名。"]
     },
     {
       "id": "g6u4",
@@ -205,7 +205,7 @@
           {"en": "The story is interesting and I am interested in it.", "cn": "这个故事很有趣，我对它很感兴趣。"}
         ]}
       ],
-      "tips": ["教材对照：6A Module 2 Relationships；5A Module 2 Unit 5 Friends。", "与同学产生矛盾时的表达：I am sorry. / It is OK. / Let us be friends again."]
+      "tips": ["旧版教材对照：6A Module 2 Relationships；5A Module 2 Unit 5 Friends。", "与同学产生矛盾时的表达：I am sorry. / It is OK. / Let us be friends again."]
     },
     {
       "id": "g6u5",
@@ -256,7 +256,7 @@
           {"en": "You must not swim alone.", "cn": "你绝对不可以独自游泳。"}
         ]}
       ],
-      "tips": ["教材对照：2A Module 4 Unit 12 In the street 讲过马路安全，本单元把它扩展到更多场景。", "常用急救电话：110 police、119 fire、120 ambulance，练习说 Call 120, please!"]
+      "tips": ["旧版教材对照：2A Module 4 Unit 12 In the street 讲过马路安全，本单元把它扩展到更多场景。", "常用急救电话：110 police、119 fire、120 ambulance，练习说 Call 120, please!"]
     },
     {
       "id": "g6u6",
@@ -307,7 +307,7 @@
           {"en": "I used to play in this playground.", "cn": "我以前常在这个操场上玩。"}
         ]}
       ],
-      "tips": ["教材对照：6B Module 1 Unit 3 Our school in the future。", "毕业留言常用句：Best wishes! / Keep in touch! / I will never forget you."]
+      "tips": ["旧版教材对照：6B Module 1 Unit 3 Our school in the future。", "毕业留言常用句：Best wishes! / Keep in touch! / I will never forget you."]
     },
     {
       "id": "g6u7",
@@ -359,7 +359,7 @@
           {"en": "He didn't use to like maths.", "cn": "他过去不喜欢数学。"}
         ]}
       ],
-      "tips": ["教材对照：沪教牛津版（深圳用）6A Module 1 Unit 1 Growing up、6B Module 1 Unit 2 Changes in our lives。", "写「我的变化」小作文时，先写 In the past ...，再写 Now ...，最后写 In the future ...，三段就成篇。"]
+      "tips": ["旧版教材对照：沪教牛津版（深圳用）6A Module 1 Unit 1 Growing up、6B Module 1 Unit 2 Changes in our lives。", "写「我的变化」小作文时，先写 In the past ...，再写 Now ...，最后写 In the future ...，三段就成篇。"]
     }
   ]
 }

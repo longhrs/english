@@ -199,6 +199,13 @@ public class PagesTest {
                 for (int g = 1; g <= 6; g++) {
                     nav.push(new UnitsPage(nav, g));
                     layout(nav);
+                    if (g == 3) {
+                        String t = text(nav);
+                        assertTrue("三年级应按新版课本分组", t.contains("三年级上册（3A）· 新版课本"));
+                        assertTrue(t.contains("3A Unit 1 How do we feel?"));
+                        assertTrue(t.contains("3B Unit 8 What do you do on Children's Day?"));
+                        assertTrue(t.contains("拓展话题"));
+                    }
                     for (Unit unit : repo.curriculum().grade(g).units) {
                         assertTrue(text(nav).contains(unit.displayTitle()));
                         nav.push(new LearnPage(nav, unit.id));
@@ -364,7 +371,7 @@ public class PagesTest {
                 String t = text(nav);
                 assertTrue(t.contains("版本 " + DesktopRepo.version()));
                 assertTrue(t.contains("测试环境无语音"));
-                assertTrue(t.contains("沪教牛津版（深圳用）"));
+                assertTrue(t.contains("新版沪教版英语课本"));
             }
         });
     }

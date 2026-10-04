@@ -106,7 +106,9 @@ public final class CurriculumLoader {
                 o.optString("topic", ""),
                 o.optString("overview", ""),
                 phonics, words, patterns, grammar,
-                parseStrings(o.optJSONArray("tips")));
+                parseStrings(o.optJSONArray("tips")),
+                o.optString("book", ""),
+                o.optInt("book_unit", 0));
     }
 
     private static List<Example> parseExamples(JSONArray array) throws JSONException {

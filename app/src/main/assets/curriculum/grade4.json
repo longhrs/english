@@ -1,7 +1,7 @@
 {
   "grade": 4,
   "title": "四年级",
-  "subtitle": "爱好、节日、城市、健康与购物：能连贯说一小段话",
+  "subtitle": "爱好、节日、城市、健康与购物：能连贯说一小段话（单元对照为旧版课本，新版目录待核对）",
   "units": [
     {
       "id": "g4u1",
@@ -53,7 +53,7 @@
           {"en": "We play football.", "cn": "我们踢足球。"}
         ]}
       ],
-      "tips": ["教材对照：4A Module 1 Unit 2 Can you swim?；4B Module 2 My favourite things。", "做一个 hobby survey，问 5 位同学 What is your hobby? 并记录答案。"]
+      "tips": ["旧版教材对照：4A Module 1 Unit 2 Can you swim?；4B Module 2 My favourite things。", "做一个 hobby survey，问 5 位同学 What is your hobby? 并记录答案。"]
     },
     {
       "id": "g4u2",
@@ -104,7 +104,7 @@
           {"en": "I like it because it is fun.", "cn": "我喜欢它，因为它很有趣。"}
         ]}
       ],
-      "tips": ["教材对照：4A/4B 的节日话题；5B Module 2 Unit 6 Holidays 会继续谈假期。", "节日名称首字母要大写：the Spring Festival、the Mid-Autumn Festival、National Day。"]
+      "tips": ["旧版教材对照：4A/4B 的节日话题；5B Module 2 Unit 6 Holidays 会继续谈假期。", "节日名称首字母要大写：the Spring Festival、the Mid-Autumn Festival、National Day。"]
     },
     {
       "id": "g4u3",
@@ -155,7 +155,7 @@
           {"en": "It is the tallest building in the city.", "cn": "它是城里最高的楼。"}
         ]}
       ],
-      "tips": ["教材对照：4A/4B 的城市与场所话题；5A Module 3 Unit 9 Around the city 是进阶版。", "用 5 句话向外地朋友介绍深圳，可从 location、weather、food、places、people 五方面展开。"]
+      "tips": ["旧版教材对照：4A/4B 的城市与场所话题；5A Module 3 Unit 9 Around the city 是进阶版。", "用 5 句话向外地朋友介绍深圳，可从 location、weather、food、places、people 五方面展开。"]
     },
     {
       "id": "g4u4",
@@ -206,7 +206,7 @@
           {"en": "She has a cold.", "cn": "她感冒了。"}
         ]}
       ],
-      "tips": ["教材对照：4A/4B 的身体与健康话题；6A Module 1 Unit 3 Healthy or unhealthy? 会系统讲一次。", "校医室常用语：I do not feel well. May I see the school nurse?"]
+      "tips": ["旧版教材对照：4A/4B 的身体与健康话题；6A Module 1 Unit 3 Healthy or unhealthy? 会系统讲一次。", "校医室常用语：I do not feel well. May I see the school nurse?"]
     },
     {
       "id": "g4u5",
@@ -258,7 +258,7 @@
           {"en": "It is big enough.", "cn": "它够大了。"}
         ]}
       ],
-      "tips": ["教材对照：4A Unit 8 At the shop 的购物话题。", "超市结账常用：Do you have a bag? / I will pay by phone."]
+      "tips": ["旧版教材对照：4A Unit 8 At the shop 的购物话题。", "超市结账常用：Do you have a bag? / I will pay by phone."]
     },
     {
       "id": "g4u6",
@@ -309,7 +309,7 @@
           {"en": "Dolphins are friendly.", "cn": "海豚很友好。"}
         ]}
       ],
-      "tips": ["教材对照：4B Module 4 Things we enjoy（Unit 10 My garden）与 5A Module 4 The natural world。", "深圳红树林可以看到候鸟，可用 I saw many birds in the mangrove park. 记录。"]
+      "tips": ["旧版教材对照：4B Module 4 Things we enjoy（Unit 10 My garden）与 5A Module 4 The natural world。", "深圳红树林可以看到候鸟，可用 I saw many birds in the mangrove park. 记录。"]
     },
     {
       "id": "g4u7",
@@ -361,7 +361,7 @@
           {"en": "Don't touch the insect.", "cn": "别碰那只昆虫。"}
         ]}
       ],
-      "tips": ["教材对照：沪教牛津版（深圳用）4B Module 4 Things we enjoy Unit 10 My garden。", "深圳四季常绿，可以到小区花园认一认 bougainvillea（簕杜鹃，深圳市花）再用英语描述它的颜色。"]
+      "tips": ["旧版教材对照：沪教牛津版（深圳用）4B Module 4 Things we enjoy Unit 10 My garden。", "深圳四季常绿，可以到小区花园认一认 bougainvillea（簕杜鹃，深圳市花）再用英语描述它的颜色。"]
     }
   ]
 }

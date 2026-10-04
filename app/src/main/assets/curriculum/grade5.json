@@ -1,7 +1,7 @@
 {
   "grade": 5,
   "title": "五年级",
-  "subtitle": "校园生活、旅行、饮食、运动、科技与环保：时态开始综合运用",
+  "subtitle": "校园生活、旅行、饮食、运动、科技与环保：时态开始综合运用（单元对照为旧版课本，新版目录待核对）",
   "units": [
     {
       "id": "g5u1",
@@ -52,7 +52,7 @@
           {"en": "I would like to help you.", "cn": "我想帮你。"}
         ]}
       ],
-      "tips": ["教材对照：5A Module 1 Unit 2 Going to school；Unit 3 My birthday 也在同一模块。", "班会发言开头可用：Good morning, everyone. I would like to talk about ..."]
+      "tips": ["旧版教材对照：5A Module 1 Unit 2 Going to school；Unit 3 My birthday 也在同一模块。", "班会发言开头可用：Good morning, everyone. I would like to talk about ..."]
     },
     {
       "id": "g5u2",
@@ -104,7 +104,7 @@
           {"en": "I did not take photos.", "cn": "我没有拍照。"}
         ]}
       ],
-      "tips": ["教材对照：5A Module 3 Out and about（Unit 7 At the beach / Unit 8 An outing）。", "写游记时按 when-where-who-what-feeling 五要素组织，句子更完整。"]
+      "tips": ["旧版教材对照：5A Module 3 Out and about（Unit 7 At the beach / Unit 8 An outing）。", "写游记时按 when-where-who-what-feeling 五要素组织，句子更完整。"]
     },
     {
       "id": "g5u3",
@@ -156,7 +156,7 @@
           {"en": "You look happy.", "cn": "你看起来很开心。"}
         ]}
       ],
-      "tips": ["教材对照：5A/5B 的饮食话题；6A Module 1 Unit 3 Healthy or unhealthy? 谈的是同一件事。", "用英语写下一道家常菜的三步做法，是很好的写作练习。"]
+      "tips": ["旧版教材对照：5A/5B 的饮食话题；6A Module 1 Unit 3 Healthy or unhealthy? 谈的是同一件事。", "用英语写下一道家常菜的三步做法，是很好的写作练习。"]
     },
     {
       "id": "g5u4",
@@ -208,7 +208,7 @@
           {"en": "He ran 800 metres.", "cn": "他跑了八百米。"}
         ]}
       ],
-      "tips": ["教材对照：4A Unit 2 Can you swim? 起步，6B Module 2 Unit 6 PE lessons 收尾。", "校运会加油口号：Come on! / You can do it! / Well done!"]
+      "tips": ["旧版教材对照：4A Unit 2 Can you swim? 起步，6B Module 2 Unit 6 PE lessons 收尾。", "校运会加油口号：Come on! / You can do it! / Well done!"]
     },
     {
       "id": "g5u5",
@@ -258,7 +258,7 @@
           {"en": "It is fast, but it can be dangerous.", "cn": "它很快，但可能有危险。"}
         ]}
       ],
-      "tips": ["教材对照：5B Module 1 Unit 3 In the future；6B Module 1 Unit 2 Changes in our lives。", "网络安全提醒句：Never share your real name or address online."]
+      "tips": ["旧版教材对照：5B Module 1 Unit 3 In the future；6B Module 1 Unit 2 Changes in our lives。", "网络安全提醒句：Never share your real name or address online."]
     },
     {
       "id": "g5u6",
@@ -308,7 +308,7 @@
           {"en": "Use fewer plastic bags and less paper.", "cn": "少用塑料袋，少用纸。"}
         ]}
       ],
-      "tips": ["教材对照：5A Module 4 The natural world（Unit 10 Wind / Unit 11 Water / Unit 12 Fire）。", "深圳实行垃圾分类，可用英语说四类：recyclable waste、kitchen waste、hazardous waste、other waste。"]
+      "tips": ["旧版教材对照：5A Module 4 The natural world（Unit 10 Wind / Unit 11 Water / Unit 12 Fire）。", "深圳实行垃圾分类，可用英语说四类：recyclable waste、kitchen waste、hazardous waste、other waste。"]
     },
     {
       "id": "g5u7",
@@ -360,7 +360,7 @@
           {"en": "Water cannot burn.", "cn": "水不会燃烧。"}
         ]}
       ],
-      "tips": ["教材对照：沪教牛津版（深圳用）5A Module 4 The natural world Unit 10 Wind、Unit 11 Water、Unit 12 Fire。", "台风季可以练一组表达：The typhoon is coming. Stay at home and keep safe."]
+      "tips": ["旧版教材对照：沪教牛津版（深圳用）5A Module 4 The natural world Unit 10 Wind、Unit 11 Water、Unit 12 Fire。", "台风季可以练一组表达：The typhoon is coming. Stay at home and keep safe."]
     }
   ]
 }
