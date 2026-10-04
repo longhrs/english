@@ -1,6 +1,7 @@
 # 深圳小学英语（知识引导 + 练习验证）
 
-面向深圳小学一至六年级学生的英语自学 Android 应用。两条主线：
+面向深圳小学一至六年级学生的英语自学应用，有 **Android 手机版**和 **PC 电脑版**（Windows / macOS / Linux），
+两者共用同一份课程数据和核心逻辑，内容、出题和判分规则完全一致。两条主线：
 
 - **知识引导**：按话题单元讲解词汇（含音标、词性、例句）、核心句型和语法点，配自然拼读要点和朗读。
 - **练习验证**：根据单元内容自动出题、即时判分并给出解析，错题自动进入错题本和间隔复习队列。
@@ -67,6 +68,22 @@
 
 Release 只来自稳定分支 `main`，发版流程见下文「分支与发版」。
 
+### PC 电脑版
+
+同一个 Release 里还有电脑版：
+
+| 文件 | 适用 | 用法 |
+| --- | --- | --- |
+| `ShenzhenPrimaryEnglish-PC-vX.Y-windows.zip` | Windows 10 / 11 | 免安装、自带运行环境：解压后双击 `ShenzhenPrimaryEnglish.exe` |
+| `ShenzhenPrimaryEnglish-PC-vX.Y.jar` | macOS / Linux（Windows 也可） | 需先装 Java 17 及以上，双击或 `java -jar ShenzhenPrimaryEnglish-PC-vX.Y.jar` |
+
+- Windows 首次运行若提示「Windows 已保护你的电脑」，点「更多信息 → 仍要运行」（程序没有代码签名证书）。
+- 学习进度保存在本机：Windows 在 `%APPDATA%\ShenzhenPrimaryEnglish\progress.json`，
+  macOS 在 `~/Library/Application Support/ShenzhenPrimaryEnglish/`，Linux 在 `~/.local/share/ShenzhenPrimaryEnglish/`。
+  电脑版和手机版的进度互不影响。
+- 键盘快捷键：词卡页 ← → 切换单词、空格显示释义、M 标记已掌握、S 朗读；
+  练习页 1–4 或 A–D 选择、Enter 提交 / 下一题、连词成句时 Backspace 撤销；任意页面 Esc 返回。
+
 ### 方式二：GitHub Actions 产物（需要登录 GitHub）
 
 每次 push（任何分支）都会自动跑 `.github/workflows/build-apk.yml`：校验内容 → 跑单元测试 → 打包 Debug APK。
@@ -74,7 +91,7 @@ Release 只来自稳定分支 `main`，发版流程见下文「分支与发版�
 
 1. 打开仓库的 **Actions** 标签页
 2. 点对应分支最新一次 **Build APK** 运行记录（`dev` 的试用版就选分支为 `dev` 的那条）
-3. 在 **Artifacts** 里下载 `ShenzhenPrimaryEnglish-debug-apk`
+3. 在 **Artifacts** 里下载 `ShenzhenPrimaryEnglish-debug-apk`（电脑版是 `ShenzhenPrimaryEnglish-pc`）
 4. 解压得到 `ShenzhenPrimaryEnglish-debug.apk`，传到安卓手机安装（需允许「安装未知来源应用」）
 
 ### 方式三：本地命令行
@@ -90,18 +107,30 @@ Release 只来自稳定分支 `main`，发版流程见下文「分支与发版�
 
 直接用 Android Studio 打开本目录，等 Gradle 同步完成后点 **Run**。
 
+### 电脑版本地构建
+
+电脑版是独立的 Gradle 构建（`desktop/`），只需要 JDK 17+，不需要 Android SDK：
+
+```bash
+./gradlew -p desktop run          # 直接运行
+./gradlew -p desktop fatJar       # 产物：desktop/build/dist/ShenzhenPrimaryEnglish-PC-X.Y.jar
+./gradlew -p desktop appImage     # 自带运行时的免安装程序：desktop/build/jpackage/output/
+```
+
+`appImage` 用 JDK 自带的 jpackage，在哪个系统上执行就生成哪个系统的程序（CI 在 Windows 上生成 Windows 版）。
+
 ## 分支与发版
 
 | 分支 | 用途 | 推送后 CI 做什么 |
 | --- | --- | --- |
-| `dev` | 开发分支，日常改动都推这里 | 校验内容 + 单元测试 + 打包 APK（Actions 产物），**不发版** |
-| `main` | 稳定分支，只放验证过的版本 | 同上，并按 `versionName` 发布/更新 Release |
+| `dev` | 开发分支，日常改动都推这里 | 校验内容 + 单元测试 + 打包 APK 和电脑版（Actions 产物），**不发版** |
+| `main` | 稳定分支，只放验证过的版本 | 同上，并按 `versionName` 发布/更新 Release（APK + 电脑版 zip + jar） |
 
 一次改动从开发到发版：
 
 1. **在 `dev` 上开发**，推送后等 CI 全绿。
-2. **真机验证**：从 Actions 里下载 `dev` 的 APK 装到手机上，把改动涉及的页面点一遍
-   （界面、朗读、页面跳转这些 CI 测不到）。
+2. **真机验证**：从 Actions 里下载 `dev` 的 APK 装到手机上、电脑版解压运行，把改动涉及的页面点一遍
+   （手机上的界面、两端的朗读这些 CI 测不到）。
 3. **改版本号**：决定发版时，在 `dev` 上把 `app/build.gradle` 的 `versionName` 加一档、
    `versionCode` 加 1，作为这次发版的最后一个提交。
 4. **晋级到 `main`**：把 `dev` 快进合并进 `main` 再推送，CI 构建成功后自动发布新 Release。
@@ -124,8 +153,11 @@ git checkout dev
 
 ## 运行要求
 
-- Android 7.0（API 24）及以上
-- 朗读功能依赖系统自带的英语 TTS 引擎；没有也不影响其它功能，应用会给出提示
+- 手机版：Android 7.0（API 24）及以上；朗读用系统自带的英语 TTS 引擎
+- 电脑版：Windows 10 / 11 用 zip 版无需另装任何东西；用 jar 版需要 Java 17 及以上
+- 电脑版朗读：Windows 用系统自带语音（System.Speech），macOS 用 `say`，Linux 用 `espeak-ng` / `espeak` / `spd-say`。
+  中文版 Windows 若没有英语语音，会用默认语音朗读，可在「设置 → 时间和语言 → 语音 → 添加语音」里添加 English。
+- 没有可用的语音引擎时不影响其它功能，程序会给出提示
 
 ## 工程结构
 
@@ -150,13 +182,26 @@ app/src/main/java/com/szprimary/english/
 app/src/main/assets/curriculum/   grade1.json ... grade6.json（全部课程内容）
 app/src/test/java/                单元测试（内容校验、出题、判分、进度）
 tools/validate_content.py         课程内容校验脚本（CI 会跑）
+
+desktop/                          PC 电脑版（独立 Gradle 构建，Java Swing，无第三方界面库）
+├── build.gradle                  直接编译 app/ 里的 core/ 源码、打包 app/ 里的课程数据，版本号读 app/build.gradle
+├── packaging/                    程序图标（jpackage 用）
+└── src/main/java/com/szprimary/english/desktop/
+    ├── Main / DesktopRepo        入口；全局数据（对应 Android 的 AppRepo）
+    ├── FileProgressStore         进度存本机文件（先写临时文件再改名，防止写坏）
+    ├── Speaker / WindowsSpeaker / ProcessSpeaker   各系统的朗读实现
+    ├── ui/                       窗口、页面导航、卡片 / 按钮等组件和自动换行布局
+    └── pages/                    与 Android 一一对应的 8 个页面：首页、单元列表、知识引导、练习、报告、复习、统计、关于
 ```
+
+改课程内容或核心逻辑时，手机版和电脑版会同时生效，不需要改两遍。
 
 ## 测试
 
 ```bash
 python3 tools/validate_content.py      # 课程数据结构与质量校验
-./gradlew :app:testDebugUnitTest       # 单元测试
+./gradlew :app:testDebugUnitTest       # 单元测试（核心层 + Android）
+./gradlew -p desktop test              # 电脑版单元测试
 ```
 
 单元测试覆盖：
@@ -166,6 +211,9 @@ python3 tools/validate_content.py      # 课程数据结构与质量校验
   连词成句的词块能还原成标准句、同一随机种子出题结果可复现、低年级不出拼写题
 - 判分：大小写、多余空格、句末标点、中英文引号都不影响判定
 - 进度：错题本进出规则、Leitner 盒子升降、复习到期时间、最好成绩、存档读写、存档损坏时的兜底、连续学习天数
+- 电脑版：在无显示器环境里构建并操作全部页面——**42 个单元的练习都通过界面按钮从头答到成绩页**，
+  答错流入错题本和复习、键盘快捷键、词卡标记；另有进度文件读写与重启恢复、朗读文本清洗
+  （要读的文字不会被当作命令执行）、版本号与 Android 一致等测试
 
 ## 想改内容
 

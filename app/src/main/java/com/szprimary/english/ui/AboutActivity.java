@@ -25,7 +25,7 @@ public final class AboutActivity extends Activity {
         LinearLayout about = Ui.card(this);
         about.addView(Ui.text(this, "深圳小学英语", 18, Ui.TEXT, true));
         about.addView(Ui.spacer(this, 4));
-        about.addView(Ui.hint(this, "版本 1.0 · 完全离线运行"));
+        about.addView(Ui.hint(this, "版本 " + versionName() + " · 完全离线运行"));
         about.addView(Ui.spacer(this, 10));
         about.addView(Ui.body(this, "面向深圳小学一至六年级学生的英语自学工具，分为两部分："
                 + "「知识引导」按话题单元讲解词汇、音标、核心句型和语法；"
@@ -92,5 +92,15 @@ public final class AboutActivity extends Activity {
             }
         });
         content.addView(reset);
+    }
+
+    /** 版本号取自安装包（app/build.gradle 的 versionName），不在代码里写死。 */
+    private String versionName() {
+        try {
+            String name = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
+            return name == null ? "" : name;
+        } catch (android.content.pm.PackageManager.NameNotFoundException e) {
+            return "";
+        }
     }
 }

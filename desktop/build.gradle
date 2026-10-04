@@ -1,0 +1,121 @@
+plugins {
+    id 'application'
+}
+
+// 版本号与 Android 版保持一致：直接读 app/build.gradle 里的 versionName。
+def appGradle = file('../app/build.gradle').text
+def versionMatcher = appGradle =~ /versionName\s+"([^"]+)"/
+version = versionMatcher.find() ? versionMatcher.group(1) : '0.0'
+
+def appName = 'ShenzhenPrimaryEnglish'
+def mainClassName = 'com.szprimary.english.desktop.Main'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 17
+}
+
+// 与 Android 版共用同一份核心层源码和课程数据，两边内容和逻辑始终同步。
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java', '../app/src/main/java']
+            include 'com/szprimary/english/desktop/**'
+            include 'com/szprimary/english/core/**'
+        }
+        resources {
+            srcDirs = ['src/main/resources', '../app/src/main/assets']
+        }
+    }
+}
+
+dependencies {
+    // Android 系统自带 org.json；PC 上用 Maven Central 的同名实现。
+    implementation 'org.json:json:20240303'
+    testImplementation 'junit:junit:4.13.2'
+}
+
+application {
+    mainClass = mainClassName
+}
+
+processResources {
+    // 运行时从 /desktop-version.properties 读版本号，显示在「关于」页。
+    def props = [version: project.version]
+    inputs.properties(props)
+    filesMatching('desktop-version.properties') {
+        expand(props)
+    }
+}
+
+test {
+    systemProperty 'java.awt.headless', 'true'
+    testLogging {
+        events 'failed'
+        exceptionFormat 'full'
+    }
+}
+
+// 自带依赖的可执行 jar：装了 Java 17+ 的 Windows / macOS / Linux 都能双击或 java -jar 运行。
+tasks.register('fatJar', Jar) {
+    group = 'distribution'
+    description = '打包包含全部依赖的可执行 jar'
+    archiveFileName = "${appName}-PC-${project.version}.jar"
+    destinationDirectory = layout.buildDirectory.dir('dist')
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes 'Main-Class': mainClassName,
+                'Implementation-Title': appName,
+                'Implementation-Version': project.version
+    }
+    from sourceSets.main.output
+    dependsOn configurations.runtimeClasspath
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    exclude 'META-INF/*.SF', 'META-INF/*.DSA', 'META-INF/*.RSA', 'META-INF/versions/**/module-info.class', 'module-info.class'
+}
+
+// 用 jpackage 生成自带 Java 运行时的免安装程序目录（Windows 上是 .exe），用户不需要另装 Java。
+// 需要在目标系统上执行：Windows 出 Windows 版，macOS 出 macOS 版。
+tasks.register('appImage', Exec) {
+    group = 'distribution'
+    description = '用 jpackage 生成自带运行时的免安装程序目录'
+    dependsOn 'fatJar'
+    def jarTask = tasks.named('fatJar')
+    def inputDir = layout.buildDirectory.dir('jpackage/input')
+    def outputDir = layout.buildDirectory.dir('jpackage/output')
+    doFirst {
+        delete inputDir, outputDir
+        copy {
+            from jarTask.get().archiveFile
+            into inputDir
+        }
+        def os = org.gradle.internal.os.OperatingSystem.current()
+        def icon = os.isWindows() ? file('packaging/icon.ico') : (os.isMacOsX() ? null : file('packaging/icon.png'))
+        def javaHome = System.getProperty('java.home')
+        def jpackage = new File(javaHome, os.isWindows() ? 'bin/jpackage.exe' : 'bin/jpackage')
+        def cmd = [jpackage.absolutePath,
+                   '--type', 'app-image',
+                   '--name', appName,
+                   '--app-version', project.version.toString(),
+                   '--vendor', 'longhrs',
+                   '--description', '深圳小学英语 PC 版',
+                   '--input', inputDir.get().asFile.absolutePath,
+                   '--main-jar', jarTask.get().archiveFileName.get(),
+                   '--main-class', mainClassName,
+                   '--dest', outputDir.get().asFile.absolutePath,
+                   '--add-modules', 'java.base,java.desktop',
+                   '--jlink-options', '--strip-debug --no-header-files --no-man-pages --strip-native-commands --compress=2',
+                   '--java-options', '-Dfile.encoding=UTF-8']
+        if (icon != null && icon.exists()) {
+            cmd += ['--icon', icon.absolutePath]
+        }
+        commandLine cmd
+    }
+}

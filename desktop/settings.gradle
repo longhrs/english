@@ -1,0 +1,9 @@
+// PC 版是独立的 Gradle 构建，不依赖 Android 插件，只需要 Maven Central。
+// 在仓库根目录运行：./gradlew -p desktop <任务>
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
+rootProject.name = "ShenzhenPrimaryEnglishDesktop"

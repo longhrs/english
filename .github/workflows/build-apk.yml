@@ -1,4 +1,4 @@
-name: Build APK
+name: Build APK & PC
 
 on:
   push:
@@ -13,11 +13,11 @@ on:
         default: ""
 
 jobs:
-  build:
+  android:
     name: 校验内容 · 单元测试 · 打包 APK
     runs-on: ubuntu-latest
     permissions:
-      contents: write    # 创建 Release 需要写权限
+      contents: read
 
     steps:
       - name: 检出代码
@@ -62,11 +62,95 @@ jobs:
           path: dist/ShenzhenPrimaryEnglish-debug.apk
           if-no-files-found: error
 
-      - name: 发布 Release（附带 APK）
-        if: >-
-          startsWith(github.ref, 'refs/tags/v') ||
-          (github.event_name == 'workflow_dispatch' && github.event.inputs.release_tag != '') ||
-          (github.event_name == 'push' && github.ref == 'refs/heads/main')
+      - name: 上传测试报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: unit-test-report
+          path: app/build/reports/tests/
+          if-no-files-found: ignore
+
+  desktop:
+    name: PC 版 · 单元测试 · 打包 Windows 程序
+    runs-on: windows-latest
+    permissions:
+      contents: read
+    defaults:
+      run:
+        # 用 gradlew.bat：Windows 上检出时可能是 CRLF 换行，bash 跑 ./gradlew 会出错
+        shell: pwsh
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 准备 JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: gradle
+
+      # PC 版是独立的 Gradle 构建（desktop/），与 Android 版共用核心层源码和课程数据
+      - name: 单元测试（PC 版）
+        run: ./gradlew.bat -p desktop test --no-daemon --stacktrace
+
+      - name: 打包可执行 jar 与 Windows 免安装程序
+        run: ./gradlew.bat -p desktop fatJar appImage --no-daemon --stacktrace
+
+      - name: 整理产物
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $v = (Select-String -Path app/build.gradle -Pattern 'versionName\s+"([^"]+)"').Matches[0].Groups[1].Value
+          New-Item -ItemType Directory -Force dist | Out-Null
+          Copy-Item "desktop/build/dist/ShenzhenPrimaryEnglish-PC-$v.jar" "dist/ShenzhenPrimaryEnglish-PC-v$v.jar"
+          Compress-Archive -Path desktop/build/jpackage/output/ShenzhenPrimaryEnglish `
+            -DestinationPath "dist/ShenzhenPrimaryEnglish-PC-v$v-windows.zip"
+          Get-ChildItem dist | Format-Table Name, Length
+
+      - name: 上传 PC 版
+        uses: actions/upload-artifact@v4
+        with:
+          name: ShenzhenPrimaryEnglish-pc
+          path: dist/*
+          if-no-files-found: error
+
+      - name: 上传测试报告
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: desktop-test-report
+          path: desktop/build/reports/tests/
+          if-no-files-found: ignore
+
+  release:
+    name: 发布 Release（APK + PC 版）
+    needs: [android, desktop]
+    if: >-
+      startsWith(github.ref, 'refs/tags/v') ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.release_tag != '') ||
+      (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # 创建 Release 需要写权限
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 下载 APK
+        uses: actions/download-artifact@v4
+        with:
+          name: ShenzhenPrimaryEnglish-debug-apk
+          path: dist
+
+      - name: 下载 PC 版
+        uses: actions/download-artifact@v4
+        with:
+          name: ShenzhenPrimaryEnglish-pc
+          path: dist
+
+      - name: 发布 Release
         env:
           GH_TOKEN: ${{ github.token }}
           RELEASE_TAG: ${{ github.event.inputs.release_tag }}
@@ -81,16 +165,29 @@ jobs:
             esac
           fi
           echo "发布版本：$VERSION"
+          ls -l dist
           APK="dist/ShenzhenPrimaryEnglish-${VERSION}.apk"
           cp dist/ShenzhenPrimaryEnglish-debug.apk "$APK"
+          # PC 版文件名里的版本号来自 versionName，与 VERSION 不同时（手动指定版本）统一改名
+          PC_ZIP="dist/ShenzhenPrimaryEnglish-PC-${VERSION}-windows.zip"
+          PC_JAR="dist/ShenzhenPrimaryEnglish-PC-${VERSION}.jar"
+          [ -f "$PC_ZIP" ] || mv dist/ShenzhenPrimaryEnglish-PC-v*-windows.zip "$PC_ZIP"
+          [ -f "$PC_JAR" ] || mv dist/ShenzhenPrimaryEnglish-PC-v*.jar "$PC_JAR"
           cat > /tmp/notes.md <<'NOTES'
           面向深圳小学一至六年级的英语自学应用：**知识引导** + **练习验证**，完全离线。
 
-          ## 安装
+          ## 下载哪个
 
-          1. 用手机浏览器点下面的 `.apk` 附件下载
-          2. 打开下载的文件，按提示允许「安装未知来源应用」
-          3. 需要 Android 7.0（API 24）及以上
+          | 设备 | 下载 | 说明 |
+          | --- | --- | --- |
+          | 安卓手机 / 平板 | `ShenzhenPrimaryEnglish-vX.Y.apk` | Android 7.0 及以上，安装时允许「安装未知来源应用」 |
+          | Windows 电脑 | `ShenzhenPrimaryEnglish-PC-vX.Y-windows.zip` | 免安装、自带运行环境：解压后双击 `ShenzhenPrimaryEnglish.exe` |
+          | macOS / Linux 电脑 | `ShenzhenPrimaryEnglish-PC-vX.Y.jar` | 需先安装 Java 17 及以上，双击或 `java -jar` 运行 |
+
+          Windows 首次运行若弹出「Windows 已保护你的电脑」，点「更多信息 → 仍要运行」即可
+          （程序没有购买代码签名证书，不是病毒提示）。
+
+          手机版和电脑版内容、出题规则完全相同；学习进度各自保存在本机，互不影响。
 
           ## 内容
 
@@ -109,26 +206,19 @@ jobs:
           ## 说明
 
           - 不申请任何权限，不联网，学习进度只存本机
-          - 朗读依赖系统英语 TTS 引擎，没有也不影响其它功能
+          - 电脑版快捷键：词卡 ← → 切换、空格看释义；练习 1–4 / A–D 选择，Enter 下一题；Esc 返回
+          - 朗读依赖系统英语语音引擎（手机用系统 TTS，Windows 用系统自带语音），没有也不影响其它功能
           - 内容按沪教牛津版（深圳用）的话题和单元顺序对照编写整理，不是任何出版社教材的
             原文摘录，具体以学校当年所用课本和老师的要求为准
           NOTES
           if gh release view "$VERSION" > /dev/null 2>&1; then
-            gh release upload "$VERSION" "$APK" --clobber
+            gh release upload "$VERSION" "$APK" "$PC_ZIP" "$PC_JAR" --clobber
             gh release edit "$VERSION" --notes-file /tmp/notes.md
           else
             # 标签不存在时 gh 会在 --target 指向的提交上自动创建
-            gh release create "$VERSION" "$APK" \
+            gh release create "$VERSION" "$APK" "$PC_ZIP" "$PC_JAR" \
               --target "$GITHUB_SHA" \
               --title "深圳小学英语 $VERSION" \
               --notes-file /tmp/notes.md
           fi
           echo "Release 地址：$(gh release view "$VERSION" --json url --jq .url)"
-
-      - name: 上传测试报告
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: unit-test-report
-          path: app/build/reports/tests/
-          if-no-files-found: ignore
