@@ -123,13 +123,14 @@ Release 只来自稳定分支 `main`，发版流程见下文「分支与发版�
 
 | 分支 | 用途 | 推送后 CI 做什么 |
 | --- | --- | --- |
-| `dev` | 开发分支，日常改动都推这里 | 校验内容 + 单元测试 + 打包 APK 和电脑版（Actions 产物），**不发版** |
+| `dev` | 开发分支，日常改动都推这里 | 校验内容 + 单元测试 + 打包，覆盖更新预发布的「dev 试用版」（标签 `dev-latest`，免登录下载），**不发正式版** |
 | `main` | 稳定分支，只放验证过的版本 | 同上，并按 `versionName` 发布/更新 Release（APK + 电脑版 zip + jar） |
 
 一次改动从开发到发版：
 
 1. **在 `dev` 上开发**，推送后等 CI 全绿。
-2. **真机验证**：从 Actions 里下载 `dev` 的 APK 装到手机上、电脑版解压运行，把改动涉及的页面点一遍
+2. **真机验证**：从 [dev 试用版](https://github.com/longhrs/english/releases/tag/dev-latest) 下载 APK 装到手机上、
+   电脑版解压运行，把改动涉及的页面点一遍
    （手机上的界面、两端的朗读这些 CI 测不到）。
 3. **改版本号**：决定发版时，在 `dev` 上把 `app/build.gradle` 的 `versionName` 加一档、
    `versionCode` 加 1，作为这次发版的最后一个提交。
