@@ -49,6 +49,32 @@ public final class ScreenshotTool {
                 frame.setVisible(true);
             }
         });
+        if (args.length > 2 && "images".equals(args[2])) {
+            final File sample = new File(args[3]);
+            SwingUtilities.invokeAndWait(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        com.szprimary.english.desktop.TextbookImages images =
+                                new com.szprimary.english.desktop.TextbookImages(new File(data, "images"));
+                        images.add("g3u12", sample);
+                        DesktopRepo repo = new DesktopRepo(new ResourceContentSource(),
+                                new FileProgressStore(new File(data, "p2.json")), null,
+                                new Speaker.Silent("演示"), images);
+                        frame.dispose();
+                        frame = new AppFrame(repo);
+                        frame.setSize(width, 800);
+                        frame.nav().push(new LearnPage(frame.nav(), "g3u12"));
+                        frame.setVisible(true);
+                        click("课本图片");
+                    } catch (Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            });
+            shot("13-textbook-images");
+            System.exit(0);
+        }
         String suffix = width == 1040 ? "" : "-" + width;
         shot("01-home" + suffix);
         if (width != 1040) {
